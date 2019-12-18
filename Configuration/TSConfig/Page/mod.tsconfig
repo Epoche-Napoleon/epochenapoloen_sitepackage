@@ -1,0 +1,57 @@
+mod {
+	SHARED {
+		defaultLanguageFlag = de
+		defaultLanguageLabel = Deutsch
+	}
+	view {
+	}
+
+	web_layout {
+		editFieldAtATime = 10
+		BackendLayouts {
+			epochenapoleon_sitepackage {
+				title = Standard
+				icon =
+				config {
+					backend_layout {
+						colCount = 4
+						rowCount = 1
+						rows {
+							1 {
+								columns {
+									1 {
+										name = Linke Spalte
+										colPos = 1
+									}
+									2 {
+										name = Maincontent
+										colPos = 0
+									}
+									3 {
+										name = Rechte Spalte
+										colPos = 2
+									}
+									4 {
+										name = Rand
+										colPos = 3
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	web_list {
+		deniedNewTables = *
+		itemsLimitPerTable = 25
+		itemsLimitSingleTable = 100
+		clickTitleMode = edit
+		alternateBgColors = 1
+		csvDelimiter = ;
+		csvQuote = '
+		listOnlyInSingleTableView = 1
+	}
+	show = *
+}

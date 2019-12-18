@@ -1,0 +1,27 @@
+[applicationContext == "Development"]
+config {
+	admPanal = 1
+	baseURL = http://p532833.mittwaldserver.info/epochenapoleon/public/
+	absRefPrefix = http://p532833.mittwaldserver.info/epochenapoleon/public/
+	entwicklung = 1
+}
+[global]
+
+
+# Live-System #
+[applicationContext == "Production"]
+config {
+	admPanel = 0
+	baseURL = http://www.epoche-napoleon.net/
+	absRefPrefix = http://www.epoche-napoleon.net/
+	entwicklung = 0
+}
+[global]
+
+styles {
+	content {
+		links.extTarget = _blank
+	}
+}
+
+

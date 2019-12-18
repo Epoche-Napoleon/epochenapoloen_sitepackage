@@ -1,0 +1,131 @@
+# CS_SEO #
+plugin.tx_csseo {
+	sitetitle = EPOCHE NAOOLEON
+}
+# Beaconizer
+plugin.tx_beaconizer_generator {
+	persistence {
+		classes {
+			ADWLM\Beaconizer\Domain\Model\GeneratedLinks {
+				mapping {
+					tablename = pages
+					columns {
+						source_Identifier.mapOnProperty = sourceIdentifier
+					}
+				}
+			}
+		}
+	}
+}
+plugin.tx_beaconizer_seealso {
+	settings {
+		objectMapping {
+			ADWLM\Beaconizer\Domain\Model\Page {
+				argumentName = id
+				sourceIdentifierProperty = sourceIdentifier
+			}
+		}
+	}
+}
+# pbsocial #
+plugin.tx_pbsocial {
+	settings {
+		load-jquery = 0
+	}
+}
+
+# tx_news #
+plugin.tx_news {
+	settings {
+		backPid = 25
+		linkPid = 25
+		displayDummyIfNoMedia = 1
+		list {
+			media {
+				dummyImage = fileadmin/bilder/presse/logo/epoche-napoleon.jpg
+			}
+		}
+
+	}
+	detail {
+		showPrevNext = 1
+		showSocialShareButtons = 0
+		showMetaTags = 1
+		format = xml
+	}
+	list {
+		media {
+			image >
+			image {
+				maxWidth = 100
+				maxHeight = 100
+			}
+		}
+		rss {
+			channel {
+				title = EPOCHE NAPOLEON
+				description = Von der Französischen Revolution bis Waterloo
+				link = {$config.baseURL}
+				language = de_DE
+				copyright = © 	EPOCHE NAPOLEON 2003 - %Y
+			}
+		}
+		link {
+			SkipControllerAndAction = 1
+			hrDate = 1
+			hrDate {
+				year = Y
+				month = m
+				day = d
+			}
+		}
+		paginate {
+			itemsPerPage = 10
+			insertAbove = 1
+			insertBelow = 1
+			templatePath =
+			prevNextHeaderTags = 1
+			maximunNumberOfLinks = 3
+		}
+		analytics {
+			social {
+				facebookLike = 0
+				facebookShare = 0
+				twitter = 0
+			}
+		}
+	}
+	predefine.archive = +1 Month
+}
+
+# Min #
+plugin.tx_min {
+	tinysource {
+		enable = 1
+		head {
+			stripTabs = 1
+			stripNewLines = 0
+			stripDoubleSpaces = 1
+			stripTwoLinesToOne = 1
+		}
+		body {
+			stripComments = 1
+			stripTabs = 1
+			stripNewLines = 1
+			stripDoubleSpaces = 1
+			stripTwoLinesToOne = 1
+			preventStripOfSearchComment = 1
+		}
+		oneLineMode = 1
+		protectCode {
+			10 = /(<textarea.*?>.*?<\/textarea>)/is
+			20 = /(<pre.*?>.*?<\/pre>)/is
+		}
+	}
+}
+# CKEditor Fontawesome #
+plugin.tx_ckeditor_fontawesome {
+	loadCSS = 1
+	css = https://use.fontawesome.com/releases/v5.8.1/css/all.css
+}
+

@@ -1,0 +1,61 @@
+TCEMAIN {
+	table {
+		pages {
+			disablePrependAtCopy = 1
+			disableHideAtCopy = 0
+		}
+		tt_content {
+			disablePrepandAtCopy = 1
+			disableHideAtCopy = 0
+		}
+	}
+	translateToMessage = Bitte den Artikel in "%s" übersetzen:
+	linkhandler {
+		tx_news {
+			handler = TYPO3\CMS\Recordlist\LinkHandler\RecordLinkHandler
+			label = LLL:EXT:cs_templates/Resources/Private/Language/locallang_db.xlf:TCEMAIN.linkHandler.tx_news
+			configuration {
+				table = tx_news_domain_model_news
+				storagePid = 19
+				hidePageTree = 1
+			}
+			scanAfter = page
+		}
+		tx_csevents {
+			handler = TYPO3\CMS\Recordlist\LinkHandler\RecordLinkHandler
+			label = LLL:EXT:cs_templates/Resources/Private/Language/locallang_db.xlf:TCEMAIN.linkHandler.tx_csevents
+			configuration {
+				table = tx_news_domain_model_news
+				storagePid = 87
+				hidePageTree = 1
+			}
+			scanAfter = page
+			displayAfter = tx_news
+		}
+		tx_cshosts {
+			handler = TYPO3\CMS\Recordlist\LinkHandler\RecordLinkHandler
+			label = LLL:EXT:cs_templates/Resources/Private/Language/locallang_db.xlf:TCEMAIN.linkHandler.tx_cshosts
+			configuration {
+				table = tx_cshosts_domain_model_host
+				hidePageTree = 0
+			}
+			scanAfter = page
+			displayAfter = tx_csevents
+		}
+	}
+	// Preview new News-Articel
+	preview {
+		tx_news_domain_model_news {
+			useCacheHash = 1
+			previewPageId = 28
+			useDefaultLanguageRecord = 0
+			fieldToParameterMap {
+				uid = tx_news_pi1[news_preview]
+			}
+			additionalGetParameters {
+				tx_news_pi1.controller = News
+				tx_news_pi1.action = detail
+			}
+		}
+	}
+}

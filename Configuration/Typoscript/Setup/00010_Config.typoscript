@@ -1,0 +1,56 @@
+config {
+	absRefPrefix = {$config.absRefPrefix}
+	baseURL = {$config.baseURL}
+	admPanel = {$entwicklung}
+	debug = {$entwicklung}
+
+	# Message during Page Rendering
+	message_page_is_being_generated = Bitte haben Sie einen Moment Geduld, die Seite ###TITLE### wird gerade neu generiert.
+	message_preview = Vorschau
+	message_preview_workspace = Vorschau WORKSPACE
+
+	doctype = html5
+	xmlprologue = none
+	noPageTitle = 0
+	disableAllHeaderCode = 0
+	disablePrefixComment = {$entwicklung}
+	inlineStyle2TempFile = 1
+
+	cache_clearAtMidnight = {$entwicklung}
+	cache_period = 86400
+	sendCacheHeaders = 1
+
+	spamProtectEmailAddresses = ascii
+	spamProtectEmailAddresses_atSubst = (at)
+	spamProtectEmailAddresses_lastDotSubst = (dot)
+
+	recordLinks {
+		tx_news {
+			typolink {
+				parameter = {$plugin.tx_news.settings.defaultDetailPid}
+				additionalParams.data = field:uid
+				additionalParams.wrap = &tx_news_pi1[controller]=News&news_pi1[action]=detail&news_pi1[news]=|
+				useCacheHash = 1
+				ATag.Params.data = parameters:allParams
+				target.data = parameters:target
+				title.data = parameters:title
+				extTarget = _blank
+				extTarget.override.data = parameters:target
+			}
+			tx_csevents < .tx_news
+			tx_csevents {
+				typolink {
+					parameter = {$plugin.tx_csevents.settings.detailPid}
+				}
+				forceLink = 1
+			}
+			tx_cshosts < .tx_news
+			tx_cshosts {
+				typolink {
+					parameter = {$plugin.tx_cshosts_pi1.settings.detailPid}
+					additionalParams.wrap = &tx_cshosts_pi1[controller]=Host&tx_cshosts_pi1[action]=show&tx_cshosts_pi1[host]=|
+				}
+			}
+		}
+	}
+}

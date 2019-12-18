@@ -1,0 +1,255 @@
+page = PAGE
+page {
+	typeNum = 0
+	config {
+		headerData.5 = COA
+		headerData.5 {
+			10 = TEXT
+			10 {
+				value = {page.seo_title}
+				insertData = 1
+				ifEmpty.value = EPOCHE NAPOLEON
+			}
+			20 = TEXT
+			20 {
+				value = {page.title}
+				insertData = 1
+				wrap = &nbsp;&#124;&nbsp; |
+			}
+			wrap = <title>|</title>
+		}
+		headerComment (
+			Das Projekt EPOCHE NAPOLEON ist ein nicht kommerzielles Geschichtsportral.
+		)
+		additionalHeaders {
+			10.header = Server:
+			20.header = X-Powered-By: Napoléon Bonaparte
+			30.header = strict-transport-security:max-age=63072000; includeSubDomains; preload
+			40.header = X-Frame-Options: deny
+			50.header = X-Xss-Protection: 1; mode=block
+			60.header = X-Content-Type-Options: nosniff
+			70.header = Referrer-Policy:strict-origin
+			80.header = Content-Security-Policy: "default-src 'self'; script-src https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js; style-src 'self'; img-src 'self'; media-src
+			90.header = Feature-Policy: microphone 'none'; camera 'none'; vibrate 'none'; usb 'none',
+		}
+		shortcutIcon = fileadmin/system/favicon.ico
+		doctype = html5
+		xmlprologue = none
+		htmlTag_langKey = DE
+		noPageTitle = 2
+		disableAllHeaderCode = 0
+		disablePrefixComment = {$entwicklung}
+		inlineStyle2TempFile = 1
+
+		moveJsFromHeaderToFooter = 1
+
+		compressCss = 1
+		compressJs = 1
+		concatenateCss = 1
+		concatenateJs = 1
+
+		cache = {$cache}
+	}
+	includeCSS {
+		file01 = EXT:epochenapoleon_sitepackage/Resources/Public/Css/epochenapoleon.css
+		file01 {
+			media = screen
+			forceOnTop = 0
+			disableCompression = 0
+			excludeFromConcatenation = 0
+		}
+		fontawesome = https://use.fontawesome.com/releases/v5.8.1/css/all.css
+		fontawesome {
+			external = 1
+			excludeFromConcatenation = 1
+		}
+	}
+	includeJSFooterlibs {
+		jquery_content_rating =
+		file01 = https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js
+		file01 {
+			async = 0
+			disableCompression = 1
+			excludeFromConcatenation = 1
+			forceOnTop = 1
+			/*
+			integrity = sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT
+			*/
+		}
+		file02 = EXT:bootstrap_grids/Resources/Public/Flexslider2/jquery.flexslider.js
+	}
+	10 = FLUIDTEMPLATE
+	10 {
+		format = html
+		layoutRootPaths {
+			0 = EXT:epochenapoleon_sitepackage/Resources/Private/Layouts/Page/
+			1 = {$page.fluidtemplate.10.layoutRootPath}
+		}
+		partialRootPaths {
+			0 = EXT:epochenapoleon_sitepackage/Resources/Private/Partials/Page/
+			1 = {$page.fluidtemplate.10.partialRootPath}
+		}
+		templateRootPaths {
+			0 = EXT:epochenapoleon_sitepackage/Resources/Private/Templates/Page/
+			1 = {$page.fluidtemplate.10.templateRootPath}
+		}
+		templateName {
+			cObject = TEXT
+			cObject {
+				data = pagelayout
+				required = 1
+				case = uppercamelcase
+				split {
+					token = pagets_
+					cObjNum = 1
+					1.current = 1
+				}
+			}
+			ifEmpty = Default
+		}
+		dataProcessing {
+			10 = TYPO3\CMS\Frontend\DataProcessing\MenuProcessor
+			10 {
+				special = directory
+				special.value = 29
+				as = stm
+				expandAll = 1
+				titleField = nav_title // title
+			}
+		}
+		variables {
+			layout = TEXT
+			layout {
+				cObject = TEXT
+				cObject {
+					data = pagelayout
+					required = 1
+					case = uppercamelcase
+					split {
+						token = pagets_
+						cObjNum = 1
+						1.current = 1
+					}
+				}
+			}
+
+			header < lib.header
+			headerlogo < lib.headerlogo
+			headernavigation < lib.headernavigation
+			menu < lib.mainmenu
+			pfad < lib.pfadmenu
+			abcmenu < lib.abcmenu
+			teasermenu < lib.teasermenu
+			socialsharebutton < plugin.shariffBackendUrl
+			lastUpdate < lib.lastchange
+			footer < lib.footer
+			contentrating < lib.contentrating
+
+			content =< styles.content.get
+			content.select.where = colPos = 0
+			contentleft =< styles.content.get
+			contentleft.select.where = colPos = 1
+			asidecontent =< styles.content.get
+			asidecontent.select.where = colPos = 2
+			rand =< styles.content.get
+			rand.select.where = colPos = 3
+
+			abcmenushow = TEXT
+			abcmenushow.value = {$abcmenushow}
+		}
+	}
+}
+[PIDinRootline = 31] && [treeLevel = 5,6]
+	page.10.variables.cagmenu < lib.cagpagebrowser
+[global]
+
+[PIDinRootline = 6477,6463,6455,6437,6431,6385,6688] && [treeLevel = 4]
+	page.10.variables.cagmenu < lib.cagpagebrowser
+	lib.cagpagebrowser.10.special.items = first | prev | up | next | last |
+[global]
+
+[globalVar = TSFE:type = 9818]
+	config {
+		disableAllHeaderCode = 1
+		xhtml_cleaning = none
+		admPanel = 0
+		debug = 0
+		disablePrefixComment = 1
+		metaCharset = utf-8
+		# before CMS 8 (adjust if using ATOM)
+		additionalHeaders = Content-Type:application/rss+xml;charset=utf-8
+		# CMS 8 (adjust if using ATOM)
+		additionalHeaders.10.header = Content-Type:application/rss+xml;charset=utf-8
+		absRefPrefix = {$plugin.tx_news.rss.channel.link}
+	}
+
+	pageNewsRSS = PAGE
+	pageNewsRSS {
+		typeNum = 9818
+		10 < tt_content.list.20.news_pi1
+		10 {
+			switchableControllerActions {
+				News {
+					1 = list
+				}
+			}
+			settings < plugin.tx_news.settings
+			settings {
+				// categories = 9
+				// categoryConjunction = notor
+				limit = 30
+				detailPid = 28
+				startingpoint = 4459
+				format = xml
+			}
+		}
+	}
+[global]
+[globalVar = TSFE:type = 1789]
+	config {
+		disableAllHeaderCode = 1
+		additionalHeaders.10 {
+			header = content-type:text/plan
+		}
+		admPanel = 0
+		xhtml_cleaning = 0
+		disablePrefixComment = 1
+		debug = 0
+	}
+	10. =< tt_content.list.20.beaconizer_generator
+[global]
+
+[globalVar = TSFE:type = 9819]
+	config {
+		disableAllHeaderCode = 1
+		xhtml_cleaning = none
+		admPanel = 0
+		metaCharset = utf-8
+		additionalHeaders = Content-Type:text/calendar;charset=utf-8
+		disablePrefixComment = 1
+	}
+
+	pageNewsICalendar = PAGE
+	pageNewsICalendar {
+		typeNum = 9819
+		10 < tt_content.list.20.news_pi1
+		10 {
+			switchableControllerActions {
+				News {
+					1 = list
+				}
+			}
+			settings < plugin.tx_news.settings
+			settings {
+				// categories = 9
+				// categoryConjunction = notor
+				limit = 30
+				detailPid = 28
+				startingpoint = 19
+				format = ical
+				domain.data = getEnv:HTTP_HOST
+				useStdWrap = domain
+			}
+		}
+	}
+[global]

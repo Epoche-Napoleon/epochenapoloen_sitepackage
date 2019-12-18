@@ -1,0 +1,21 @@
+body {
+}
+
+.werktitel {
+	color: #000066;
+	background: #aaaaaa;
+	font-weight: bolder;
+}
+
+.person {
+	color: #E00000;
+	font-weight: bolder;
+	font-kerning: initial;
+	background: #E00000;
+}
+.align-left {
+	text-align: left;
+}
+.align-right {
+	text-align: right;
+}
