@@ -1,6 +1,8 @@
 config {
+	/*
 	absRefPrefix = {$config.absRefPrefix}
 	baseURL = {$config.baseURL}
+	*/
 	admPanel = {$entwicklung}
 	debug = {$entwicklung}
 
