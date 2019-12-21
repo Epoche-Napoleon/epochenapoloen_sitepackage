@@ -60,11 +60,13 @@ page {
 			disableCompression = 0
 			excludeFromConcatenation = 0
 		}
+		/*
 		fontawesome = https://use.fontawesome.com/releases/v5.8.1/css/all.css
 		fontawesome {
 			external = 1
 			excludeFromConcatenation = 1
 		}
+		*/
 	}
 	includeJSFooterlibs {
 		jquery_content_rating =
