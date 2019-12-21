@@ -36,7 +36,7 @@ page {
 		doctype = html5
 		xmlprologue = none
 		htmlTag_langKey = DE
-		noPageTitle = 2
+		noPageTitle = 0
 		disableAllHeaderCode = 0
 		disablePrefixComment = {$entwicklung}
 		inlineStyle2TempFile = 1
