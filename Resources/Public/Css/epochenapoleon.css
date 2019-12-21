@@ -444,7 +444,7 @@ blockquote, q {
 	font-style: italic;
 }
 .quelle-online::before {
-	font-family: "Font Awesome 5 free";
+	font-family: "Font Awesome 5 freeco";
 	display: inline-block;
 	font-weight: 900;
 	color: #00bb00;
