@@ -65,7 +65,7 @@ plugin.tx_news {
 			channel {
 				title = EPOCHE NAPOLEON
 				description = Von der Französischen Revolution bis Waterloo
-				link = {$config.baseURL}
+				link = http://www.epoche-napoleon.net
 				language = de_DE
 				copyright = © 	EPOCHE NAPOLEON 2003 - %Y
 			}
@@ -96,6 +96,39 @@ plugin.tx_news {
 		}
 	}
 	predefine.archive = +1 Month
+}
+plugin.tx_seo {
+	config {
+		sitemaps {
+			news {
+				provider = TYPO3\CMS\Seo\XmlSitemap\RecordsXmlSitemapDataProvider
+				config {
+					table = tx_news_domain_model_news
+					additionalWhere =
+					sortField = tstamp
+					pid = 19
+					recursive = 2
+					url {
+						pageId = 25
+						fieldOfParameterMap {
+							uid = tx_news_pi1[news]
+						}
+						additionalGetParameters {
+							tx_news_pi1.controller = News
+							tx_news_pi1.action = detail
+						}
+						hrDate = 0
+						hrDate {
+							day = d
+							month = m
+							year = Y
+						}
+						useCacheHash = 1
+					}
+				}
+			}
+		}
+	}
 }
 
 # Min #
