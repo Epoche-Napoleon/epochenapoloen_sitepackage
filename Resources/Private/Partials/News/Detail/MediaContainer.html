@@ -2,23 +2,21 @@
 <f:if condition="{media}">
 	<!-- media files -->
 	<div class="news-img-wrap">
-		<f:for each="{media}" as="mediaElement" iteration="iter">
-			<f:if condition="{iter.index} >0">
-				<div class="outer">
-					<f:if condition="{mediaElement.originalResource.type} == 2">
-						<f:render partial="Detail/MediaImage" arguments="{mediaElement: mediaElement, settings:settings}"/>
-					</f:if>
-					<f:if condition="{mediaElement.originalResource.type} == 3">
-						<f:render partial="Detail/MediaVideo" arguments="{mediaElement: mediaElement, settings:settings}"/>
-					</f:if>
-					<f:if condition="{mediaElement.originalResource.type} == 4">
-						<f:render partial="Detail/MediaVideo" arguments="{mediaElement: mediaElement, settings:settings}"/>
-					</f:if>
-					<f:if condition="{mediaElement.originalResource.type} == 5">
-						<f:render partial="Detail/MediaImage" arguments="{mediaElement: mediaElement, settings:settings}"/>
-					</f:if>
-				</div>
-			</f:if>
+		<f:for each="{media}" as="mediaElement">
+			<div class="outer">
+				<f:if condition="{mediaElement.originalResource.type} == 2">
+					<f:render partial="Detail/MediaImage" arguments="{mediaElement: mediaElement, settings:settings}"/>
+				</f:if>
+				<f:if condition="{mediaElement.originalResource.type} == 3">
+					<f:render partial="Detail/MediaVideo" arguments="{mediaElement: mediaElement, settings:settings}"/>
+				</f:if>
+				<f:if condition="{mediaElement.originalResource.type} == 4">
+					<f:render partial="Detail/MediaVideo" arguments="{mediaElement: mediaElement, settings:settings}"/>
+				</f:if>
+				<f:if condition="{mediaElement.originalResource.type} == 5">
+					<f:render partial="Detail/MediaImage" arguments="{mediaElement: mediaElement, settings:settings}"/>
+				</f:if>
+			</div>
 		</f:for>
 	</div>
 </f:if>

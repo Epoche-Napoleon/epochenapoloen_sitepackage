@@ -67,11 +67,9 @@ plugin.tx_csseo {
 # EXT: tx_news #
 plugin.tx_news {
 	view {
-		twb {
-			templateRootPaths.2 = EXT:epochenapoleon_sitepackage/Resources/Private/Templates/News/
-			layoutRootPaths.2 = EXT:epochenapoleon_sitepackage/Resources/Private/Layouts/News
-			partialRootPaths.2 = EXT:epochenapoleon_sitepackage/Resources/Private/Partials/News
-		}
+		templateRootPath = EXT:epochenapoleon_sitepackage/Resources/Private/Templates/News/
+		layoutRootPath = EXT:epochenapoleon_sitepackage/Resources/Private/Layouts/News/
+		partialRootPath = EXT:epochenapoleon_sitepackage/Resources/Private/Partials/News/
 	}
 	settings {
 		sitemap {
@@ -87,9 +85,14 @@ plugin.tx_news {
 	}
 	rss {
 		channel {
+			title = EPOCHE NAPOLEON
+			description = Von der Französischen Revolution bis Waterloo
 			link = http://www.epoche-napoleon.net
+			language = de_DE
+			copyright = © 	EPOCHE NAPOLEON 2003 - %Y
 		}
 	}
+
 }
 
 # EXT: Mindshapecookiehint #
@@ -134,4 +137,3 @@ plugin.tx_ckeditor_fontawesome {
 	loadCSS = 1
 	css = https://use.fontawesome.com/releases/v5.8.1/css/all.css
 }
-

@@ -8,9 +8,9 @@ plugin.tx_beaconizer_generator {
 		classes {
 			ADWLM\Beaconizer\Domain\Model\GeneratedLinks {
 				mapping {
-					tablename = pages
+					tableName = pages
 					columns {
-						source_Identifier.mapOnProperty = sourceIdentifier
+						source_Identifier.mapOnProperty = source_Identifier
 					}
 				}
 			}
@@ -33,7 +33,6 @@ plugin.tx_pbsocial {
 		load-jquery = 0
 	}
 }
-
 # tx_news #
 plugin.tx_news {
 	settings {
@@ -45,7 +44,6 @@ plugin.tx_news {
 				dummyImage = fileadmin/bilder/presse/logo/epoche-napoleon.jpg
 			}
 		}
-
 	}
 	detail {
 		showPrevNext = 1
@@ -61,41 +59,66 @@ plugin.tx_news {
 				maxHeight = 100
 			}
 		}
-		rss {
-			channel {
-				title = EPOCHE NAPOLEON
-				description = Von der Französischen Revolution bis Waterloo
-				link = {$config.baseURL}
-				language = de_DE
-				copyright = © 	EPOCHE NAPOLEON 2003 - %Y
-			}
+
+	}
+	link {
+		SkipControllerAndAction = 1
+		hrDate = 1
+		hrDate {
+			year = Y
+			month = m
+			day = d
 		}
-		link {
-			SkipControllerAndAction = 1
-			hrDate = 1
-			hrDate {
-				year = Y
-				month = m
-				day = d
-			}
-		}
-		paginate {
-			itemsPerPage = 10
-			insertAbove = 1
-			insertBelow = 1
-			templatePath =
-			prevNextHeaderTags = 1
-			maximunNumberOfLinks = 3
-		}
-		analytics {
-			social {
-				facebookLike = 0
-				facebookShare = 0
-				twitter = 0
-			}
+	}
+	paginate {
+		itemsPerPage = 10
+		insertAbove = 1
+		insertBelow = 1
+		templatePath =
+		prevNextHeaderTags = 1
+		maximunNumberOfLinks = 3
+	}
+	analytics {
+		social {
+			facebookLike = 0
+			facebookShare = 0
+			twitter = 0
 		}
 	}
 	predefine.archive = +1 Month
+}
+plugin.tx_seo {
+	config {
+		sitemaps {
+			news {
+				provider = TYPO3\CMS\Seo\XmlSitemap\RecordsXmlSitemapDataProvider
+				config {
+					table = tx_news_domain_model_news
+					additionalWhere =
+					sortField = tstamp
+					pid = 19
+					recursive = 2
+					url {
+						pageId = 25
+						fieldOfParameterMap {
+							uid = tx_news_pi1[news]
+						}
+						additionalGetParameters {
+							tx_news_pi1.controller = News
+							tx_news_pi1.action = detail
+						}
+						hrDate = 0
+						hrDate {
+							day = d
+							month = m
+							year = Y
+						}
+						useCacheHash = 1
+					}
+				}
+			}
+		}
+	}
 }
 
 # Min #
@@ -128,4 +151,3 @@ plugin.tx_ckeditor_fontawesome {
 	loadCSS = 1
 	css = https://use.fontawesome.com/releases/v5.8.1/css/all.css
 }
-

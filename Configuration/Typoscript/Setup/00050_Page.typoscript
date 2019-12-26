@@ -36,7 +36,7 @@ page {
 		doctype = html5
 		xmlprologue = none
 		htmlTag_langKey = DE
-		noPageTitle = 2
+		noPageTitle = 0
 		disableAllHeaderCode = 0
 		disablePrefixComment = {$entwicklung}
 		inlineStyle2TempFile = 1
@@ -182,7 +182,6 @@ page {
 		additionalHeaders.10.header = Content-Type:application/rss+xml;charset=utf-8
 		absRefPrefix = {$plugin.tx_news.rss.channel.link}
 	}
-
 	pageNewsRSS = PAGE
 	pageNewsRSS {
 		typeNum = 9818
@@ -209,7 +208,7 @@ page {
 	config {
 		disableAllHeaderCode = 1
 		additionalHeaders.10 {
-			header = content-type:text/plan
+			header = content-type:text/plain
 		}
 		admPanel = 0
 		xhtml_cleaning = 0
