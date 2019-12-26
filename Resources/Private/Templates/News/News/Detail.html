@@ -31,7 +31,6 @@
 					<f:render partial="Detail/Opengraph" arguments="{newsItem: newsItem, settings:settings}" />
 				</f:if>
 			</n:format.nothing>
-
 			<f:if condition="{settings.detail.showPrevNext}">
 				<n:simplePrevNext pidList="{newsItem.pid}" news="{newsItem}" as="paginated" sortField="datetime">
 					<f:if condition="{paginated}">
@@ -54,7 +53,6 @@
 					</f:if>
 				</n:simplePrevNext>
 			</f:if>
-
 			<div class="header">
 				<h3 itemprop="headline">{newsItem.title}</h3>
 			</div>
@@ -82,13 +80,13 @@
 
 					<f:if condition="{newsItem.author}">
 						<!-- author -->
+						<span class="glyphicon glyphicon-user"></span>
 						<span class="news-list-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">
 							<f:translate key="author_simple" /> <span itemprop="name">{newsItem.author}</span>
 						</span>
 					</f:if>
 				</p>
 			</div>
-
 			<n:renderMedia news="{newsItem}" imgClass="img-responsive" videoClass="video-wrapper" audioClass="audio-wrapper">
 				<f:if condition="{newsItem.teaser}">
 					<!-- teaser -->
@@ -109,6 +107,28 @@
 				<!-- content elements -->
 				<f:cObject typoscriptObjectPath="lib.tx_news.contentElementRendering">{newsItem.contentElementIdList}</f:cObject>
 			</f:if>
+
+
+			<f:if condition="{settings.backPid}">
+				<!-- Link Back -->
+				<div class="news-backlink-wrap">
+					<f:link.page pageUid="{settings.backPid}">
+						<f:translate key="back-link" />
+					</f:link.page>
+				</div>
+			</f:if>
+
+			<f:if condition="{settings.detail.showSocialShareButtons}">
+				<f:comment>
+					Care about the privacy of your readers?
+					Checkout https://typo3.org/extensions/repository/view/rx_shariff
+					and it will be used automatically!
+				</f:comment>
+				<n:extensionLoaded extensionKey="rx_shariff">
+					<f:render partial="Detail/Shariff" />
+				</n:extensionLoaded>
+			</f:if>
+
 			<f:if condition="{settings.detail.disqusShortname}">
 				<div id="disqus_thread"></div>
 				<n:social.disqus newsItem="{newsItem}"
@@ -187,14 +207,6 @@
 					</div>
 				</f:if>
 			</div>
-			<f:if condition="{settings.backPid}">
-				<!-- Link Back -->
-				<div class="news-backlink-wrap">
-					<f:link.page pageUid="{settings.backPid}">
-						<f:translate key="back-link" />
-					</f:link.page>
-				</div>
-			</f:if>
 		</f:then>
 		<f:else>
 
