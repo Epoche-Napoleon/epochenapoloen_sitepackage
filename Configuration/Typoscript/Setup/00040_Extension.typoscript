@@ -8,7 +8,7 @@ plugin.tx_beaconizer_generator {
 		classes {
 			ADWLM\Beaconizer\Domain\Model\GeneratedLinks {
 				mapping {
-					tablename = pages
+					tableName = pages
 					columns {
 						source_Identifier.mapOnProperty = sourceIdentifier
 					}
