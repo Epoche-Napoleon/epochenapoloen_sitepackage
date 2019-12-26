@@ -87,9 +87,14 @@ plugin.tx_news {
 	}
 	rss {
 		channel {
+			title = EPOCHE NAPOLEON
+			description = Von der Französischen Revolution bis Waterloo
 			link = http://www.epoche-napoleon.net
+			language = de_DE
+			copyright = © 	EPOCHE NAPOLEON 2003 - %Y
 		}
 	}
+
 }
 
 # EXT: Mindshapecookiehint #
