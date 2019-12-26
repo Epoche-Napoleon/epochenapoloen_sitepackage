@@ -56,8 +56,6 @@
 			<div class="header">
 				<h3 itemprop="headline">{newsItem.title}</h3>
 			</div>
-
-
 			<div class="footer">
 				<p>
 					<!-- date -->
@@ -88,32 +86,28 @@
 					</f:if>
 				</p>
 			</div>
+			<n:renderMedia news="{newsItem}" imgClass="img-responsive" videoClass="video-wrapper" audioClass="audio-wrapper">
+				<f:if condition="{newsItem.teaser}">
+					<!-- teaser -->
+					<div class="teaser-text" itemprop="description">
+						<f:format.html>{newsItem.teaser}</f:format.html>
+					</div>
+				</f:if>
 
+				<f:if condition="{newsItem.contentElements}">
+					<!-- content elements -->
+					<f:cObject typoscriptObjectPath="lib.tx_news.contentElementRendering">{newsItem.contentElementIdList}</f:cObject>
+				</f:if>
+
+				<f:render partial="Detail/MediaContainer" arguments="{media: newsItem.mediaNonPreviews, settings:settings}" />
 
 				<!-- main text -->
 				<div class="news-text-wrap" itemprop="articleBody">
 					<f:format.html>{newsItem.bodytext}</f:format.html>
 				</div>
 			</n:renderMedia>
-			<f:if condition="{newsItem.contentElements}">
-				<!-- content elements -->
-				<f:cObject typoscriptObjectPath="lib.tx_news.contentElementRendering">{newsItem.contentElementIdList}</f:cObject>
-			</f:if>
+
 			<f:if condition="{settings.backPid}">
-				<n:renderMedia news="{newsItem}" imgClass="img-responsive" videoClass="video-wrapper" audioClass="audio-wrapper">
-					<f:if condition="{newsItem.teaser}">
-						<!-- teaser -->
-						<div class="teaser-text" itemprop="description">
-							<f:format.html>{newsItem.teaser}</f:format.html>
-						</div>
-					</f:if>
-
-					<f:if condition="{newsItem.contentElements}">
-						<!-- content elements -->
-						<f:cObject typoscriptObjectPath="lib.tx_news.contentElementRendering">{newsItem.contentElementIdList}</f:cObject>
-					</f:if>
-
-					<f:render partial="Detail/MediaContainer" arguments="{media: newsItem.mediaNonPreviews, settings:settings}" />
 				<!-- Link Back -->
 				<div class="news-backlink-wrap">
 					<f:link.page pageUid="{settings.backPid}">
