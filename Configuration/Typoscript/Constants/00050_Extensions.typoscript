@@ -68,7 +68,7 @@ plugin.tx_csseo {
 plugin.tx_news {
 	view {
 		twb {
-			templateRootPaths.2 = EXT:epochenapoleon_sitepackage/Resources/Private/Templates/News/
+			templateRootPaths.2 = EXT:epochenapoleon_sitepackage/Resources/Private/Templates/News
 			layoutRootPaths.2 = EXT:epochenapoleon_sitepackage/Resources/Private/Layouts/News
 			partialRootPaths.2 = EXT:epochenapoleon_sitepackage/Resources/Private/Partials/News
 		}
