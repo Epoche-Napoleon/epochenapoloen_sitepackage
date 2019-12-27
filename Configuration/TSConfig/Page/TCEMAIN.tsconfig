@@ -13,34 +13,24 @@ TCEMAIN {
 	linkhandler {
 		tx_news {
 			handler = TYPO3\CMS\Recordlist\LinkHandler\RecordLinkHandler
-			label = LLL:EXT:cs_templates/Resources/Private/Language/locallang_db.xlf:TCEMAIN.linkHandler.tx_news
+			label = News
 			configuration {
 				table = tx_news_domain_model_news
 				storagePid = 19
-				hidePageTree = 1
-			}
-			scanAfter = page
-		}
-		tx_csevents {
-			handler = TYPO3\CMS\Recordlist\LinkHandler\RecordLinkHandler
-			label = LLL:EXT:cs_templates/Resources/Private/Language/locallang_db.xlf:TCEMAIN.linkHandler.tx_csevents
-			configuration {
-				table = tx_news_domain_model_news
-				storagePid = 87
-				hidePageTree = 1
+				hidePageTree = 0
 			}
 			scanAfter = page
 			displayAfter = tx_news
 		}
-		tx_cshosts {
+		tx_glossary2 {
 			handler = TYPO3\CMS\Recordlist\LinkHandler\RecordLinkHandler
-			label = LLL:EXT:cs_templates/Resources/Private/Language/locallang_db.xlf:TCEMAIN.linkHandler.tx_cshosts
+			label = Glossary
 			configuration {
-				table = tx_cshosts_domain_model_host
+				storagePid = 2334
 				hidePageTree = 0
 			}
 			scanAfter = page
-			displayAfter = tx_csevents
+			displayAfter = tx_news
 		}
 	}
 	// Preview new News-Articel

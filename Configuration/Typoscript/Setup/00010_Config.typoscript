@@ -29,30 +29,18 @@ config {
 	recordLinks {
 		tx_news {
 			typolink {
-				parameter = {$plugin.tx_news.settings.defaultDetailPid}
+				parameter = 19
 				additionalParams.data = field:uid
 				additionalParams.wrap = &tx_news_pi1[controller]=News&news_pi1[action]=detail&news_pi1[news]=|
 				useCacheHash = 1
-				ATag.Params.data = parameters:allParams
-				target.data = parameters:target
-				title.data = parameters:title
-				extTarget = _blank
-				extTarget.override.data = parameters:target
 			}
-			tx_csevents < .tx_news
-			tx_csevents {
-				typolink {
-					parameter = {$plugin.tx_csevents.settings.detailPid}
-				}
-				forceLink = 1
-			}
-			tx_cshosts < .tx_news
-			tx_cshosts {
-				typolink {
-					parameter = {$plugin.tx_cshosts_pi1.settings.detailPid}
-					additionalParams.wrap = &tx_cshosts_pi1[controller]=Host&tx_cshosts_pi1[action]=show&tx_cshosts_pi1[host]=|
-				}
+		}
+		tx_glossary2 {
+			typolink {
+				parameter = 2334
+				additionalParams.data = field:uid
 			}
 		}
 	}
+
 }

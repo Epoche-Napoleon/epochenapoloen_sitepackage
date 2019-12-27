@@ -55,7 +55,6 @@ plugin.tx_csseo {
 	tracking {
 		googleAnalytics  = UA-50240478-1
 	}
-
 	social {
 		defaultImage = EXT:epochenapoleon_sitepackage/Resources/Public/Images/logo.png
 		twitter {
