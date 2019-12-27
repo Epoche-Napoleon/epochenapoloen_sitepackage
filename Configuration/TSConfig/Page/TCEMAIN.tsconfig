@@ -20,7 +20,6 @@ TCEMAIN {
 				hidePageTree = 0
 			}
 			scanAfter = page
-			displayAfter = tx_news
 		}
 		tx_glossary2 {
 			handler = TYPO3\CMS\Recordlist\LinkHandler\RecordLinkHandler
@@ -30,7 +29,6 @@ TCEMAIN {
 				hidePageTree = 0
 			}
 			scanAfter = page
-			displayAfter = tx_news
 		}
 	}
 	// Preview new News-Articel
