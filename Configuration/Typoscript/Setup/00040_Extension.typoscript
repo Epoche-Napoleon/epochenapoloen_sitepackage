@@ -1,7 +1,9 @@
-# CS_SEO #
-plugin.tx_csseo {
-	sitetitle = EPOCHE NAOOLEON
+# Glossary2
+plugin.tx_glossary2.persistence {
+	# Define Storage PID where glossary records are located
+	storagePid = 4
 }
+
 # Beaconizer
 plugin.tx_beaconizer_generator {
 	persistence {
