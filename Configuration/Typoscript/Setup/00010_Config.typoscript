@@ -39,7 +39,7 @@ config {
 			typolink {
 				parameter = 407
 				additionalParams.data = field:uid
-				additionalParams.wrap = &tx_glossary2_glossary[action]=show&glossary2_glossary[glossary]=|
+				additionalParams.wrap = &tx_glossary2_glossary[action]=show&tx_glossary2_glossary[glossary]=|
 			}
 		}
 	}
