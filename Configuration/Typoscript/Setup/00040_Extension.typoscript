@@ -61,7 +61,6 @@ plugin.tx_news {
 				maxHeight = 100
 			}
 		}
-
 	}
 	link {
 		SkipControllerAndAction = 1

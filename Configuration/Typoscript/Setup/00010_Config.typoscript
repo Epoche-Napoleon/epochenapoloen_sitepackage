@@ -29,7 +29,7 @@ config {
 	recordLinks {
 		tx_news {
 			typolink {
-				parameter = 19
+				parameter = 28
 				additionalParams.data = field:uid
 				additionalParams.wrap = &tx_news_pi1[controller]=News&news_pi1[action]=detail&news_pi1[news]=|
 				useCacheHash = 1
@@ -37,10 +37,9 @@ config {
 		}
 		tx_glossary2 {
 			typolink {
-				parameter = 2334
+				parameter = 407
 				additionalParams.data = field:uid
 				additionalParams.wrap = &tx_glossary2_glossary[action]=show&glossary2[glossary]=|
-
 			}
 		}
 	}
