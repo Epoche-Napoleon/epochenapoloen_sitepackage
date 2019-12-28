@@ -62,7 +62,6 @@ plugin.tx_csseo {
 		}
 	}
 }
-
 # EXT: tx_news #
 plugin.tx_news {
 	view {
@@ -91,7 +90,6 @@ plugin.tx_news {
 			copyright = © 	EPOCHE NAPOLEON 2003 - %Y
 		}
 	}
-
 }
 
 # EXT: Mindshapecookiehint #
@@ -121,18 +119,19 @@ plugin.tx_gomapsext {
 		apiKey = AIzaSyB_WRZCZPHTr78TBoj0Mo_lw-cS7maL48M
 	}
 }
-
-# EXT: pbsocial
-plugin.tx_pbsocial {
-	view {
-		templateRootPath = EXT:pb_social/Resources/Private/Templates
-		layoutRootPath = EXT:pb_social/Resources/Private/Layouts
-		partialRootPath = EXT:pb_social/Resources/Private/Partials
-	}
-	persistence.storagePid = 1
-}
-
+# EXT: CKEditor Fontawesome
 plugin.tx_ckeditor_fontawesome {
 	loadCSS = 1
 	css = https://use.fontawesome.com/releases/v5.8.1/css/all.css
+}
+# EXT: Glossary2
+plugin.tx_glossary2.persistence {
+	storagePid = 2334
+	pidOfDetailPage = 407
+	pageBrowser {
+		itemsPerPage = 10
+		insertAbove = 1
+		insertBelow = 1
+		maximumNumberOfLinks = 5
+	}
 }
