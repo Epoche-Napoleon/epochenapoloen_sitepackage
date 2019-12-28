@@ -28,6 +28,7 @@ TCEMAIN {
 			handler = TYPO3\CMS\Recordlist\LinkHandler\RecordLinkHandler
 			label = Glossary
 			configuration {
+				table = tx_glossary2_domain_model_glossary
 				storagePid = 2334
 				hidePageTree = 0
 			}
