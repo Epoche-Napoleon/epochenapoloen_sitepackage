@@ -183,7 +183,8 @@ ul.mainnav li a:hover {
 	font-weight: bold;
 }
 /* Alphabetical Navigation */
-#abcmenu {
+#abcmenu
+.glossary {
 	margin-bottom: 1.0rem;
 }
 .cM {
@@ -415,18 +416,7 @@ blockquote, q {
 	border-bottom: 0.5rem solid #FFFF38;
 	*/
 }
-.glossary {
-	background: #1c94c4;
-}
-.glossary ul {
-	display: block;
-}
-.glossary ul li {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	display: inline;
-}
+
 .person-men::before {
 	font-family: "Font Awesome 5 free";
 	display: inline-block;
