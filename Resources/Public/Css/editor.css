@@ -1,8 +1,5 @@
 a.internal-link,
-a.person,
-a.person-men,
-a.person-women
-a.quelle-online {
+a.person,  {
 	color: #000000;
 	text-decoration: none;
 	border: 2px solid #E00000;
@@ -23,12 +20,16 @@ a.quelle-online {
 	background: #000000;
 }
 .person-women {
+	color: #000000;
 	background: #e49f9f;
 }
 .person-men {
+	color: #000000;
 	background: #2b82d9;
 }
-.quelle-online {
+.quelle-online,
+glossary-link {
+	color: #000000;
 	background: #00bb00;
 }
 .bodytext {
