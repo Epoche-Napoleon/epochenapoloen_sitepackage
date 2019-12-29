@@ -157,11 +157,20 @@ classes.:
     name: 'Link auf neue externe Seite'
   link-mail:
     name: 'Email-Verknüpfung'
-  person-men:
+  Person (Mann):
     class: 'person-men'
     type: 'page'
-  person-women:
+  Person (Frau):
     class: 'person-women'
+    type: 'page'
+  Quelle:
+    class: 'quelle-online'
+    type: 'page'
+  Werktitel:
+    class: 'werktitel'
+    type: 'page'
+  Glossar-Eintrag:
+    class: 'glossary-link'
     type: 'page'
 
 
