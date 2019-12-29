@@ -420,6 +420,7 @@ blockquote, q {
 }
 .glossary ul li {
 	list-style-type: none;
+	display: block;
 	margin: 0;
 	paddig: 0
 }
