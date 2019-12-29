@@ -33,7 +33,7 @@ editor:
       - { name: "Quelle", element: 'span', attributes: {class: 'quelle-online'}}
       - { name: "Werktitel", element: 'span', attributes: { class: 'werktitel'} }
       - { name: "Glossar", element: 'span', attributes: {class: 'glossary'} }
-      - { name: "Rote Schrift", element: 'span', attributes: { class: 'highlighted red'}}
+      - { name: "Rote Schrift", element: 'span', attributes: { class: 'highlighted red'} }
       - { name: "Wichtig", element: ['p', 'div', 'span', 'ol', 'ul', 'blockquote'], attributes: {class: 'important'} }
       - { name: "Button", element: 'a', attributes: { class: 'button' } }
       - { name: "Checkliste", element: 'ul', attributes: { class: 'check-list'} }
