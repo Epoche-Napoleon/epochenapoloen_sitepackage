@@ -183,11 +183,11 @@ ul.mainnav li a:hover {
 	font-weight: bold;
 }
 /* Alphabetical Navigation */
-#abcmenu
-.glossary {
+#abcmenu {
 	margin-bottom: 1.0rem;
 }
-.cM {
+.cM,
+.glossary {
 	margin-top: 1.0rem;
 	list-style: none inside;
 	display: block;
@@ -202,7 +202,8 @@ ul.mainnav li a:hover {
 }
 .cM li.cM_NO,
 .cM li.cM_ACT,
-.cM li.cM_CUR {
+.cM li.cM_CUR,
+.glossayry li {
 	border: 1px solid #000033;
 	display: inline;
 	background: #000033;
