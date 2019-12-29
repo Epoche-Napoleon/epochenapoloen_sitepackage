@@ -212,7 +212,8 @@ ul.mainnav li a:hover {
 .cM_NO a,
 .cM_NO a:link,
 .cM_NO a:visited,
-.cM_NO A:focus {
+.cM_NO a:focus,
+.glossary li a {
 	color: #FFCC33;
 	text-decoration: none;
 	border: 3px solid #000044;
@@ -223,10 +224,14 @@ ul.mainnav li a:hover {
 .cM_CUR a:hover,
 .cM_CUR A:focus,
 .cM_NO a:active,
-.cM_NO a:hover {
+.cM_NO a:hover,
+.glossary li a {
 	color: #000044;
 	background: #FFFFCC;
 	border: 3px solid #FFFFCC;
+}
+.glossary li span {
+	display: none
 }
 nav dl.csc-menu-4 {
 	border-left: 1px solid #0033FF;
