@@ -238,7 +238,7 @@ ul.mainnav li a:hover {
 	display: inline-block;
 	font-weight: 900;
 	color: #000044;
-	content: "\f35a
+	content: "\f35a";
 	margin-right: 0.5rem;
 	font-style: normal;
 }
