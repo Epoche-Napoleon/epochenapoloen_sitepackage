@@ -424,7 +424,8 @@ blockquote, q {
 .glossary ul li {
 	list-style-type: none;
 	margin: 0;
-	paddig: 0
+	padding: 0;
+	display: inline;
 }
 .person-men::before {
 	font-family: "Font Awesome 5 free";
