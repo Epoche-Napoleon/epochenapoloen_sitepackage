@@ -418,7 +418,7 @@ blockquote, q {
 .glossary {
 	background: #1c94c4;
 }
-.glossary ul {
+.glossary ul li {
 	list-style-type: none;
 	margin: 0;
 	paddig: 0
