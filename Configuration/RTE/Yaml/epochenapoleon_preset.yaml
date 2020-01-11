@@ -155,7 +155,7 @@ classes.:
     name: 'Link auf externe Seite'
   link-external-blank:
     name: 'Link auf neue externe Seite'
-    link-mail:
+  link-mail:
     name: 'Email-Verknüpfung'
   Person (Mann):
     class: 'person-men'
