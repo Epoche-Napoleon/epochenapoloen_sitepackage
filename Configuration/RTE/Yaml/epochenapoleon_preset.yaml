@@ -30,7 +30,7 @@ editor:
       - { name: "Person zu bearbeiten", element: 'span', attributes: {class: 'person'} }
       - { name: "Person Frau", element: 'span', attributes: {class: 'person-women'} }
       - { name: "Person Mann", element: 'span', attributes: {class: 'person-men'} }
-      - { name: "Quelle", element: 'span', attributes: {class: 'quelle-online'}}
+      - { name: "Quelle", element: 'span', attributes: {class: 'quelle-online'} }
       - { name: "Werktitel", element: 'span', attributes: { class: 'werktitel'} }
       - { name: "Glossar", element: 'span', attributes: {class: 'glossary-link'} }
       - { name: "Rote Schrift", element: 'span', attributes: { class: 'highlighted red'} }
