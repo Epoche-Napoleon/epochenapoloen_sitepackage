@@ -77,6 +77,7 @@
 						</f:for>
 						</span>
 					</f:if>
+
 					<f:if condition="{newsItem.author}">
 						<!-- author -->
 						<span class="news-list-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">
@@ -92,16 +93,38 @@
 						<f:format.html>{newsItem.teaser}</f:format.html>
 					</div>
 				</f:if>
-				<!-- main text -->
+
+				<f:if condition="{newsItem.contentElements}">
+					<!-- content elements -->
+					<f:cObject typoscriptObjectPath="lib.tx_news.contentElementRendering">{newsItem.contentElementIdList}</f:cObject>
+				</f:if>
+
 				<f:render partial="Detail/MediaContainer" arguments="{media: newsItem.mediaNonPreviews, settings:settings}" />
-				<f:if condition="{settings.backPid}">
+
+				<!-- main text -->
 				<div class="news-text-wrap" itemprop="articleBody">
 					<f:format.html>{newsItem.bodytext}</f:format.html>
 				</div>
 			</n:renderMedia>
-			<f:if condition="{newsItem.contentElements}">
-				<!-- content elements -->
-				<f:cObject typoscriptObjectPath="lib.tx_news.contentElementRendering">{newsItem.contentElementIdList}</f:cObject>
+
+			<f:if condition="{settings.backPid}">
+				<!-- Link Back -->
+				<div class="news-backlink-wrap">
+					<f:link.page pageUid="{settings.backPid}">
+						<f:translate key="back-link" />
+					</f:link.page>
+				</div>
+			</f:if>
+
+			<f:if condition="{settings.detail.showSocialShareButtons}">
+				<f:comment>
+					Care about the privacy of your readers?
+					Checkout https://typo3.org/extensions/repository/view/rx_shariff
+					and it will be used automatically!
+				</f:comment>
+				<n:extensionLoaded extensionKey="rx_shariff">
+					<f:render partial="Detail/Shariff" />
+				</n:extensionLoaded>
 			</f:if>
 
 			<f:if condition="{settings.detail.disqusShortname}">
@@ -184,13 +207,6 @@
 			</div>
 		</f:then>
 		<f:else>
-			<!-- Link Back -->
-			<div class="news-backlink-wrap">
-				<f:link.page pageUid="{settings.backPid}">
-					<f:translate key="back-link" />
-				</f:link.page>
-			</div>
-	</f:if>
 
 		</f:else>
 	</f:if>
