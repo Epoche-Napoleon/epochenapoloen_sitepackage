@@ -94,11 +94,6 @@
 					</div>
 				</f:if>
 
-				<f:if condition="{newsItem.contentElements}">
-					<!-- content elements -->
-					<f:cObject typoscriptObjectPath="lib.tx_news.contentElementRendering">{newsItem.contentElementIdList}</f:cObject>
-				</f:if>
-
 				<f:render partial="Detail/MediaContainer" arguments="{media: newsItem.mediaNonPreviews, settings:settings}" />
 
 				<!-- main text -->
@@ -122,7 +117,10 @@
 								 shortName="{settings.detail.disqusShortname}"
 								 link="{n:link(newsItem:newsItem, settings:settings, uriOnly:1, configuration:'{forceAbsoluteUrl:1}')}" />
 			</f:if>
-
+			<f:if condition="{newsItem.contentElements}">
+				<!-- content elements -->
+				<f:cObject typoscriptObjectPath="lib.tx_news.contentElementRendering">{newsItem.contentElementIdList}</f:cObject>
+			</f:if>
 			<!-- related things -->
 			<div class="news-related-wrap">
 				<f:comment>
