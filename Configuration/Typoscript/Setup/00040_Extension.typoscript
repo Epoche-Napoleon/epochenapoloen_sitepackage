@@ -52,6 +52,12 @@ plugin.tx_news {
 		showSocialShareButtons = 0
 		showMetaTags = 1
 		format = xml
+		media {
+			image >
+			image {
+				maxWidth = 300
+			}
+		}
 	}
 	list {
 		media {
