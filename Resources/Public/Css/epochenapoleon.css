@@ -738,6 +738,51 @@ sub {
 	font-size: 0.6rem;
 	line-height: 0.5rem
 }
+@media (max-width: 992px) {
+	/* rechte spalte ausblenden */
+	#right {
+		display: none;
+		visibility: hidden;
+	}
+	/* Links positionieren */
+	#left {
+		display: block;
+		position: absolute;
+		z-index: 10;
+		left: 0;
+		background: white;
+		width: 200px;
+		display: flex;
+		flex-wrap: nowrap ;
+		flex-direction: row;
+		margin-left: -200px;
+		transition: all 400ms ease-in-out;
+	}
+	#left #menu  {
+		width: calc(100% );
+	}
+	#left #menu .mainnav:after {
+		content: ' ';
+		position: absolute;
+		top: 0;
+		right: -34px;
+		width: 30px;
+		height: 30px;
+		border: 2px solid black;
+		background: white;
+	}
+	/* Mitte nachjustieren */
+	#center {
+		width: 100%;
+	}
+	#left:hover {
+		margin-left: 0;
+	}
+	/* ist irgendwo definiert, kann raus statt hier zu überschreiben */
+	#wrapper {
+		min-width: 0;
+	}
+}
 @media (min-width: 800px) {
 	.col-md-6 {
 		width: 45%;
