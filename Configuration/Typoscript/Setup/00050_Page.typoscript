@@ -1,5 +1,8 @@
 page = PAGE
 page {
+	meta {
+		viewport = width=device-width, install-scale=1.0
+	}
 	typeNum = 0
 	config {
 		headerData.5 = COA
@@ -40,7 +43,7 @@ page {
 		disableAllHeaderCode = 0
 		disablePrefixComment = {$entwicklung}
 		inlineStyle2TempFile = 1
-
+		metaCharset = utf-8
 		moveJsFromHeaderToFooter = 1
 
 		compressCss = 1
