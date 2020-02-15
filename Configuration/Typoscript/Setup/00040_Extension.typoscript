@@ -71,7 +71,7 @@ plugin.tx_news {
 	}
 	link {
 		SkipControllerAndAction = 1
-		hrDate = 0
+		hrDate = 1
 		hrDate {
 			year = Y
 			month = m
