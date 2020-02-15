@@ -789,9 +789,6 @@ sub {
 	}
 	.row-left {
 		padding-left: 1%;
-		/*
-		border-right: 1px dotted #333333;
-		 */
 	}
 	.row-right {
 		padding-right: 2%;

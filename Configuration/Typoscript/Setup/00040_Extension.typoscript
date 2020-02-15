@@ -38,6 +38,7 @@ plugin.tx_pbsocial {
 # tx_news #
 plugin.tx_news {
 	settings {
+		detailPid = 28
 		backPid = 25
 		linkPid = 25
 		displayDummyIfNoMedia = 1
@@ -70,7 +71,7 @@ plugin.tx_news {
 	}
 	link {
 		SkipControllerAndAction = 1
-		hrDate = 1
+		hrDate = 0
 		hrDate {
 			year = Y
 			month = m
