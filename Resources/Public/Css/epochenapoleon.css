@@ -617,30 +617,6 @@ h4.person {
 	flex-wrap: wrap;
 }
 
-/* pb_social */
-.tx-pb-social .pb-list {
-	position: relative;
-	width: 100%;
-	margin: 10px 0 0;
-	background-color: #e00;
-}
-.tx-pb-social .pb-list:after {
-	content: "";
-	display: block;
-	clear: both;
-}
-
-
-.tx-pb-social .pb-list-item {
-	position: relative;
-	box-sizing: border-box;
-	float: left;
-	width: calc(50% - 10px);
-	height: 250px;
-	margin: 10px 0 0;
-	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
-}
-
 /* tx_news */
 .news-list-author::before {
 	font-family: "Font Awesome 5 freeco";
@@ -648,7 +624,6 @@ h4.person {
 	font-weight: 900;
 	color: #000099;
 	content: "\f007";
-	margin-right: 0.5rem;
 	font-style: normal;
 }
 .news-author-name {
