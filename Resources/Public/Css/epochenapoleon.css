@@ -624,8 +624,10 @@ h4.person {
 	font-weight: 900;
 	color: #000033;
 	content: "\f183";
-	margin-right: 0.5rem;
 	font-style: normal;
+}
+.news-list-author {
+	margin-left: 1rem;
 }
 .news-author-name {
 	display: block;
@@ -636,9 +638,7 @@ h4.person {
 .news-text-wrap h4 {
 	text-align: left;
 }
-.news-list-author {
-	margin-left: 1rem;
-}
+
 .news-list-date::before {
 	font-family: "Font Awesome 5 free";
 	display: inline-block;
