@@ -619,11 +619,12 @@ h4.person {
 
 /* tx_news */
 .news-list-author::before {
-	font-family: "Font Awesome 5 freeco";
+	font-family: "Font Awesome 5 free";
 	display: inline-block;
 	font-weight: 900;
-	color: #000099;
-	content: "\f007";
+	color: #000033;
+	content: "\f183";
+	margin-right: 0.5rem;
 	font-style: normal;
 }
 .news-author-name {
@@ -637,6 +638,15 @@ h4.person {
 }
 .news-list-author {
 	margin-left: 1rem;
+}
+.news-list-date::before {
+	font-family: "Font Awesome 5 free";
+	display: inline-block;
+	font-weight: 900;
+	color: #000033;
+	content: "\f183";
+	margin-right: 0.5rem;
+	font-style: normal;
 }
 .news-list-date {
 	margin-left: 1rem;
