@@ -719,7 +719,9 @@ h4.person {
 	display: block;
 	text-align: left;
 }
-
+.news-header {
+	color: #EE0000;
+}
 
 hr.clearboth {
 	clear: both;
