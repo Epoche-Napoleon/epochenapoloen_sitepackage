@@ -61,7 +61,7 @@
 					<f:if condition="{newsItem.author}">
 						<!-- author -->
 						<span class="news-list-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">
-							<f:translate key="author_simple" /> <span itemprop="name">{newsItem.author}</span>
+							<f:translate key="author_simple" /> <span class="news-author-name" sitemprop="name">{newsItem.author}</span>
 						</span>
 					</f:if>
 					<!-- date -->
@@ -83,8 +83,6 @@
 						</f:for>
 						</span>
 					</f:if>
-
-
 			</div>
 			<n:renderMedia news="{newsItem}" imgClass="img-responsive" videoClass="video-wrapper" audioClass="audio-wrapper">
 				<f:if condition="{newsItem.teaser}">

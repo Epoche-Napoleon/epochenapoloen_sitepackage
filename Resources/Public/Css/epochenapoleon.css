@@ -653,7 +653,6 @@ h4.person {
 .news-text-wrap h4 {
 	text-align: left;
 }
-
 .news-list-author {
 	margin-left: 1rem;
 }
@@ -671,13 +670,11 @@ h4.person {
 .news-text-wrap  h4{
 	text-align: left;
 }
-
 .news-related h4 {
 	margin-bottom: 10px;
 	text-align: left;
 	color: #E00000;
 }
-
 .news-img-caption {
 	font-size: 0.8rem;
 	background: #FFFFFF;
@@ -702,13 +699,11 @@ h4.person {
 .news-menu-view {
 	background: #cccccc;
 }
-
 .news-menu-view  ul li{
 	background: #aaaaaa;
 	color: #000099;
 	text-align: center;
 }
-
 .news-menu-view ul li ul li.itrem {
 	background: #cccccc;
 	color: #000099;
