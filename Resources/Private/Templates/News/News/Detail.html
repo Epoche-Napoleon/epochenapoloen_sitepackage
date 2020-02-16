@@ -53,6 +53,14 @@
 					</f:if>
 				</n:simplePrevNext>
 			</f:if>
+			<f:if condition="{settings.backPid}">
+				<!-- Link Back -->
+				<div class="news-backlink-wrap">
+					<f:link.page pageUid="{settings.backPid}">
+						<f:translate key="back-link" />
+					</f:link.page>
+				</div>
+			</f:if>
 			<div class="header">
 				<h1 class="news-header" itemprop="headline">{newsItem.title}</h1>
 			</div>
@@ -99,16 +107,6 @@
 					<f:format.html>{newsItem.bodytext}</f:format.html>
 				</div>
 			</n:renderMedia>
-
-			<f:if condition="{settings.backPid}">
-				<!-- Link Back -->
-				<div class="news-backlink-wrap">
-					<f:link.page pageUid="{settings.backPid}">
-						<f:translate key="back-link" />
-					</f:link.page>
-				</div>
-			</f:if>
-
 			<f:if condition="{settings.detail.disqusShortname}">
 				<div id="disqus_thread"></div>
 				<n:social.disqus newsItem="{newsItem}"
@@ -187,6 +185,14 @@
 								</li>
 							</f:for>
 						</ul>
+					</div>
+				</f:if>
+				<f:if condition="{settings.backPid}">
+					<!-- Link Back -->
+					<div class="news-backlink-wrap">
+						<f:link.page pageUid="{settings.backPid}">
+							<f:translate key="back-link" />
+						</f:link.page>
 					</div>
 				</f:if>
 			</div>
