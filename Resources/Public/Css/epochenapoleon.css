@@ -642,12 +642,12 @@ h4.person {
 }
 
 /* tx_news */
-.news {
+.news-list-author {
 	font-family: "Font Awesome 5 freeco";
 	display: inline-block;
 	font-weight: 900;
 	color: #000099;
-	content: "\f518";
+	content: "\f007";
 	margin-right: 0.5rem;
 	font-style: normal;
 }
@@ -725,7 +725,9 @@ h4.person {
 .news-header {
 	color: #EE0000;
 }
-
+news-backlink-wrap {
+	color: #000099;
+}
 hr.clearboth {
 	clear: both;
 	color: #EEEEEE;
