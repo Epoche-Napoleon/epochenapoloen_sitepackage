@@ -651,7 +651,6 @@ h4.person {
 	margin-right: 0.5rem;
 	font-style: normal;
 }
-
 .news-author-name {
 	display: block;
 	font-size: 1rem;
@@ -677,6 +676,11 @@ h4.person {
 }
 .news-text-wrap  h4{
 	text-align: left;
+}
+.news-backlink-wrap {
+	display: block;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
 }
 .news-related h4 {
 	margin-bottom: 10px;
