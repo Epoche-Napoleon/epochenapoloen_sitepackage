@@ -642,7 +642,7 @@ h4.person {
 }
 
 /* tx_news */
-.news-list-author {
+.news-list-author::before {
 	font-family: "Font Awesome 5 freeco";
 	display: inline-block;
 	font-weight: 900;
