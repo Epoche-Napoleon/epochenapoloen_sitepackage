@@ -623,7 +623,7 @@ h4.person {
 	display: inline-block;
 	font-weight: 900;
 	color: #000033;
-	content: "\f183";
+	content: "\f007";
 	font-style: normal;
 }
 .news-list-author {
@@ -644,7 +644,7 @@ h4.person {
 	display: inline-block;
 	font-weight: 900;
 	color: #000033;
-	content: "\f183";
+	content: "\f783";
 	margin-right: 0.5rem;
 	font-style: normal;
 }
