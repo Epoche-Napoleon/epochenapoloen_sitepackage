@@ -815,6 +815,18 @@ sub {
 		background-color: #4caf50;
 		color: white;
 	}
+	#menu .mainnav li a:not(:first-child) {
+		display: none;
+	}
+	#menu .mainnav a.icon {
+		float: right;
+		display: block;
+	}
+	#menu .mainnav.responsive a {
+		float: none;
+		display: block;
+		text-align: left;
+	}
 }
 @media (min-width: 800px) {
 	.col-md-6 {
