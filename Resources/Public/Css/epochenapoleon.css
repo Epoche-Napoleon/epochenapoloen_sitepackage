@@ -163,6 +163,9 @@ ul.mainnav li a:hover {
 	background: #FFCC33;
 	border: 1px solid #ffffc7;
 }
+.mainnav li .icon {
+	display: none;
+}
 /* Pfadnavigation */
 #pfad {
 	margin-top: 0.5rem;
