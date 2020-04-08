@@ -787,6 +787,13 @@ sub {
 		margin-left: 0;
 	}
 	*/
+	#maincontent {
+		flex-direction: column;
+	}
+	#left {
+		order: 1;
+		width: 100%;
+	}
 	#menu {
 		overflow: hidden;
 		background-color: #333;
