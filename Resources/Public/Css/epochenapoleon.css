@@ -16,7 +16,7 @@ body {
 	/*
 	min-width: 770px;
 	max-width: 990px;
-	 */
+	*/
 	background: #FFFFFF;
 }
 
@@ -758,7 +758,7 @@ sub {
 		flex-wrap: nowrap ;
 		flex-direction: row;
 		margin-left: -200px;
-		transition: all 400ms ease-in-out;
+		transition: all 800ms ease-in-out;
 	}
 	#left #menu  {
 		width: calc(100% );
@@ -780,10 +780,11 @@ sub {
 	#left:hover {
 		margin-left: 0;
 	}
-	/* ist irgendwo definiert, kann raus statt hier zu überschreiben */
+	/* ist irgendwo definiert, kann raus statt hier zu überschreiben
 	#wrapper {
 		min-width: 0;
 	}
+	 */
 }
 @media (min-width: 800px) {
 	.col-md-6 {
