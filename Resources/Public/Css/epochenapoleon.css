@@ -811,7 +811,7 @@ sub {
 }
 @media (min-width: 800px) {
 	.col-md-6 {
-		width: 45%;
+		width: 100%;
 	}
 	.row-left {
 		padding-left: 1%;
