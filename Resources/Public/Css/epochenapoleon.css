@@ -746,10 +746,8 @@ sub {
 		display: none;
 		visibility: hidden;
 	}
-	/* Menü positionieren */
-	,
-
 	/* Links positionieren */
+	/*
 	#left {
 		display: block;
 		position: absolute;
@@ -776,13 +774,16 @@ sub {
 		border: 2px solid black;
 		background: white;
 	}
+	*/
 	/* Mitte nachjustieren */
+	/*
 	#center {
 		width: 100%;
 	}
 	#left:hover {
 		margin-left: 0;
 	}
+	*/
 	#menu {
 		overflow: hidden;
 		background-color: #333;
