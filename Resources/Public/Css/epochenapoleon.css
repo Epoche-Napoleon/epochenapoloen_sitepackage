@@ -805,7 +805,7 @@ sub {
 		text-align: center;
 		padding: 14px 16px;
 		text-decoration: none;
-		font-size: 17;
+		font-size: 17px;
 	}
 	#menu .mainnav li a:hover {
 		background-color: #dddddd;
