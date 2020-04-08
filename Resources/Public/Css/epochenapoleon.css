@@ -112,7 +112,7 @@ ul.stm-menu a {
 
 #left {
 	order: 1;
-	width: 20%;
+	width: 10%;
 }
 #center {
 	order: 2;
@@ -746,6 +746,9 @@ sub {
 		display: none;
 		visibility: hidden;
 	}
+	/* Menü positionieren */
+	,
+
 	/* Links positionieren */
 	#left {
 		display: block;
@@ -780,11 +783,27 @@ sub {
 	#left:hover {
 		margin-left: 0;
 	}
-	/* ist irgendwo definiert, kann raus statt hier zu überschreiben
-	#wrapper {
-		min-width: 0;
+	#menu {
+		overflow: hidden;
+		background-color: #333;
 	}
-	 */
+	#menu .mainnav li a {
+		float: left;
+		display: block;
+		color: #2f2f2f;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 17;
+	}
+	#menu .mainnav li a:hover {
+		background-color: #dddddd;
+		color: black;
+	}
+	#menu .mainnav li a:active {
+		background-color: #4caf50;
+		color: white;
+	}
 }
 @media (min-width: 800px) {
 	.col-md-6 {
