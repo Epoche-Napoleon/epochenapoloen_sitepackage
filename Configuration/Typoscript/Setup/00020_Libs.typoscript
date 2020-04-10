@@ -21,9 +21,7 @@ lib.mainmenu = HMENU
 lib.mainmenu {
 	entryLevel = 0
 	noBlur = 1
-	wrap = <nav id="menu"><ul class="mainnav"> | </ul><a href="javascript:void(0);" class="icon" onclick="myFunction()">
-<i class="fa fa-bars"></i>
-</a></nav>
+	wrap = <nav id="menu"><ul class="mainnav"> | </ul></nav>
 	# Einträge für die oberste Menüebende
 	1 = TMENU
 	1 {
