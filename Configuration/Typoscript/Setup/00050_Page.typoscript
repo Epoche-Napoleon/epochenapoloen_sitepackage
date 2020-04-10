@@ -87,12 +87,12 @@ page {
 		layoutRootPaths {
 			0 = EXT:epochenapoleon_sitepackage/Resources/Private/Layouts/Page/
 			1 = {$page.fluidtemplate.10.layoutRootPath}
-			2 = EXT:bootstrap_package/Resources/Private/Layouts/Page/
+			2 = EXT:bootstrap_package/Resources/Private/Layouts/
 		}
 		partialRootPaths {
 			0 = EXT:epochenapoleon_sitepackage/Resources/Private/Partials/Page/
 			1 = {$page.fluidtemplate.10.partialRootPath}
-			2 = EXT:bootstrap_package/Resources/Private/Partials/Page/
+			2 = EXT:bootstrap_package/Resources/Private/Partials/
 		}
 		templateRootPaths {
 			0 = EXT:epochenapoleon_sitepackage/Resources/Private/Templates/Page/
