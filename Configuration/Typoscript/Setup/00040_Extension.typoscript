@@ -158,4 +158,4 @@ plugin.tx_min {
 plugin.tx_ckeditor_fontawesome {
 	loadCSS = 1
 	css = https://use.fontawesome.com/releases/v5.8.1/css/all.css
-4 }
+}
