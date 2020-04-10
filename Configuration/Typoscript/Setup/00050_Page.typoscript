@@ -75,9 +75,6 @@ page {
 			disableCompression = 1
 			excludeFromConcatenation = 1
 			forceOnTop = 1
-			/*
-			integrity = sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT
-			*/
 		}
 		file02 = EXT:bootstrap_grids/Resources/Public/Flexslider2/jquery.flexslider.js
 	}
