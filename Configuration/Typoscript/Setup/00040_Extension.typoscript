@@ -126,6 +126,44 @@ plugin.tx_seo {
 				}
 			}
 		}
+		xmlSitemap {
+			sitemaps {
+				news {
+					provider = GeorgRinger\News\Seo\NewsXmlSitemapDataProvider
+					config {
+						excludedTypes = 1,2
+						additionalWhere =
+
+						sortField = datetime
+						lastModifiedField = tstamp
+						pid = 19
+						recursive = 2
+						url {
+							pageId = 28
+							useCategorySinglePid = 1
+
+							hrDate = 0
+							hrDate {
+								day = j
+								month = m
+								year = Y
+							}
+
+							fieldToParameterMap {
+								uid = tx_news_pi1[news]
+							}
+
+							additionalGetParameters {
+								tx_news_pi1.controller = News
+								tx_news_pi1.action = detail
+							}
+
+							useCacheHash = 1
+						}
+					}
+				}
+			}
+		}
 	}
 }
 
