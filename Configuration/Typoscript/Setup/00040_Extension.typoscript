@@ -48,7 +48,7 @@ plugin.tx_news {
 		}
 	}
 	detail {
-		showPrevNext = 0
+		showPrevNext = 1
 		showSocialShareButtons = 0
 		showMetaTags = 1
 		format = xml
