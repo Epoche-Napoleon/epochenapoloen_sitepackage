@@ -44,56 +44,57 @@ plugin.tx_news {
 		list {
 			media {
 				dummyImage = fileadmin/bilder/presse/logo/epoche-napoleon.jpg
+				image {
+					maxWidth = 300
+				}
+			}
+		}
+		analytics {
+			social {
+				facebookLike = 0
+				facebookShare = 0
+				twitter = 0
+			}
+		}
+		detail {
+			showPrevNext = 1
+			showSocialShareButtons = 0
+			showMetaTags = 1
+			format = xml
+		}
+		list {
+			paginate {
+				itemsPerPage = 10
+				insertAbove = 1
+				insertBelow = 1
+				templatePath =
+				prevNextHeaderTags = 1
+				maximumNumberOfLinks = 3
+			}
+			media {
+				image >
+				image {
+					maxWidth = 100
+					maxheight = 100
+				}
+			}
+		}
+		link {
+			skipControllerAndAction = 1
+			hrDate = 1
+			hrDate {
+				year = Y
+				month = m
+				day = d
 			}
 		}
 	}
-	detail {
-		showPrevNext = 1
-		showSocialShareButtons = 0
-		showMetaTags = 1
-		format = xml
-		media {
-			image >
-			image {
-				maxWidth = 300
-			}
-		}
-	}
-	list {
-		media {
-			image >
-			image {
-				maxWidth = 100
-				maxHeight = 100
-			}
-		}
-	}
-	link {
-		SkipControllerAndAction = 0
-		hrDate = 1
-		hrDate {
-			year = Y
-			month = m
-			day = d
-		}
-	}
-	paginate {
-		itemsPerPage = 10
-		insertAbove = 1
-		insertBelow = 1
-		templatePath =
-		prevNextHeaderTags = 1
-		maximunNumberOfLinks = 3
-	}
-	analytics {
-		social {
-			facebookLike = 0
-			facebookShare = 0
-			twitter = 0
-		}
-	}
-	predefine.archive = +1 Month
 }
+
+
+
+
+
 plugin.tx_seo {
 	config {
 		sitemaps {

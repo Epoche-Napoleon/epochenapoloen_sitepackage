@@ -3,7 +3,7 @@ tx_news {
 	# Allows to preset further layouts for the Flexform selection in the content element
 	}
 	# Preset Archival Date for all messages: 1 month after creation
-	predeine.archive = 1 month
+	predeine.archive = +1 month
 	module {
 		defaultPid.tx_news_domain_model_news = 19
 		controlPanals = 1
