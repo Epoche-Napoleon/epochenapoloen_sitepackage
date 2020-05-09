@@ -20,6 +20,8 @@ page {
 				wrap = &nbsp;&#124;&nbsp; |
 			}
 			wrap = <title>|</title>
+			100 = TEXT
+			100.value = <meta name="google-site-verification" content="qvf2OQpUL_wwaBOXE_UDjfBgQrJ9sXxz0wMpjb_UB4A" />
 		}
 		headerComment (
 			Das Projekt EPOCHE NAPOLEON ist ein nicht kommerzielles Geschichtsportral.
@@ -34,7 +36,6 @@ page {
 			70.header = Referrer-Policy:strict-origin
 			80.header = Content-Security-Policy: script-src 'self' 'unsafe-inline' 'unsafe-hashes' https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js https://www.googletagmanager.com/gtag/js?id=UA-50240478-1; font-src 'self' https://use.fontawesome.com/releases/v5.8.1/css/all.css
 			90.header = Feature-Policy: microphone 'none'; camera 'none'; vibrate 'none'; usb 'none',
-			100.header = <meta name="google-site-verification" content="qvf2OQpUL_wwaBOXE_UDjfBgQrJ9sXxz0wMpjb_UB4A" />
 		}
 		shortcutIcon = fileadmin/system/favicon.ico
 		doctype = html5
