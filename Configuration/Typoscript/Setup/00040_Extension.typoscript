@@ -80,7 +80,7 @@ plugin.tx_news {
 			}
 		}
 		link {
-			skipControllerAndAction = 0
+			skipControllerAndAction = 1
 			hrDate = 1
 			hrDate {
 				year = Y
