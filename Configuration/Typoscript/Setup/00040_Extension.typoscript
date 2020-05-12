@@ -43,7 +43,7 @@ plugin.tx_news {
 		displayDummyIfNoMedia = 1
 		list {
 			media {
-				dummyImage = fileadmin/bilder/presse/logo/epoche-napoleon.jpg
+				dummyImage = fileadmin/bilder/logo/epoche-napoleon.jpg
 				image {
 					maxWidth = 300
 				}
