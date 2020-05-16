@@ -25,6 +25,7 @@ page {
 			Das Projekt EPOCHE NAPOLEON ist ein nicht kommerzielles Geschichtsportral.
 		)
 		additionalHeaders {
+	/*
 			10.header = Server:
 			20.header = X-Powered-By: Napoléon Bonaparte
 			30.header = strict-transport-security:max-age=63072000; includeSubDomains; preload
@@ -32,8 +33,9 @@ page {
 			50.header = X-Xss-Protection: 1; mode=block
 			60.header = X-Content-Type-Options: nosniff
 			70.header = Referrer-Policy:strict-origin
-	#		80.header = Content-Security-Policy: default-scr 'self' https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js https://maps.googleapis.com https://maps.gstatic.com https://www.googletagmanager.com/gtag/js?id=UA-50240478-1; font-src 'self' https://use.fontawesome.com/releases/v5.8.1/css/all.css
+			80.header = Content-Security-Policy: default-scr 'self' https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js https://maps.googleapis.com https://maps.gstatic.com https://www.googletagmanager.com/gtag/js?id=UA-50240478-1; font-src 'self' https://use.fontawesome.com/releases/v5.8.1/css/all.css
 			90.header = Feature-Policy: microphone 'none'; camera 'none'; vibrate 'none'; usb 'none',
+	*/
 		}
 		shortcutIcon = fileadmin/system/favicon.ico
 		doctype = html5
