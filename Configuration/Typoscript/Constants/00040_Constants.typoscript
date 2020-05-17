@@ -4,3 +4,11 @@ temp.headerlogo.image = EXT:epochenapoleon_sitepackage/Resources/Public/Images/l
 temp.favicon.image = EXT:epochenapoleon_sitepackage/Resources/Public/Favicon/
 
 cache = 0
+plugin.tx_maps2 {
+	persistence {
+
+		# Define Storage PID where Maps records are located
+		storagePid = 6824
+	}
+	view.googleMapsJavaScriptApiKey = AIzaSyAjVhpqWCVI0fBnSWX7qqgp_GlChrO5KK0
+}

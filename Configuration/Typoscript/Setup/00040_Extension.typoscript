@@ -29,15 +29,6 @@ plugin.tx_beaconizer_seealso {
 		}
 	}
 }
-# Maps2@todo
-plugin.tx_maps2 {
-	persistence {
-
-		# Define Storage PID where Maps records are located
-	storagePid = 6824
-	}
-	view.googleMapsJavaScriptApiKey = AIzaSyAjVhpqWCVI0fBnSWX7qqgp_GlChrO5KK0
-}
 # News
 plugin.tx_news {
 	settings {
