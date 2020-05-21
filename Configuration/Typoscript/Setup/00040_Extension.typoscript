@@ -12,7 +12,6 @@ plugin.tx_beaconizer {
 		templateRootPaths.10 = EXT:beaconizer/Resources/Private/HTML/Templates/
 	}
 }
-
 plugin.tx_beaconizer_generator {
 	persistence {
 		classes {
