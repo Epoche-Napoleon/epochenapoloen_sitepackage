@@ -5,6 +5,14 @@ plugin.tx_glossary2.persistence {
 }
 
 # Beaconizer
+plugin.tx_beaconizer {
+	view {
+		layoutRootPaths.10 = EXT:beaconizer/Resources/Private/HTML/Layouts/
+		partialRootPaths.10 = 	EXT:beaconizer/Resources/Private/HTML/Partials/
+		templateRootPaths.10 = EXT:beaconizer/Resources/Private/HTML/Templates/
+	}
+}
+
 plugin.tx_beaconizer_generator {
 	persistence {
 		classes {
@@ -85,11 +93,6 @@ plugin.tx_news {
 		}
 	}
 }
-
-
-
-
-
 plugin.tx_seo {
 	config {
 		sitemaps {
