@@ -13,6 +13,14 @@ plugin.tx_beaconizer {
 	}
 }
 plugin.tx_beaconizer_generator {
+	view {
+		layoutRootPaths.10 = EXT:beaconizer/Resources/Private/BEACON/Layouts/
+		partialRootPaths.10 = EXT:beaconizer/Resources/Private/BEACON/Partials/
+		templateRootPaths.10 = EXT:beaconizer/Resources/Private/BEACON/Templates/Generator/
+	}
+}
+
+plugin.tx_beaconizer_generator {
 	persistence {
 		classes {
 			ADWLM\Beaconizer\Domain\Model\GeneratedLinks {
