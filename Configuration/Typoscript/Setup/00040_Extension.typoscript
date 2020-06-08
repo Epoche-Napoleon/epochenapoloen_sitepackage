@@ -9,7 +9,7 @@ plugin.tx_beaconizer {
 	view {
 		layoutRootPaths.10 = EXT:beaconizer/Resources/Private/HTML/Layouts/
 		partialRootPaths.10 = 	EXT:beaconizer/Resources/Private/HTML/Partials/
-		templateRootPaths.10 = EXT:beaconizer/Resources/Private/HTML/Templates/
+		templateRootPaths.10 = EXT:beaconizer/Resources/Private/HTML/Templates/SeeAlso/
 	}
 }
 plugin.tx_beaconizer_generator {
@@ -27,7 +27,7 @@ plugin.tx_beaconizer_generator {
 				mapping {
 					tableName = pages
 					columns {
-						source_Identifier.mapOnProperty = source_Identifier
+						source_identifier.mapOnProperty = source_Identifier
 					}
 				}
 			}
@@ -38,7 +38,7 @@ plugin.tx_beaconizer_seealso {
 	settings {
 		objectMapping {
 			ADWLM\Beaconizer\Domain\Model\Page {
-				argumentName = id
+				argumentName = pages
 				sourceIdentifierProperty = sourceIdentifier
 			}
 		}
@@ -90,7 +90,7 @@ plugin.tx_news {
 			}
 		}
 		link {
-			skipControllerAndAction = 1
+			skipControllerAndAction = 0
 			hrDate = 1
 			hrDate {
 				year = Y
