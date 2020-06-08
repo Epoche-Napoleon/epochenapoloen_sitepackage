@@ -94,8 +94,8 @@ plugin.tx_news {
 			hrDate = 1
 			hrDate {
 				year = Y
-				month = n
-				day = j
+				month = m
+				day = d
 			}
 		}
 	}
