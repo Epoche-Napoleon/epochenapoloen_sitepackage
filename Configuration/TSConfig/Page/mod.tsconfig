@@ -41,6 +41,90 @@ mod {
 					}
 				}
 			}
+			2col {
+				title = 2 Spalten
+				icon = EXT:epochenapoleon_sitepackage/Resources/Public/Icons/gridlayout_col2.gif
+				config {
+					backend_layout {
+						colCount = 2
+						rowCount = 1
+						rows {
+							1 {
+								columns {
+									1 {
+										name = Spalte 1
+										colPos = 101
+									}
+									2 {
+										name = Spalte 2
+										colPos = 102
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			3col {
+				title = 3 Spalten
+				icon = EXT:epochenapoleon_sitepackage/Resources/Public/Icons/gridlayout_col3.gif
+				config {
+					backend_layout {
+						colCount = 3
+						rowCount = 1
+						rows {
+							1 {
+								columns {
+									1 {
+										name = Spalte 1
+										colPos = 101
+									}
+									2 {
+										name = Spalte 2
+										colPos = 102
+									}
+									3 {
+										name = Spalte 3
+										colPos = 103
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			4col {
+				title = 4 Spalten
+				icon = EXT:epochenapoleon_sitepackage/Resources/Public/Icons/gridlayout_col4.gif
+				config {
+					backend_layout {
+						colCount = 4
+						rowCount = 1
+						rows {
+							1 {
+								columns {
+									1 {
+										name = Spalte 1
+										colPos = 101
+									}
+									2 {
+										name = Spalte 2
+										colPos = 102
+									}
+									3 {
+										name = Spalte 3
+										colPos = 103
+									}
+									4 {
+										name = Spalte 4
+										colPos = 104
+									}
+								}
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 	web_list {
