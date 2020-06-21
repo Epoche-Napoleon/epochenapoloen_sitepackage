@@ -4,7 +4,7 @@ tt_content {
 			settings {
 				enableBackend = 1
 				data {
-					lang = en, en
+					lang = de, en
 					mail-body = Hier können Sie ihre Nachricht schreiben.
 					mail-subject = Teile die Seite EPOCHE NAPOLEON
 					mail-url = mailto:redaktion@epoche-napoleon.net
@@ -23,8 +23,8 @@ tt_content {
 	gridelements_view < tt_content.gridelements_pi1
 
 	gridelements_pi1.20.10.setup {
-		2cols < lib.gridelements.defaultGridSetup
-		2cols {
+		1 < lib.gridelements.defaultGridSetup
+		1 {
 			columns {
 				10 < .default
 				10.wrap = <div class="101">|</div>
@@ -33,8 +33,8 @@ tt_content {
 				20.wrap = <div class="102">|</div>
 			}
 		}
-		3cols < lib.gridelements.defaultGridSetup
-		3cols {
+		2 < lib.gridelements.defaultGridSetup
+		2 {
 			columns {
 				10 < .default
 				10.wrap = <div class="101">|</div>
@@ -46,7 +46,8 @@ tt_content {
 				30.wrap = <div class="103">|</div>
 			}
 		}
-		4cols {
+		3 < lib.gridelements.defaultGridSetup
+		3 {
 			columns {
 				10 < .default
 				10.wrap = <div class="101">|</div>
