@@ -24,44 +24,44 @@ tt_content {
 		1 {
 			columns {
 				101 < .default
-				101.wrap = <div class="101">|</div>
+				101.wrap = <div class="c101">|</div>
 
 				102 < .default
-				102.wrap = <div class="102">|</div>
+				102.wrap = <div class="c102">|</div>
 			}
-			wrap = <div class="2cols">|</div>
+			wrap = <div class="cols2">|</div>
 		}
 
 		2 < lib.gridelements.defaultGridSetup
 		2 {
 			columns {
 				101 < .default
-				101.wrap = <div class="101">|</div>
+				101.wrap = <div class="c101">|</div>
 
 				102 < .default
-				102.wrap = <div class="102">|</div>
+				102.wrap = <div class="c102">|</div>
 
 				103 < .default
-				103.wrap = <div class="103">|</div>
+				103.wrap = <div class="c103">|</div>
 			}
-			wrap = <div class="3cols">|</div>
+			wrap = <div class="cols3">|</div>
 		}
 		3 < lib.gridelements.defaultGridSetup
 		3 {
 			columns {
 				101 < .default
-				101.wrap = <div class="101">|</div>
+				101.wrap = <div class="c101">|</div>
 
 				102 < .default
-				102.wrap = <div class="102">|</div>
+				102.wrap = <div class="c102">|</div>
 
 				103 < .default
-				103.wrap = <div class="103">|</div>
+				103.wrap = <div class="c103">|</div>
 
 				104 < .default
-				104.wrap = <div class="104">|</div>
+				104.wrap = <div class="c104">|</div>
 			}
-			wrap = <div class="4cols">|</div>
+			wrap = <div class="cols4">|</div>
 		}
 	}
 	gridelements_view < tt_content.gridelements_pi1

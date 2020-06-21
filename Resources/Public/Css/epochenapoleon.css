@@ -595,12 +595,12 @@ h4.person {
 }
 /* CE: Last change of page*/
 .lastChange {
-	margin-top: -2rem;
+	margin-top: -1rem;
 	line-height: 0.8rem;
 	font-size: 0.6rem;
 	font-style: italic;
 	text-align: right;
-	color: #555;
+	color: #555555;
 }
 
 /* Old link class */
@@ -724,7 +724,24 @@ hr.clearboth {
 	clear: both;
 	color: #EEEEEE;
 }
+cols2 {
+	background: #0f74a8;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: flex-start;
+	justify-content: start;
+	width: 100%;
+  }
 
+.cols2 .c101 {
+	order: 1;
+	width: 45%;
+	border-right: #000099 dotted 1px;
+}
+.cols2 .c102 {
+	order: 2;
+	width: 45%;
+}
 @media (min-width: 500px) {
 	.col-xs-12 {
 		width: 100%;
