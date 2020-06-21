@@ -725,12 +725,11 @@ hr.clearboth {
 	color: #EEEEEE;
 }
 cols2 {
-	background: #0f74a8;
+	color: #0a001f;
 	display: flex;
 	flex-flow: row nowrap;
 	align-items: flex-start;
 	justify-content: start;
-	width: 100%;
   }
 
 .cols2 .c101 {
