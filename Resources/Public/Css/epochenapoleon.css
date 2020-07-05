@@ -493,6 +493,8 @@ blockquote, q {
 }
 table {
 	caption-side: bottom;
+	border-collapse: collapse;
+	max-width: 100%;
 }
 caption {
 	text-align: right;
@@ -500,10 +502,10 @@ caption {
 	padding-top: 0.2rem;
 	margin-top: 0.3rem;
 }
-tr.even {
+tr {
 	background: #FFFFC7;
 }
-tr.odd {
+tbody tr, tr:nth-child(even) {
 	background: #E1E8F1;
 }
 td {
