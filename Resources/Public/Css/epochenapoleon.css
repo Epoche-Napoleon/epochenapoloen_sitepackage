@@ -491,10 +491,10 @@ blockquote, q {
 	background: #AAAAAA;
 	color: #000099;
 }
-table.book tbody tr.even {
+tr.even {
 	background: #bbbbbb;
 }
-table.book tbody tr.odd {
+tr.odd {
 	background: #86caff;
 }
 .frame-type-bullets.frame-layout-3 ul li {
