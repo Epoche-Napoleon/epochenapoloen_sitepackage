@@ -491,6 +491,16 @@ blockquote, q {
 	background: #FFFFC7;
 	color: #000099;
 }
+table {
+	caption-side: bottom;
+}
+caption {
+
+	background: #FFFFC7;
+	text: #000099;
+	padding-top: 0.2rem;
+	margin-top: 0.3rem;
+}
 tr.even {
 	background: #FFFFC7;
 }
