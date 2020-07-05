@@ -227,8 +227,8 @@ ul.mainnav li a:hover {
 .cM_NO a:hover,
 .glossary li a {
 	color: #000044;
-	background: #FFFFCC;
-	border: 3px solid #FFFFCC;
+	background: #FFFFC7;
+	border: 3px solid #FFFFC7;
 }
 .glossary li span {
 	display: none
@@ -266,7 +266,7 @@ nav dl.csc-menu-4 dt {
 	list-style-type: none;
 	width: 100%;
 	font-size: 0.8rem;
-	background-color: #FFFCCC;
+	background-color: #FFFFC7;
 	border-left: 1px solid #000044;
 	border-right: 3px solid #000044;
 	border-bottom: 3px solid #000044;
@@ -316,7 +316,7 @@ nav dl.csc-menu-4 dt {
 }
 /* T3ddy-Accordion menu */
 .t3ddy-accordion h3 {
-	background: #FFFCCC;
+	background: #FFFFC7;
 	color: #000044;
 }
 ul.browse {
@@ -425,7 +425,7 @@ blcokquote:first-letter {
 blockquote, q {
 	padding: 1.5rem;
 	margin: 0.5rem;
-	background: #ffffc7;
+	background: #FFFFC7;
 	font-style: italic;
 	color: #000033;
 	box-shadow: 0.3rem 0.3rem #C0C0C0;
@@ -486,16 +486,16 @@ blockquote, q {
 	padding: 0.5rem;
 	max-width: 15rem;
 	font-style: italic;
-	border-left: 1px dotted #AAAAAA;
-	border-bottom: 1px dotted #AAAAAA;
-	background: #AAAAAA;
+	border-left: 1px dotted #FFFFC7;
+	border-bottom: 1px dotted #FFFFC7;
+	background: #FFFFC7;
 	color: #000099;
 }
 tr.even {
-	background: #bbbbbb;
+	background: #FFFFC7;
 }
 tr.odd {
-	background: #86caff;
+	background: #E1E8F1;
 }
 .frame-type-bullets.frame-layout-3 ul li {
 	list-style: disc outside;
