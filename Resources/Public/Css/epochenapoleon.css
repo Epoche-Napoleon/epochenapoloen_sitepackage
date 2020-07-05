@@ -508,6 +508,9 @@ tbpdy tr, tr:nth-child(odd) {
 tbody tr, tr:nth-child(even) {
 	background: #E1E8F1;
 }
+tbody td, td:nth-last-col() {
+	width: 75%;
+}
 td {
 	padding-left: 0.3rem;
 	padding-right: 0.3rem;
