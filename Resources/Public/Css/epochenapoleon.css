@@ -502,7 +502,7 @@ caption {
 	padding-top: 0.2rem;
 	margin-top: 0.3rem;
 }
-tr {
+tbpdy tr, tr:nth-child(odd) {
 	background: #FFFFC7;
 }
 tbody tr, tr:nth-child(even) {
