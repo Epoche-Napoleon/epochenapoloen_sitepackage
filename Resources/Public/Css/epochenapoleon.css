@@ -501,6 +501,7 @@ caption {
 	text: #000099;
 	padding-top: 0.2rem;
 	margin-top: 0.3rem;
+	margin-bottom: 1rem;
 }
 tbpdy tr, tr:nth-child(odd) {
 	background: #FFFFC7;
@@ -819,7 +820,7 @@ sub {
 	}
 	/* ist irgendwo definiert, kann raus statt hier zu überschreiben */
 	#wrapper {
-		min-width: 0;
+		width: 100%;
 	}
 }
 @media (min-width: 800px) {
