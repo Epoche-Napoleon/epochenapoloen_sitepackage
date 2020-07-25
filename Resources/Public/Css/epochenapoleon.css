@@ -826,7 +826,7 @@ sub {
 	}
 }
 @media (min-width: 800px) {
-	#wrapper {
+	#center {
 		width: 98%;
 		margin-left: 1%;
 		margin-right: 1%;
