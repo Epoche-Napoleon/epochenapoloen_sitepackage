@@ -211,7 +211,6 @@ ul.mainnav li a:focus {
 	text-align: center;
 }
 nav.flex-column {
-	display: block;
 	background-color: #FFFFFF;
 	color: #000099
 }
