@@ -66,12 +66,11 @@ header #header {
 	text-align: center;
 	margin-top: 1rem;
 	font-size: 1.5rem;
-	font-weight: italic;
+	font-style: italic;
 	line-height: 100%;
 }
 #stm {
-	display: block;
-	width: 15%;
+	display: block;width: 15%;
 	height: 110px;
 	text-align: right;
 	order: 3;
@@ -178,7 +177,7 @@ ul.mainnav li a:focus {
 	display: block;
 	text-align: center;
 	color: #FFFFFF;
-	background: E1E8F1;
+	background-color: #E1E8F1;
 	border-right: 0.1875rem solid #E00000;
 	border-left: 0.1875rem solid #E00000;
 	padding-left: 1.5rem;
@@ -201,6 +200,14 @@ ul.mainnav li a:focus {
 	color: #000044;
 	background: #FFFFC7;
 	border: 0.1875rem solid #FFFFC7;
+}
+.tx-glossary2 .nav {
+	background-color: #0000CC;
+	color: #FFFFCC;
+}
+.tx-glossary2 .nav a {
+	text-decoration: none;
+	margin-right: 0.5rem;
 }
 
 
