@@ -180,8 +180,8 @@ ul.mainnav li a:focus {
 	background-color: #0000CC;
 	border-right: 0.1875rem solid #E00000;
 	border-left: 0.1875rem solid #E00000;
-	padding-left: 1.5rem;
-	padding-right: 1.5rem;
+	margin-left: 1.5rem;
+	margin: 1.5rem;
 
 }
 .cM li.cM_NO, .cM li.cM_ACT, .cM li.cM_CUR {
@@ -207,7 +207,6 @@ ul.mainnav li a:focus {
 }
 .tx-glossary2 nav.nav a.nav-link {
 	text-decoration: none;
-	margin-right: 0.2rem;
 	padding: 0.2rem;
 }
 .flex-column {
