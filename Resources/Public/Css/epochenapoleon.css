@@ -207,18 +207,32 @@ ul.mainnav li a:focus {
 nav.nav  {
 	text-align: center;
 	text-decoration: none;
+	margin-top: 0.5rem;
 }
-nav.nav + a.nav-link {
-
+nav.nav a.nav-link {
+	text-decoration: none;
 }
-
 .flex-column a.nav-link {
 	display: block;
 	text-align: left;
 	text-decoration: none;
-	color: #000044;
+	color: #004;
+	line-height: 1.5rem;
 }
+.glossary-link::before {
+	font-family: "Font Awesome\ 5 Free";
+	display: inline-block;
+	font-weight: 900;
+	color: #000044;
+	content: "\f35a";
+	margin-right: 0.5rem;
+	font-style: normal;
+}
+.glossary-link {
+	color: #000044;
+	font-style: italic;
 
+}
 
 
 
