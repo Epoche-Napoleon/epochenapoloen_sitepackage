@@ -138,12 +138,19 @@ ul.mainnav li a {
 	color: #000044;
 }
 ul.mainnav li a:link {
-	background: E1E8F1;
+	background: #E1E8F1;
 	border: 0.0625rem solid #000044;
 	border-radius: 0.0625rem;
 	box-shadow: 0 0.0625rem 0.125rem #2b82d9;
 }
-
+ul.mainnav li a:visited, ul.mainnav li a:focus {
+	background: #FFFFC7;
+	border: 0.0625rem solid #FFCC33;
+}
+ul.mainnav li a:focus {
+	background: #FFCC33;
+	border: 0.0625rem solid #FFFFC7
+}
 @media (max-width: 800px) {
 	#wrapper {
 		min-width: 300px;
