@@ -132,6 +132,16 @@ ul.mainnav li {
 	text-align: center;
 	list-style: none inside;
 }
+ul.mainnav li a {
+	text-decoration: none;
+	display: block;
+	color: #000044;
+}
+ul.mainnav li a:link {
+	background: E1E8F1;
+	border: 0.0625rem solid #000044;
+
+}
 
 @media (max-width: 800px) {
 	#wrapper {
@@ -142,9 +152,7 @@ ul.mainnav li {
 		flex-flow: column nowrap;
 	}
 	#left {
-		/*
 		width: 100%;
-		*/
 		display: flex;
 		flex-wrap: nowrap;
 		flex-direction: row;
