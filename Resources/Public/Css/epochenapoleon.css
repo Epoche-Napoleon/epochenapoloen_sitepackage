@@ -118,6 +118,20 @@ footer {
 	font-size: 0.8rem;
 	font-style: italic;
 }
+#menu {
+	margin-top: 0;
+}
+ul.mainnav {
+	padding-right: 0.5rem;
+}
+ul.mainnav li {
+	margin-left: 0;
+	margin-bottom: 0.5rem;
+	font-size: 1rem;
+	line-height: 2rem;
+	text-align: center;
+	list-style: none inside;
+}
 
 @media (max-width: 800px) {
 	#wrapper {
@@ -150,7 +164,7 @@ footer {
 		font-weight: 900;
 		display: inline-block;
 		content: '\f0c9';
-		color: #000000;
+		color: #FFFFFF;
 		position: absolute;
 		top: 0;
 		right: -34px;
