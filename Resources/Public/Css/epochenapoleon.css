@@ -44,7 +44,7 @@ header #header {
 }
 #headertitle hr {
 	width: 85%;
-	heigth: 1.8rem;
+	height: 1.8rem;
 	color: #FFFFFF;
 	border-top: 0.25rem solid #CC0000;
 	border-bottom: 0.25rem solid #0000CC;
@@ -91,4 +91,5 @@ ul.stm-menu a {
 		min-width: 300px;
 		max-width: 799px;
 	}
+
 }
