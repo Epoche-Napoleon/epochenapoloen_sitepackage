@@ -200,11 +200,11 @@ ul.mainnav li a:focus {
 	color: #0000CC;
 	background: #FFFFC7;
 	border: 0.1875rem solid #FFFFC7;
+	text-align: center;
 }
 .tx-glossary2 nav.nav .nav-link {
 	background-color: #0000CC;
 	color: #FFFFCC;
-	text-align: center;
 }
 .tx-glossary2 nav.nav a.nav-link {
 	text-decoration: none;
