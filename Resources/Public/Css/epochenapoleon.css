@@ -140,6 +140,22 @@ footer {
 		margin-left: -200px;
 		transition: all 400ms ease-in-out;
 	}
+	#lfet #menu {
+		width: calc(100%);
+	}
+	#left #menu .mainnav:after {
+		content: ' ';
+		position: absolute;
+		top: 0;
+		right: -34px;
+		width: 30px;
+		height: 30px;
+		border: 2px solid #FFFFFF;
+		background: #FFFFFF
+	}
+	#left:hover {
+		margin-left: 0;
+	}
 	#center {
 		width: 100%;
 	}
