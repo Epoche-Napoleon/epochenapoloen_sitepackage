@@ -206,15 +206,17 @@ ul.mainnav li a:focus {
 }
 nav.nav  {
 	text-align: center;
+	text-decoration: none;
 }
 nav.nav + a.nav-link {
-	background-color: #000000;
-}
 
+}
 
 .flex-column a.nav-link {
 	display: block;
 	text-align: left;
+	text-decoration: none;
+	color: #000044;
 }
 
 
