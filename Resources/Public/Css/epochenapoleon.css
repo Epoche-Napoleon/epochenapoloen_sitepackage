@@ -209,6 +209,10 @@ ul.mainnav li a:focus {
 	text-decoration: none;
 	margin-right: 0.5rem;
 }
+.flex-column {
+	display: block;
+
+}
 
 
 
