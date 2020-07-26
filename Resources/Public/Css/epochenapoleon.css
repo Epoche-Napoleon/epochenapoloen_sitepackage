@@ -177,7 +177,7 @@ ul.mainnav li a:focus {
 	display: block;
 	text-align: center;
 	color: #FFFFFF;
-	background-color: #E1E8F1;
+	background-color: #0000CC;
 	border-right: 0.1875rem solid #E00000;
 	border-left: 0.1875rem solid #E00000;
 	padding-left: 1.5rem;
@@ -212,7 +212,9 @@ ul.mainnav li a:focus {
 }
 .flex-column {
 	display: block;
-
+}
+.flex-column a.nav-link {
+	display: block;
 }
 
 
