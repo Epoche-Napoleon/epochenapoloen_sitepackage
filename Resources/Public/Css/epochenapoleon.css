@@ -209,7 +209,7 @@ div.tx-glossary2 + nav.nav  {
 	color: #000099;
 	text-align: center;
 }
-flex-column a.nav-link {
+.flex-column a.nav-link {
 	display: block;
 	text-align: left;
 }
