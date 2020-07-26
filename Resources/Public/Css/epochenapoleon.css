@@ -204,11 +204,9 @@ ul.mainnav li a:focus {
 .tx-glossary2 {
 	background-color: #EEEEEE;
 }
-.tx-glossary2 nav.nav .nav-link {
-}
-.tx-glossary2 nav.nav a.nav-link {
-}
-nav.flex-column {
+div.tx-glossary2 > nav.nav > a.nav-link {
+	background-color: #0000CC;
+	color: #FFFFCC;
 }
 nav.flex-column a.nav-link {
 }
