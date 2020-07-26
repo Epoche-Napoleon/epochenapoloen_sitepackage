@@ -200,7 +200,6 @@ ul.mainnav li a:focus {
 	color: #0000CC;
 	background: #FFFFC7;
 	border: 0.1875rem solid #FFFFC7;
-	text-align: center;
 }
 .tx-glossary2 nav.nav .nav-link {
 	background-color: #0000CC;
@@ -209,6 +208,7 @@ ul.mainnav li a:focus {
 .tx-glossary2 nav.nav a.nav-link {
 	text-decoration: none;
 	padding: 0.2rem;
+	text-align: center;
 }
 .flex-column {
 	display: block;
