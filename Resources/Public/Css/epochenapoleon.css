@@ -201,21 +201,16 @@ ul.mainnav li a:focus {
 	background: #FFFFC7;
 	border: 0.1875rem solid #FFFFC7;
 }
+.tx-glossary2 {
+	background-color: #EEEEEE;
+}
 .tx-glossary2 nav.nav .nav-link {
-	background-color: #0000CC;
-	color: #FFFFCC;
 }
 .tx-glossary2 nav.nav a.nav-link {
-	text-decoration: none;
-	padding: 0.2rem;
-	text-align: center;
 }
 nav.flex-column {
-	background-color: #FFFFFF;
-	color: #000099
 }
 nav.flex-column a.nav-link {
-	display: block;
 }
 
 
