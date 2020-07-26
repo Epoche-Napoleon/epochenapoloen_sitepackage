@@ -44,12 +44,12 @@ header #header {
 }
 #headertitle hr {
 	width: 85%;
-	height: 1.8rem;
+	height: 1rem;
 	color: #FFFFFF;
 	border-top: 0.25rem solid #CC0000;
 	border-bottom: 0.25rem solid #0000CC;
 	text-align: center;
-	line-heigth: 1.4rem;
+	line-height: 1.4rem;
 	bottom: 1rem;
 	font-size: 0.8rem;
 	font-style: italic;
