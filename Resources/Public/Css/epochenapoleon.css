@@ -145,6 +145,7 @@ footer {
 	}
 	#left #menu .mainnav:after {
 		font-family: "Font Awesome 5 freeco";
+		font-weight: 900;
 		display: inline-block;
 		content: '\f0c9';
 		color: #000000;
