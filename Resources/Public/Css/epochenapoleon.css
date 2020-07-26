@@ -144,7 +144,10 @@ footer {
 		width: calc(100%);
 	}
 	#left #menu .mainnav:after {
-		content: ' ';
+		font-family: "Font Awesome 5 freeco";
+		display: inline-block;
+		content: '\f0c9';
+		color: #000000;
 		position: absolute;
 		top: 0;
 		right: -34px;
