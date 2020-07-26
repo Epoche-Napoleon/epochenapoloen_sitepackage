@@ -136,7 +136,9 @@ footer {
 		z-index: 10;
 		left: 0;
 		background: #000000;
+		/*
 		width: 200px;
+		*/
 		margin-left: -200px;
 		transition: all 400ms ease-in-out;
 	}
