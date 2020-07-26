@@ -173,7 +173,7 @@ ul.mainnav li a:focus {
 	margin-bottom: 1rem;
 }
 .cM {
-	margin-top: 1rem;
+	margin-bottom: 1rem;
 	list-style: none inside;
 	display: block;
 	text-align: center;
@@ -181,6 +181,9 @@ ul.mainnav li a:focus {
 	background: E1E8F1;
 	border-right: 0.1875rem solid #E00000;
 	border-left: 0.1875rem solid #E00000;
+	padding-left: 1rem;
+	padding-right: 1rem;
+
 }
 .cM li.cM_NO, .cM li.cM_ACT, .cM li.cM_CUR {
 	border: 0.0625rem solid #000033;
