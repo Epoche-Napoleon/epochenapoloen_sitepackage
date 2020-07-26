@@ -185,19 +185,19 @@ ul.mainnav li a:focus {
 
 }
 .cM li.cM_NO, .cM li.cM_ACT, .cM li.cM_CUR {
-	border: 0.0625rem solid #000033;
+	border: 0.0625rem solid #0000CC;
 	display: inline;
-	background: #000033;
+	background: #0000CC;
 	margin-left: 0;
 }
 .cM_NO a, .cM_NO a:link, .cM_NO a:visited, .cM_NO a:focus {
 	color: #FFCC33;
 	text-decoration: none;
-	border: 0.1875rem solid #000044;
+	border: 0.1875rem solid #0000CC;
 }
 .cM_CUR a, .cM_CUR a:link, .cM_CUR a:visited, .cM_CUR a:hover, .cM_CUR a:focus, .cM_NO a:active,
 .cM_NO a:hover {
-	color: #000044;
+	color: #0000CC;
 	background: #FFFFC7;
 	border: 0.1875rem solid #FFFFC7;
 }
