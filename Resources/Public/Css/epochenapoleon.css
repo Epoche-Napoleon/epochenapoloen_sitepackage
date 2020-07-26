@@ -181,8 +181,8 @@ ul.mainnav li a:focus {
 	background: E1E8F1;
 	border-right: 0.1875rem solid #E00000;
 	border-left: 0.1875rem solid #E00000;
-	padding-left: 1rem;
-	padding-right: 1rem;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
 
 }
 .cM li.cM_NO, .cM li.cM_ACT, .cM li.cM_CUR {
