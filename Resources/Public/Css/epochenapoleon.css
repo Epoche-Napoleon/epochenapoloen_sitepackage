@@ -204,7 +204,7 @@ ul.mainnav li a:focus {
 .tx-glossary2 {
 	background-color: #EEEEEE;
 }
-div.tx-glossary2 > nav.nav > a.nav-link {
+div.tx-glossary2 + nav.nav + a.nav-link {
 	background-color: #0000CC;
 	color: #FFFFCC;
 }
