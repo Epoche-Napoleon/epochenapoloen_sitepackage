@@ -31,7 +31,7 @@ header #header {
 }
 #logo {
 	width: 110px;
-	heigth: 1110px;
+	heigth: 110px;
 	margin: 0;
 	order: 1;
 }
@@ -44,7 +44,7 @@ header #header {
 }
 #headertitle hr {
 	width: 85%;
-	heigth: 1rem;
+	heigth: 1.8rem;
 	color: #FFFFFF;
 	border-top: 0.25rem solid #CC0000;
 	border-bottom: 0.25rem solid #0000CC;
@@ -54,6 +54,22 @@ header #header {
 	font-size: 0.8rem;
 	font-style: italic;
 }
+#headertitle1 {
+	color: #000000;
+	text-align: center;
+	font-size: 2rem;
+	font-weight: bold;
+	line-height: 100%;
+}
+#headertitle2 {
+	color: #666666;
+	text-align: center;
+	margin-top: 1rem;
+	font-size: 1.5rem;
+	font-weight: italic;
+	line-heigth: 100%;
+}
+
 
 @media (max-width: 800px) {
 	#wrapper {
