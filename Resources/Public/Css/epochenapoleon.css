@@ -210,13 +210,13 @@ ul.mainnav li a:focus {
 	padding: 0.2rem;
 	text-align: center;
 }
-.flex-column {
-	display: block;
-}
-.flex-column a.nav-link {
+nav.flex-column {
 	display: block;
 	background-color: #FFFFFF;
-	color: #000099;
+	color: #000099
+}
+nav.flex-column a.nav-link {
+	display: block;
 }
 
 
