@@ -148,6 +148,8 @@ ul.mainnav li a:link {
 	#wrapper {
 		min-width: 300px;
 		max-width: 799px;
+		margin-left: 1rem;
+		margin-right: 1rem;
 	}
 	#maincontent {
 		flex-flow: column nowrap;
@@ -160,7 +162,7 @@ ul.mainnav li a:link {
 		position: absolute;
 		z-index: 10;
 		left: 0;
-		background: #000000;
+		background: #666666;
 		width: 200px;
 		margin-left: -200px;
 		transition: all 400ms ease-in-out;
