@@ -125,7 +125,15 @@ footer {
 		max-width: 799px;
 	}
 	#maincontent {
-		flex: column nowrap;
+		flex-flow: column nowrap;
 	}
-
+	#left {
+		width: 100%;
+	}
+	#center {
+		width: 100%;
+	}
+	#right {
+		width: 100%;
+	}
 }
