@@ -176,6 +176,7 @@ ul.mainnav li a:focus {
 	margin-top: 1rem;
 	list-style: none inside;
 	display: block;
+	text-align: center;
 	color: #FFFFFF;
 	background: E1E8F1;
 	border-right: 0.1875rem solid #E00000;
