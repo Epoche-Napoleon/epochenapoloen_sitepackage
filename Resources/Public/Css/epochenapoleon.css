@@ -79,7 +79,7 @@ header #header {
 }
 ul.stm-menu li {
 	list-style: none;
-	line-height: 100%;
+	line-height: 1.2rem;
 }
 ul.stm-menu a {
 	text-decoration: none;
