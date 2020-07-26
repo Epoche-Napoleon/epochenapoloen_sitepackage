@@ -129,6 +129,16 @@ footer {
 	}
 	#left {
 		width: 100%;
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: row;
+		position: absolute;
+		z-index: 10;
+		left: 0;
+		background: #000000;
+		width: 200px;
+		margin-left: -200px;
+		transition: all 400ms ease-in-out;
 	}
 	#center {
 		width: 100%;
