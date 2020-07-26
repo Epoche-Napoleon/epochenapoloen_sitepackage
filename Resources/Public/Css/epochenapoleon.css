@@ -159,7 +159,7 @@ ul.mainnav li a:focus {
 	line-height: 1.6rem;
 	font-size: 1.2rem;
 	font-style: normal;
-	background: #E1E8F1;
+	background: #0000CC;
 	color: #DDDDDD;
 }
 #pfad a:link, #pfad a:visited, #pfad a:hover, #pfad a:focus {
@@ -178,9 +178,29 @@ ul.mainnav li a:focus {
 	display: block;
 	color: #FFFFFF;
 	background: E1E8F1;
-	border-right: 0.1875rem solid #e00000;
-	border-left: 0.1875rem solid #e00000;
+	border-right: 0.1875rem solid #E00000;
+	border-left: 0.1875rem solid #E00000;
 }
+.cM li.cM_NO, .cM li.cM_ACT, .cM li.cM_CUR {
+	border: 0.0625rem solid #000033;
+	display: inline;
+	background: #000033;
+	margin-left: 0;
+}
+.cM_NO a, .cM_NO a:link, .cM_NO a:visited, .cM_NO a:focus {
+	color: #FFCC33;
+	text-decoration: none;
+	border: 0.1875rem solid #000044;
+}
+.cM_CUR a, .cM_CUR a:link, .cM_CUR a:visited, .cM_CUR a:hover, .cM_CUR a:focus, .cM_NO a:active,
+.cM_NO a:hover {
+	color: #000044;
+	background: #FFFFC7;
+	border: 0.1875rem solid #FFFFC7;
+}
+
+
+
 
 @media (max-width: 800px) {
 	#wrapper {
