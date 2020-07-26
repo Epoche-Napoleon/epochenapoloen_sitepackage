@@ -107,7 +107,7 @@ ul.stm-menu a {
 	width: 15%;
 	margin: 1rem;
 }
-#footer {
+footer {
 	margin-top: 1rem;
 	height: 1.5rem;
 	border-top: 0.25rem solid #CC0000;
@@ -124,5 +124,7 @@ ul.stm-menu a {
 		min-width: 300px;
 		max-width: 799px;
 	}
-
+	#maincontent {
+		flex: row wrap;
+	}
 }
