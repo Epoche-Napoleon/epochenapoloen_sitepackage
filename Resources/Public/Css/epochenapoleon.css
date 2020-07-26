@@ -160,8 +160,28 @@ ul.mainnav li a:focus {
 	font-size: 1.2rem;
 	font-style: normal;
 	background: #E1E8F1;
-	color: #FFFFFF;
+	color: #DDDDDD;
 }
+#pfad a:link, #pfad a:visited, #pfad a:hover, #pfad a:focus {
+	color: #FFCC33;
+	font-size: 1rem;
+	line-height: 1.2rem;
+	text-decoration: none;
+	font-weight: bold;
+}
+#abcmenu {
+	margin-bottom: 1rem;
+}
+.cM {
+	margin-top: 1rem;
+	list-style: none inside;
+	display: block;
+	color: #FFFFFF;
+	background: E1E8F1;
+	border-right: 0.1875rem solid #e00000;
+	border-left: 0.1875rem solid #e00000;
+}
+
 @media (max-width: 800px) {
 	#wrapper {
 		min-width: 300px;
