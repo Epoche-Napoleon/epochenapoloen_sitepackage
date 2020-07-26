@@ -208,7 +208,7 @@ div.tx-glossary2 > nav.nav > a.nav-link {
 	background-color: #0000CC;
 	color: #FFFFCC;
 }
-nav.flex-column > a.nav-link {
+nav.flex-column + a.nav-link {
 	background-color: #EEEEEE;
 	color: #000099;
 	display: block;
