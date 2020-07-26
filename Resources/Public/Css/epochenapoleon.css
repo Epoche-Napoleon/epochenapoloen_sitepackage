@@ -140,7 +140,8 @@ ul.mainnav li a {
 ul.mainnav li a:link {
 	background: E1E8F1;
 	border: 0.0625rem solid #000044;
-
+	border-radius: 0.0625rem;
+	box-shadow: 0 0.0625rem 0.125rem #2b82d9;
 }
 
 @media (max-width: 800px) {
