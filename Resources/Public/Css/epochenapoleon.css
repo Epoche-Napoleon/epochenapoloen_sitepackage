@@ -205,11 +205,13 @@ ul.mainnav li a:focus {
 	background-color: #EEEEEE;
 }
 div.tx-glossary2 + nav.nav  {
-	background-color: #EEEEEE;
+	background-color: #000000;
 	color: #000099;
+	text-align: center;
 }
-nav.flex-column a.nav-link {
+flex-column a.nav-link {
 	display: block;
+	text-align: left;
 }
 
 
