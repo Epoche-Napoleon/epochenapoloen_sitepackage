@@ -298,6 +298,10 @@ p, ul, ol {
 	line-height: 1.4rem;
 	margin-bottom: 1rem;
 }
+p:first-letter {
+	font-size: 2rem;
+	display: inline-block;
+}
 .glossary-link::before {
 	font-family: "Font Awesome 5 Free";
 	display: inline-block;
