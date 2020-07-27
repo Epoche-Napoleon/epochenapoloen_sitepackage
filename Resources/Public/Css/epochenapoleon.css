@@ -292,7 +292,12 @@ nav.flex-column a.nav-link {
 .align-justify {
 	text-align: justify;
 }
-
+p, ul, ol {
+	color: #333333;
+	font-size: 1rem;
+	line-height: 1.4rem;
+	margin-bottom: 1rem;
+}
 
 .glossary-link::before {
 	font-family: "Font Awesome\ 5 Free";
