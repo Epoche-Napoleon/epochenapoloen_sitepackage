@@ -212,7 +212,7 @@ nav.nav  {
 nav.nav a.nav-link {
 	text-decoration: none;
 	display: inline;
-	margin 0 0.2rem;
+	margin: 0 0.2rem;
 }
 nav.flex-column a.nav-link {
 	display: block;
