@@ -276,6 +276,23 @@ nav.flex-column a.nav-link {
 	visibility: hidden;
 	font-size: 0;
 }
+.t3ddy-accordion {
+	background-color: #FFFFC7;
+	color: #000044;
+}
+.align-left {
+	text-align: left;
+}
+.align-right {
+	text-align: right;
+}
+.align-center {
+	text-align: center;
+}
+.align-justify {
+	text-align: justify;
+}
+
 
 .glossary-link::before {
 	font-family: "Font Awesome\ 5 Free";
