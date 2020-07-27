@@ -312,23 +312,23 @@ p, ul, ol {
 	font-style: italic;
 }
 .person-men::before {
-	font-family: "Font Awesome 5 Free";
+	font-family: "Font Awesome 5 free";
 	display: inline-block;
-	font-width: 900;
-	color: #000044;
+	font-weight: 900;
+	color: #000033;
 	content: "\f183";
 	margin-right: 0.5rem;
 	font-style: normal;
 }
 .person-men {
-	color: #000044;
+	color: #000033;
 	font-style: italic;
 }
 .person-women::before {
-	font-family: "Font Awesome 5 Free";
+	font-family: "Font Awesome 5 free";
 	display: inline-block;
-	font-width: 900;
-	color: #e49f9f;
+	font-weight: 900;
+	color: #E49F9F;
 	content: "\f182";
 	margin-right: 0.5rem;
 	font-style: normal;
@@ -336,6 +336,15 @@ p, ul, ol {
 .person-women {
 	color: #E49F9F;
 	font-style: italic;
+}
+.quelle-online::before {
+	font-family: "Font Awesome 5 freeco";
+	display: inline-block;
+	font-weight: 900;
+	color: #00bb00;
+	content: "\f518";
+	margin-right: 0.5rem;
+	font-style: normal;
 }
 
 
