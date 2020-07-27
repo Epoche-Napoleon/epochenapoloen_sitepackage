@@ -293,12 +293,11 @@ nav.flex-column a.nav-link {
 	text-align: justify;
 }
 p, ul, ol {
-	color: #333333;
+	color: #333;
 	font-size: 1rem;
 	line-height: 1.4rem;
 	margin-bottom: 1rem;
 }
-
 .glossary-link::before {
 	font-family: "Font Awesome\ 5 Free";
 	display: inline-block;
@@ -312,7 +311,32 @@ p, ul, ol {
 	color: #000044;
 	font-style: italic;
 }
-
+.person-men::before {
+	font-family: "Font Awesome\ 5 Free";
+	display: inline-block;
+	font-width: 900;
+	color: #000044;
+	content: "\f183";
+	margin-right: 0.5rem;
+	font-style: normal;
+}
+.person-men {
+	color: #000044;
+	font-style: italic;
+}
+.person-women::before {
+	font-family: "Font Awesome\ 5 Free";
+	display: inline-block;
+	font-width: 900;
+	color: #e49f9f;
+	content: "\f182";
+	margin-right: 0.5rem;
+	font-style: normal;
+}
+.person-women {
+	color: #E49F9F;
+	font-style: italic;
+}
 
 
 
