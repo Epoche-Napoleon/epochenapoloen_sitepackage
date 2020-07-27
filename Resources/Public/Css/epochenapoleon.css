@@ -211,12 +211,14 @@ nav.nav  {
 }
 nav.nav a.nav-link {
 	text-decoration: none;
+	display: inline;
+	margin 0 0.2rem;
 }
-.flex-column .nav-link {
+nav.flex-column .nav-link {
 	display: block;
 	text-align: left;
 	text-decoration: none;
-	color: #004;
+	color: #000044;
 	line-height: 1.5rem;
 }
 .teasermenu * {
