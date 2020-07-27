@@ -214,7 +214,7 @@ nav.nav a.nav-link {
 	display: inline;
 	margin 0 0.2rem;
 }
-nav.flex-column .nav-link {
+nav.flex-column a.nav-link {
 	display: block;
 	text-align: left;
 	text-decoration: none;
