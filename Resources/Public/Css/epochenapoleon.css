@@ -219,10 +219,10 @@ nav.nav a.nav-link {
 	color: #004;
 	line-height: 1.5rem;
 }
-.teaser-menu * {
+.teasermenu * {
 	display: block;
 }
-.teaser-menu ul {
+.teasermenu ul {
 	list-style-type: none;
 	width: 100%;
 	font-size: 0.8rem;
@@ -233,7 +233,7 @@ nav.nav a.nav-link {
 	border-bottom: none;
 	line-height: 1.3rem;
 }
-.teaser-menu ul li {
+.teasermenu ul li {
 	padding: 0.3125rem;
 	border-top: 0.0625rem solid #000044;
 	/* //height: 0.0625rem;
@@ -241,35 +241,35 @@ nav.nav a.nav-link {
 	min-height: 100%;
 	height: 7.5rem;
 }
-.teaser-menu ul li a.bildlink {
+.teasermenu ul li a.bildlink {
 	width: 4.6875rem;
 	float: left;
 }
-.teaser-menu ul li a.bildlink img {
+.teasermenu ul li a.bildlink img {
 	width: 4.6875rem;
 	height: 7.5rem;
 	vertical-align: top;
 	float: left;
 }
-.teaser-menu ul li dl {
+.teasermenu ul li dl {
 	width: 34.375rem;
 	margin-left: 5.625rem;
 }
-.teaser-menu ul li dl dt {
-	font-size: 1.2.rem;
+.teasermenu ul li dl dt {
+	font-size: 1.2rem;
 	font-width: bold;
 	vertical-align: 1rem;
 }
-.teaser-menu ul li dl dt a {
+.teasermenu ul li dl dt a {
 	display: inline;
 }
-.teaser-menu ul li dl dd {
+.teasermenu ul li dl dd {
 	padding-top: 0.5rem;
 	padding-right: 1rem;
 	font-style: italic;
 	hyphens: auto;
 }
-.teaser-menu ul li .clearer {
+.teasermenu ul li .clearer {
 	clear: both;
 	visibility: hidden;
 	font-size: 0;
