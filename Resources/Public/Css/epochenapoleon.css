@@ -212,13 +212,70 @@ nav.nav  {
 nav.nav a.nav-link {
 	text-decoration: none;
 }
-.flex-column a.nav-link {
+.flex-column .nav-link {
 	display: block;
 	text-align: left;
 	text-decoration: none;
 	color: #004;
 	line-height: 1.5rem;
 }
+.teaser-menu * {
+	display: block;
+}
+.teaser-menu ul {
+	list-style-type: none;
+	width: 100%;
+	font-size: 0.8rem;
+	background-color: #FFFFC7;
+	border-left: 0.0625rem solid #000044;
+	border-right: 0.1875rem solid #000044;
+	border-left: 0.1875rem solid #000044;
+	border-bottom: none;
+	line-height: 1.3rem;
+}
+.teaser-menu ul li {
+	padding: 0.3125rem;
+	border-top: 0.0625rem solid #000044;
+	/* //height: 0.0625rem;
+	min-heigth: 0.0625rem */
+	min-height: 100%;
+	height: 7.5rem;
+}
+.teaser-menu ul li a.bildlink {
+	width: 4.6875rem;
+	float: left;
+}
+.teaser-menu ul li a.bildlink img {
+	width: 4.6875rem;
+	height: 7.5rem;
+	vertical-align: top;
+	float: left;
+}
+.teaser-menu ul li dl {
+	width: 34.375rem;
+	margin-left: 5.625rem;
+}
+.teaser-menu ul li dl dt {
+	font-size: 1.2.rem;
+	font-width: bold;
+	vertical-align: 1rem;
+}
+.teaser-menu ul li dl dt a {
+	display: inline;
+}
+.teaser-menu ul li dl dd {
+	padding-top: 0.5rem;
+	padding-right: 1rem;
+	font-style: italic;
+	hyphens: auto;
+}
+.teaser-menu ul li .clearer {
+	clear: both;
+	visibility: hidden;
+	font-size: 0;
+}
+
+
 .glossary-link::before {
 	font-family: "Font Awesome\ 5 Free";
 	display: inline-block;
@@ -231,8 +288,8 @@ nav.nav a.nav-link {
 .glossary-link {
 	color: #000044;
 	font-style: italic;
-
 }
+
 
 
 
