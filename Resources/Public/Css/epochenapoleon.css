@@ -301,6 +301,7 @@ p, ul, ol {
 p:first-letter {
 	font-size: 2rem;
 	display: inline-block;
+	float: left;
 }
 .glossary-link::before {
 	font-family: "Font Awesome 5 Free";
