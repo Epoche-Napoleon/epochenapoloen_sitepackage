@@ -300,7 +300,11 @@ p, ul, ol {
 }
 p:first-letter {
 	font-size: 2rem;
+	font-weight: bold;
 	display: inline-block;
+	margin: 0.2rem 0.2rem 0 0.1rem;
+	padding: 0.2rem 0.1rem;
+	line-height: 1.5rem;
 	float: left;
 }
 .glossary-link::before {
