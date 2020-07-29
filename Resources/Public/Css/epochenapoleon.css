@@ -298,6 +298,7 @@ p, ul, ol {
 	line-height: 1.4rem;
 	margin-bottom: 1rem;
 }
+/*
 p:first-letter {
 	font-size: 2rem;
 	font-weight: bold;
@@ -307,6 +308,7 @@ p:first-letter {
 	line-height: 1.5rem;
 	float: left;
 }
+ */
 .glossary-link::before {
 	font-family: "Font Awesome 5 Free";
 	display: inline-block;
@@ -355,7 +357,26 @@ p:first-letter {
 	margin-right: 0.5rem;
 	font-style: normal;
 }
-
+.quelle-online {
+	color: #00bb00;
+}
+.werktitel {
+	font-width: bold;
+	font-style: italic;
+}
+.internal-link {
+	background-color: #E00000;
+	color: #FFFFFF;
+	border: 0.0625rem solid #e49f9f;
+}
+hr {
+	text-align: center;
+	width: 85%;
+}
+hr.clearboth {
+	clear: both;
+	color: #EEEEEE
+}
 
 
 @media (max-width: 800px) {
