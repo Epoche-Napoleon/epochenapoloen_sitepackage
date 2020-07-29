@@ -259,11 +259,11 @@ nav.flex-column a.nav-link {
 }
 .teasermenu ul li dl dt {
 	font-size: 1.2rem;
-	font-width: bold;
 	vertical-align: 1rem;
 }
 .teasermenu ul li dl dt a {
 	display: inline;
+	font-width: bold;
 }
 .teasermenu ul li dl dd {
 	padding-top: 0.5rem;
