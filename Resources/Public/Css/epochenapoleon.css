@@ -298,6 +298,21 @@ p, ul, ol {
 	line-height: 1.4rem;
 	margin-bottom: 1rem;
 }
+.image {
+	max-width: 18,75rem;
+}
+.image-caption {
+	color: #000099;
+}
+.image-embed-item {
+	display: inline-block;
+}
+figure {
+	padding: 0.1875rem;
+	text-align: center;
+	border: thin #C0C0C0;   #E1E8F1;
+}
+
 /*
 p:first-letter {
 	font-size: 2rem;
