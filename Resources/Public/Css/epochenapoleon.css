@@ -191,7 +191,7 @@ ul.mainnav li a:focus {
 	margin-left: 0;
 }
 .cM_NO a, .cM_NO a:link, .cM_NO a:visited, .cM_NO a:focus {
-	color: #FFCC33;
+	color: #FFFFCC;
 	text-decoration: none;
 	border: 0.1875rem solid #0000CC;
 }
@@ -303,6 +303,7 @@ p, ul, ol {
 }
 .image-caption {
 	color: #000099;
+	background: #E1E8F1;
 }
 .image-embed-item {
 	display: inline-block;
@@ -311,7 +312,7 @@ figure {
 	padding: 0.1875rem;
 	text-align: center;
 	border: thin solid #C0C0C0;
-	background-color: #000000;
+	background-color: #E1E8F1;
 }
 
 /*
