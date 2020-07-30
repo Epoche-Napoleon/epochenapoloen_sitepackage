@@ -191,7 +191,7 @@ ul.mainnav li a:focus {
 	margin-left: 0;
 }
 .cM_NO a, .cM_NO a:link, .cM_NO a:visited, .cM_NO a:focus {
-	color: #FFFFCC;
+	color: #FFFFC7;
 	text-decoration: none;
 	border: 0.1875rem solid #0000CC;
 }
