@@ -430,7 +430,8 @@ p:first-letter {
 }
 hr {
 	text-align: center;
-	width: 85%;
+	width: 84%;
+	margin-left: 8%;
 }
 hr.clearboth {
 	clear: both;
