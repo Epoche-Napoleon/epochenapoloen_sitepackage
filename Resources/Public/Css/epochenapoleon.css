@@ -297,6 +297,7 @@ p, ul, ol {
 	font-size: 1rem;
 	line-height: 1.4rem;
 	margin-bottom: 1rem;
+	hyphens: auto;
 }
 .image {
 	max-width: 18.75rem;
@@ -491,6 +492,11 @@ hr.clearboth {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
+	}
+	.teasermenu ul li dl {
+		width: 100%;
+		margin-left: 5.625rem;
+		hyphens: auto;
 	}
 	.image {
 		width: 100%;
