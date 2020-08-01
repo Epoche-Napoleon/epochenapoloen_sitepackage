@@ -328,6 +328,16 @@ figcaption {
 	border-left: thin solid #C0C0C0;
 	border-bottom: thin solid #C0C0C0;
 }
+.lastChange {
+	margin-top: 2rem;
+	line-height: 0.8rem;
+	font-size: 0.6rem;
+	font-style: italic;
+	text-align: right;
+	text-decoration-line: overline;
+	text-decoration-color: #555555;
+	color: #555555;
+}
 h4.person {
 	line-height: 2rem;
 	text-align: center;
