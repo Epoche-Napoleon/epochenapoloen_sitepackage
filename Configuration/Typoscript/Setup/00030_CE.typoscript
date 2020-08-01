@@ -66,4 +66,4 @@ tt_content {
 	}
 	gridelements_view < tt_content.gridelements_pi1
 }
-content.defaultHeaderType = 1
+content.defaultHeaderType = 0
