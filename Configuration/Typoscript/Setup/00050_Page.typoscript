@@ -141,8 +141,8 @@ page {
 			pfad < lib.pfadmenu
 			abcmenu < lib.abcmenu
 			teasermenu < lib.teasermenu
-			socialsharebutton < plugin.shariffBackendUrl
 			lastUpdate < lib.lastchange
+			socialsharebutton < plugin.shariffBackendUrl
 			footer < lib.footer
 			contentrating < lib.contentrating
 
