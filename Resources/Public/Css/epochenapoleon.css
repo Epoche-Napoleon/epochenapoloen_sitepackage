@@ -277,8 +277,8 @@ nav.flex-column a.nav-link {
 	font-size: 0;
 }
 .t3ddy-accordion {
-	background-color: #FFFFC7;
-	color: #000044;
+	background-color: #000044;
+	color: #FFFFC7;
 }
 .align-left {
 	text-align: left;
@@ -292,6 +292,9 @@ nav.flex-column a.nav-link {
 .align-justify {
 	text-align: justify;
 }
+h1 {
+	color: #E00000;
+}
 p, ul, ol {
 	color: #333;
 	font-size: 1rem;
@@ -299,6 +302,17 @@ p, ul, ol {
 	margin-bottom: 1rem;
 	hyphens: auto;
 }
+/*
+p:first-letter {
+	font-size: 2rem;
+	font-weight: bold;
+	display: inline-block;
+	margin: 0.2rem 0.2rem 0 0.1rem;
+	padding: 0.2rem 0.1rem;
+	line-height: 1.5rem;
+	float: left;
+}
+ */
 .image {
 	max-width: 18.75rem;
 }
@@ -367,17 +381,6 @@ h4.person {
 .person-entry {
 	background: #C0C0C0;
 }
-/*
-p:first-letter {
-	font-size: 2rem;
-	font-weight: bold;
-	display: inline-block;
-	margin: 0.2rem 0.2rem 0 0.1rem;
-	padding: 0.2rem 0.1rem;
-	line-height: 1.5rem;
-	float: left;
-}
- */
 .glossary-link::before {
 	font-family: "Font Awesome 5 Free";
 	display: inline-block;
