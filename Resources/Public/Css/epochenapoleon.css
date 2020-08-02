@@ -277,6 +277,7 @@ nav.flex-column a.nav-link {
 	visibility: hidden;
 	font-size: 0;
 }
+.ui-accordion-header,
 .t3ddy-accordion-header {
 	background-color: #FFFFC7;
 	color: #000044;
