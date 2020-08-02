@@ -292,36 +292,26 @@ nav.flex-column a.nav-link {
 .align-justify {
 	text-align: justify;
 }
-h1, h2, h3, h4 {
-	text-align: center;
-	font-weight: bold;
-	font-style: italic;
-	margin-top: 0.5rem;
-	margin-bottom: 1rem;
-}
 h1 {
-	line-height: 1.3rem;
-	font-size: 1.3rem;
+	text-align: center;
 	color: #E00000;
 }
 h2 {
-	line-height: 1.2rem;
-	font-size: 1.2rem;
+	text-align: center;
 }
 h3 {
-	line-height: 1.1rem;
-	font-size: 1.1rem;
+	text-align: center;
 }
 h4 {
-	line-height: 1rem;
+	text-align: left;
 	font-size: 1rem;
-}
-h1 + h2 {
-	font-size: 0.8rem;
 	font-style: italic;
-	color: #333333;
-	margin-top: -0.5rem;
+	font-weight: bold;
+	line-height: 1rem;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
 }
+
 p, ul, ol {
 	color: #333;
 	font-size: 1rem;
@@ -370,6 +360,7 @@ figcaption {
 	border-bottom: thin solid #C0C0C0;
 }
 .lastChange {
+	margin-top: -3rem;
 	line-height: 0.8rem;
 	font-size: 0.6rem;
 	font-style: italic;
@@ -406,7 +397,6 @@ h4.person {
 }
 .person-entry {
 	background: #C0C0C0;
-	margin: 0;
 }
 .glossary-link::before {
 	font-family: "Font Awesome 5 Free";
@@ -468,21 +458,14 @@ h4.person {
 	color: #FFFFFF;
 	border: 0.0625rem solid #e49f9f;
 }
-.rxshariff {
-	background-color: #E1E8F1;
-}
 hr {
 	text-align: center;
 	width: 84%;
 	margin-left: 8%;
 }
 hr.clearboth {
-	line-height: 0;
 	clear: both;
-	color: #EEEEEE;
-}
-hr.clearboth + p {
-	line-height: 0;
+	color: #EEEEEE
 }
 
 

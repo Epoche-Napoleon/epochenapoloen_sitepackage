@@ -9,6 +9,7 @@ config {
 }
 [global]
 
+
 # Live-System #
 [applicationContext == "Production"]
 config {
@@ -20,3 +21,10 @@ config {
 	*/
 }
 [global]
+
+styles {
+	content {
+		links.extTarget = _blank
+		defaultHeaderType = 0
+	}
+}
