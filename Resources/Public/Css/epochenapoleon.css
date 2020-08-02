@@ -287,9 +287,9 @@ nav.flex-column a.nav-link {
 	border-left: 0.4rem solid #000044;
 	margin-left: 0;
 }
-.frame-type-shortcut.frame-layout-3. ul,
+.frame-type-shortcut.frame-layout-3 ul,
 .frame-type-menu_subpages.frame-layout-0 ul {
-	background: #E00000;
+	background-color: #E00000;
 }
 .frame-type-shortcut.frame-layout-3 ul li,
 frame-type-menu_subpages.frame-layout-0 ul li {
