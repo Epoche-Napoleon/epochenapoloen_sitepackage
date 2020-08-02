@@ -79,6 +79,7 @@ header #header {
 ul.stm-menu li {
 	list-style: none;
 	line-height: 1.2rem;
+	color: #FFFFFF;
 }
 ul.stm-menu a {
 	text-decoration: none;
@@ -286,7 +287,7 @@ nav.flex-column a.nav-link {
 	top: 0.375rem;
 }
 .t3ddy-accordion h3 {
-	background-color: #E1E8F1;
+	background-color: #E00000;
 	text-align: left;
 }
 .t3ddy-accordion h3 a {
