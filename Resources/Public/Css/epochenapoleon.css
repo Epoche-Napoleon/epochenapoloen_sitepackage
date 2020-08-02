@@ -285,8 +285,12 @@ nav.flex-column a.nav-link {
 	right: 0.375rem;
 	top: 0.375rem;
 }
+.t3ddy-accordion h3 {
+	background-color: #E1E8F1;
+	text-align: left;
+}
 .t3ddy-accordion h3 a {
-	background: #E1E8F1;
+	background-color: #E1E8F1;
 	border-bottom: 1px solid #000044;
 }
 .t3ddy-accordion h3 > a:before {
