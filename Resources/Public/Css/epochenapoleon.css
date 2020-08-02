@@ -300,14 +300,14 @@ nav.flex-column a.nav-link {
 	margin-left: 0.5rem;
 	margin-top: 0.5rem;
 }
-.frame-type-menu_abstract.frame-layout-3 ul:nth-child(even),
-.frame-type-shortcut.frame-layout-3 ul:nth-child(even),
-.frame-type-menu_subpages.frame-layout-0 ul:nth-child(even) {
+.frame-type-menu_abstract.frame-layout-3 ul li:nth-child(even),
+.frame-type-shortcut.frame-layout-3 ul li:nth-child(even),
+.frame-type-menu_subpages.frame-layout-0 ul li:nth-child(even) {
 	background-color: #E1E8F1;
 }
-.frame-type-menu_abstract.frame-layout-3 ul:nth-child(odd),
-.frame-type-shortcut.frame-layout-3 ul:nth-child(odd),
-.frame-type-menu_subpages.frame-layout-0 ul:nth-child(odd) {
+.frame-type-menu_abstract.frame-layout-3 ul li:nth-child(odd),
+.frame-type-shortcut.frame-layout-3 ul li:nth-child(odd),
+.frame-type-menu_subpages.frame-layout-0 ul li:nth-child(odd) {
 	background-color: #FFFFC7;
 }
 .frame-type-shortcut.frame-layout-3 .frame-type-menu_subpages.frame-layout-0 ul li a {
