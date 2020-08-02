@@ -292,24 +292,29 @@ nav.flex-column a.nav-link {
 .align-justify {
 	text-align: justify;
 }
-h1 {
+h1, h2, h3, h4 {
 	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+	margin-top: 0.5rem;
+	margin-bottom: 1rem;
+}
+h1 {
+	line-height: 1.3rem;
+	font-size: 1.3rem;
 	color: #E00000;
 }
 h2 {
-	text-align: center;
+	line-height: 1.2rem;
+	font-size: 1.2rem;
 }
 h3 {
-	text-align: center;
+	line-height: 1.1rem;
+	font-size: 1.1rem;
 }
 h4 {
-	text-align: left;
-	font-size: 1rem;
-	font-style: italic;
-	font-weight: bold;
 	line-height: 1rem;
-	margin-top: 0.5rem;
-	margin-bottom: 0.5rem;
+	font-size: 1rem;
 }
 
 p, ul, ol {
