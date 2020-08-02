@@ -7,7 +7,7 @@ page {
 		10 {
 			templateRootPath = EXT:epochenapoleon_sitepackage/Resources/Private/Templates/Page/
 			layoutRootPath = EXT:epochenapoleon_sitepackage/Resources/Private/Layouts/Page/
-			partialRootPath = EXT:epochenapoleon_sitepackage/Resources/Private/Partials/fluid_styled_content/Content/Header/
+			partialRootPath = EXT:epochenapoleon_sitepackage/Resources/Private/Partials/Page/
 		}
 	}
 }

@@ -25,6 +25,5 @@ config {
 styles {
 	content {
 		links.extTarget = _blank
-		defaultHeaderType = 0
 	}
 }

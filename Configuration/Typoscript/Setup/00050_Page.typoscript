@@ -141,10 +141,11 @@ page {
 			pfad < lib.pfadmenu
 			abcmenu < lib.abcmenu
 			teasermenu < lib.teasermenu
-			lastUpdate < lib.lastchange
 			socialsharebutton < plugin.shariffBackendUrl
+			lastUpdate < lib.lastchange
 			footer < lib.footer
 			contentrating < lib.contentrating
+
 			content =< styles.content.get
 			content.select.where = colPos = 0
 			contentleft =< styles.content.get
