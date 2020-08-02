@@ -316,7 +316,12 @@ h4 {
 	line-height: 1rem;
 	font-size: 1rem;
 }
-
+h1 + h2 {
+	font-size: 0.8rem;
+	font-style: italic;
+	color: #333333;
+	margin-top: -0.5rem;
+}
 p, ul, ol {
 	color: #333;
 	font-size: 1rem;
