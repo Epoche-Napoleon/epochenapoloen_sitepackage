@@ -397,9 +397,11 @@ figure {
 	background-color: #E1E8F1;
 }
 .frame-type-shortcut.frame-layout-3 ul li {
-	border-left: 1rem solid #000044;
-	margin-left: 0;
+	border-left: 0.5rem solid #000044;
 	list-style: none inside none;
+}
+.fram-type-shortcut.frame-layout-3 ul li a {
+	margin-left: 1.rrem;
 }
 /*
 p:first-letter {
