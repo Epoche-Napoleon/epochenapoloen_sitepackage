@@ -76,9 +76,6 @@ header #header {
 	order: 3;
 	margin: 1rem 1rem 0 1rem;
 }
-ul.stm-menu {
-	background-color: #FFFFFF;
-}
 ul.stm-menu li {
 	list-style: none;
 	line-height: 1.2rem;
@@ -245,7 +242,6 @@ nav.flex-column a.nav-link {
 	min-heigth: 0.0625rem */
 	min-height: 100%;
 	height: 7.5rem;
-	background-color: #FFFFC7;
 }
 .teasermenu ul li a.bildlink {
 	width: 4.6875rem;
@@ -280,87 +276,9 @@ nav.flex-column a.nav-link {
 	visibility: hidden;
 	font-size: 0;
 }
-/* t3ddy */
-.t3ddy-accordion .panel-heading > h3 > a {
-	padding: 0.75rem 0.625rem;
-}
-.t3ddy-accordion h3 div.icons {
-	right: 0.375rem;
-	top: 0.375rem;
-}
 .t3ddy-accordion h3 {
-	background: #FFFCCC;
+	background: #FFFFC7;
 	color: #000044;
-}
-.t3ddy-accordion h3 a {
-	background-color: #E1E8F1;
-	border-bottom: 0.0625rem solid #000044;
-}
-.t3ddy-accordion h3 > a:before {
-	background-position: -4rem 0;
-	width:1rem;
-	height:1rem;
-}
-.t3ddy-accordion h3 > a.collapsed:before {
-	background-position: -2rem 0;
-	width:1rem;
-	height:1rem;
-}
-.t3ddy-accordion h3 div.icons a span.t3-icon-actions-document {
-	margin-right: 0.375rem;
-}
-.t3ddy-item {
-	background-color: #FFFFC7;
-}
-
-
-p, ul, ol {
-	color: #333333;
-	font-size: 1rem;
-	line-height: 1.4rem;
-	margin-bottom: 1rem;
-	hyphens: auto;
-}
-ul {
-	text-decoration: none;
-	list-style: disc outside none;
-}
-li:nth-of-type(even) {
-	background-color: #FFFFC7;
-}
-li:nth-of-type(odd) {
-	background-color: #E1E8F1;
-}
-
-h1, h2, h3, h4 {
-	text-align: center;
-	font-weight: bold;
-	font-style: italic;
-	hyphens: auto;
-	margin-top: 0.5rem;
-	margin-bottom: 1rem;
-}
-h1 {
-	color: #E00000;
-	font-size: 1.3rem;
-}
-h2 {
-	font-size: 1.2rem;
-}
-h3 {
-	font-size: 1.1rem;
-}
-h4 {
-	font-size: 1rem;
-}
-hr {
-	text-align: center;
-	width: 84%;
-	margin-left: 8%;
-}
-hr.clearboth {
-	clear: both;
-	color: #EEEEEE
 }
 .align-left {
 	text-align: left;
@@ -374,65 +292,42 @@ hr.clearboth {
 .align-justify {
 	text-align: justify;
 }
-.source {
-	padding: 1rem;
-	background-color: #E1E8F1;
-	color: #000044;
-	border: 0.0625rem solid #000044;
-}
-.image {
-	max-width: 18.75rem;
-	border-top: 0.0675rem solid #000044;
-	border-left: 0.0675rem solid #000044;
-	border-right: 0.0675rem solid #000044;
-}
-.image-caption {
-	color: #000099;
-	background: #E1E8F1;
-	border-top: 0.0675rem solid #000044;
-	border-left: 0.0675rem solid #000044;
-	border-bottom: #000044;
-}
-.image-embed-item {
-	display: inline-block;
-}
-figure {
-	padding: 0.1875rem;
+h1, h2, h3, h4 {
 	text-align: center;
-	border: thin solid #C0C0C0;
-	background-color: #E1E8F1;
-}
-.frame-type-shortcut.frame-layout-3 .frame-type-menu_subpages.frame-layout-0 ul li {
-	list-style-type: none;
-	margin-left: 1rem;
-}
-.frame-type-shortcut.frame-layout-3 .frame-type-menu_subpages.frame-layout-0 ul li a {
-	text-decoration: none;
-}
-.frame-type-menu_abstract.frame-layout-3 ul,
-.frame-type-menu_subpages.frame-layout-3 ul {
-	list-style-type: none;
-	margin-left: 0.5rem;
-	border-left: 1rem solid #000033;
-}
-.frame-type-menu_abstract.frame-layout-3 ul li,
-.frame-type-menu_subpages.frame-layout-3 ul li {
-	list-style-type: none;
-	line-height: 1.6rem;
-}
-.frame-type-menu_abstract.frame-layout-3 ul li a,
-.frame-type-menu_subpages.frame-layout-3 ul li a {
-	text-decoration: none;
-	color: #000000;
+	font-weight: bold;
 	font-style: italic;
+	margin-top: 0.5rem;
+	margin-bottom: 1rem;
 }
-.frame-type-menu_abstract.frame-layout-3 ul li a span {
-	color: #0000cc;
-	text-decoration: underline;
+h1 {
+	line-height: 1.3rem;
+	font-size: 1.3rem;
+	color: #E00000;
 }
-.frame-type-menu_abstract.frame-layout-3 ul li p {
+h2 {
+	line-height: 1.2rem;
+	font-size: 1.2rem;
+}
+h3 {
+	line-height: 1.1rem;
+	font-size: 1.1rem;
+}
+h4 {
+	line-height: 1rem;
+	font-size: 1rem;
+}
+h1 + h2 {
+	font-size: 0.8rem;
+	font-style: italic;
 	color: #333333;
-	font-style: italic;
+	margin-top: -0.5rem;
+}
+p, ul, ol {
+	color: #333;
+	font-size: 1rem;
+	line-height: 1.4rem;
+	margin-bottom: 1rem;
+	hyphens: auto;
 }
 /*
 p:first-letter {
@@ -445,6 +340,74 @@ p:first-letter {
 	float: left;
 }
  */
+.image {
+	max-width: 18.75rem;
+}
+.image-caption {
+	color: #000099;
+	background: #E1E8F1;
+}
+.image-embed-item {
+	display: inline-block;
+}
+figure {
+	padding: 0.1875rem;
+	text-align: center;
+	border-top: thin solid #C0C0C0;
+	border-right: thin solid #C0C0C0;
+	border-left: thin solid #C0C0C0;
+	background-color: #E1E8F1;
+}
+figcaption {
+	text-align: center;
+	font-style: italic;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	color: #000099;
+	background: #E1E8F1;
+	border-right: thin solid #C0C0C0;
+	border-left: thin solid #C0C0C0;
+	border-bottom: thin solid #C0C0C0;
+}
+.lastChange {
+	line-height: 0.8rem;
+	font-size: 0.6rem;
+	font-style: italic;
+	text-align: right;
+	text-decoration-line: overline;
+	text-decoration-color: #555555;
+	color: #555555;
+}
+h4.person {
+	line-height: 2rem;
+	text-align: center;
+	background: #0000CC;
+	color: #FFFFC7;
+	margin: 1rem 0 0.3rem 0;
+}
+.person-cat, .person-link, .person-nolink {}
+.person-cat {
+	padding: 0.2rem;
+	text-align: left;
+	display: block;
+}
+.person-cat {
+	background: #0000CC;
+	color: #FFFFC7;
+}
+.person-link, .person-nolink {
+	background: #C0C0C0;
+	color: #E00000;
+	margin: 0.2rem;
+}
+.person-link a {
+	text-decoration: none;
+	color: #000099;
+}
+.person-entry {
+	background: #C0C0C0;
+	margin: 0;
+}
 .glossary-link::before {
 	font-family: "Font Awesome 5 Free";
 	display: inline-block;
@@ -452,7 +415,6 @@ p:first-letter {
 	color: #000044;
 	content: "\f35a";
 	margin-right: 0.5rem;
-
 	font-style: normal;
 }
 .glossary-link {
@@ -505,6 +467,22 @@ p:first-letter {
 	background-color: #E00000;
 	color: #FFFFFF;
 	border: 0.0625rem solid #e49f9f;
+}
+.rxshariff {
+	background-color: #E1E8F1;
+}
+hr {
+	text-align: center;
+	width: 84%;
+	margin-left: 8%;
+}
+hr.clearboth {
+	line-height: 0;
+	clear: both;
+	color: #EEEEEE;
+}
+hr.clearboth p {
+	line-height: 0;
 }
 
 
@@ -562,11 +540,12 @@ p:first-letter {
 		flex-direction: row;
 		flex-wrap: wrap;
 	}
-	.image {
-		width: 100%;
-	}
 	.teasermenu ul li dl {
 		width: 100%;
 		margin-left: 5.625rem;
+		hyphens: auto;
+	}
+	.image {
+		width: 100%;
 	}
 }
