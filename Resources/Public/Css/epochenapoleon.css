@@ -399,6 +399,7 @@ figure {
 .frame-type-shortcut.frame-layout-3 ul li {
 	border-left: 1rem solid #000044;
 	margin-left: 0;
+	list-style: none inside none;
 }
 /*
 p:first-letter {
