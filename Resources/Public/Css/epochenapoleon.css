@@ -242,6 +242,7 @@ nav.flex-column a.nav-link {
 	min-heigth: 0.0625rem */
 	min-height: 100%;
 	height: 7.5rem;
+	background-color: #FFFFC7;
 }
 .teasermenu ul li a.bildlink {
 	width: 4.6875rem;
