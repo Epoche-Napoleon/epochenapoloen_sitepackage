@@ -290,8 +290,8 @@ nav.flex-column a.nav-link {
 	background-color: #E00000;
 }
 .t3ddy-accordion h3 {
-	background-color: #E00000;
-	text-align: left;
+	background: #FFFCCC;
+	color: #000044;
 }
 .t3ddy-accordion h3 a {
 	background-color: #E1E8F1;
