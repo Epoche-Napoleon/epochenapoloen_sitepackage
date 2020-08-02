@@ -284,18 +284,6 @@ nav.flex-column a.nav-link {
 	background-color: #FFFFC7;
 	color: #000044;
 }
-.align-left {
-	text-align: left;
-}
-.align-right {
-	text-align: right;
-}
-.align-center {
-	text-align: center;
-}
-.align-justify {
-	text-align: justify;
-}
 p, ul, ol {
 	color: #333333;
 	font-size: 1rem;
@@ -303,11 +291,21 @@ p, ul, ol {
 	margin-bottom: 1rem;
 	hyphens: auto;
 }
-.source {
-	background-color: #000000;
-	border: 0.0625rem solid #000099;
-
+ul {
+	text-decoration: none;
+	list-style: disc outside none;
 }
+li:nth-of-type(even) {
+	background-color: #FFFFC7;
+}
+li:nth-of-type(odd) {
+	background-color: {
+		background-color: #E1E8F1;
+	}
+}
+
+
+
 h1, h2, h3, h4 {
 	text-align: center;
 	font-weight: bold;
@@ -338,8 +336,23 @@ hr.clearboth {
 	clear: both;
 	color: #EEEEEE
 }
-
-
+.align-left {
+	text-align: left;
+}
+.align-right {
+	text-align: right;
+}
+.align-center {
+	text-align: center;
+}
+.align-justify {
+	text-align: justify;
+}
+.source {
+	background-color: #E1E8F1;
+	color: #000044;
+	border: 0.0625rem solid #000044;
+}
 .image {
 	max-width: 18.75rem;
 }
