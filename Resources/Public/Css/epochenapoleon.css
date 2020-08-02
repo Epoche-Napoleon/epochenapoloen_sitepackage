@@ -469,6 +469,7 @@ hr {
 	margin-left: 8%;
 }
 hr.clearboth {
+	line-height: 0;
 	clear: both;
 	color: #EEEEEE
 }
