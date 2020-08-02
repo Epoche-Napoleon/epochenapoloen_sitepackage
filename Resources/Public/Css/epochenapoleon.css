@@ -370,7 +370,6 @@ figcaption {
 	border-bottom: thin solid #C0C0C0;
 }
 .lastChange {
-	margin-top: -3rem;
 	line-height: 0.8rem;
 	font-size: 0.6rem;
 	font-style: italic;
@@ -407,6 +406,7 @@ h4.person {
 }
 .person-entry {
 	background: #C0C0C0;
+	margin: 0;
 }
 .glossary-link::before {
 	font-family: "Font Awesome 5 Free";
@@ -479,7 +479,8 @@ hr {
 hr.clearboth {
 	line-height: 0;
 	clear: both;
-	color: #EEEEEE
+	color: #EEEEEE;
+	margin-bottom: -2rem;
 }
 
 
