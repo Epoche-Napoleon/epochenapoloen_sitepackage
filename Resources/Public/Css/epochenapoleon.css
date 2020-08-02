@@ -289,10 +289,10 @@ nav.flex-column a.nav-link {
 }
 .frame-type-shortcut + .frame-layout-3. ul,
 .frame-type-menu_subpages + .frame-layout-0 ul {
-	list-style-type: none;
 	background: #E00000;
 }
-.frame-type-shortcut.frame-layout-3 ul li,frame-type-menu_subpages.frame-layout-0 ul li {
+.frame-type-shortcut + .frame-layout-3 ul li,
+frame-type-menu_subpages +.frame-layout-0 ul li {
 	list-style-type: none;
 	margin-left: 0.5rem;
 	background-color: #00BB00;
