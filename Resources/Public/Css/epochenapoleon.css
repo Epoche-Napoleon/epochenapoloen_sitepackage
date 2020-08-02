@@ -481,7 +481,7 @@ hr.clearboth {
 	clear: both;
 	color: #EEEEEE;
 }
-hr.clearboth p {
+hr.clearboth + p {
 	line-height: 0;
 }
 
