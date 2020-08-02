@@ -277,16 +277,32 @@ nav.flex-column a.nav-link {
 	visibility: hidden;
 	font-size: 0;
 }
-.ui-accordion-header,
-h3.t3ddy-accordion-header {
-	background-color: #FFFFC7;
-	color: #000044;
-	text-align: left;
+/* t3ddy */
+.t3ddy-accordion .panel-heading > h3 > a {
+	padding: 0.75rem 0.625rem;
 }
-.t3ddy-accordion-item {
-	background-color: #FFFFC7;
-	color: #000044;
+.t3ddy-accordion h3 div.icons {
+	right: 0.375rem;
+	top: 0.375rem;
 }
+.t3ddy-accordion h3 a {
+	background: #E1E8F1;
+	border-bottom: 1px solid #000044;
+}
+.t3ddy-accordion h3 > a:before {
+	background-position: -4rem 0;
+	width:1rem;
+	height:1rem;
+}
+.t3ddy-accordion h3 > a.collapsed:before {
+	background-position: -2rem 0;
+	width:1rem;
+	height:1rem;
+}
+.t3ddy-accordion h3 div.icons a span.t3-icon-actions-document {
+	margin-right: 0.375rem;
+}
+
 p, ul, ol {
 	color: #333333;
 	font-size: 1rem;
