@@ -276,7 +276,7 @@ nav.flex-column a.nav-link {
 	visibility: hidden;
 	font-size: 0;
 }
-.t3ddy-accordion {
+.t3ddy-accordion-header {
 	background-color: #FFFFC7;
 	color: #000044;
 }
@@ -328,7 +328,7 @@ h4 {
 hr {
 	text-align: center;
 	width: 84%;
-	margin-left: 6%;
+	margin-left: 8%;
 }
 hr.clearboth {
 	clear: both;
