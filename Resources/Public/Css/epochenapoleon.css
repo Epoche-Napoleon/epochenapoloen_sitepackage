@@ -284,7 +284,7 @@ nav.flex-column a.nav-link {
 	background-color: #EEEEEE;
 }
 .frame-type-shortcut.frame-layout-3  {
-	border-left: 1rem solid #000066;
+	border-left: 1rem solid #000044;
 	margin-left: 0;
 }
 .frame-type-shortcut.frame-layout-3 .frame-type-menu_subpages.frame-layout-0 ul li {
@@ -308,7 +308,7 @@ nav.flex-column a.nav-link {
 .frame-type-menu_abstract.frame-layout-3 ul li a,
 .frame-type-menu_subpages.frame-layout-3 ul li a {
 	text-decoration: none;
-	color: #000000;
+	color: #000044;
 	font-style: italic;
 }
 .frame-type-menu_abstract.frame-layout-3 ul li a span {
@@ -319,6 +319,7 @@ nav.flex-column a.nav-link {
 	color: #333333;
 	font-style: italic;
 }
+
 .align-left {
 	text-align: left;
 }
