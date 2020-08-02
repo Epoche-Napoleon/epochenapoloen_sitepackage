@@ -305,13 +305,13 @@ nav.flex-column a.nav-link {
 	margin-left: 0.5rem;
 	border-left: 1rem solid #000033;
 }
-.frame-type-menu_abstract.frame-layout-3 ul li,
-.frame-type-menu_subpages.frame-layout-3 ul li {
+.frame-type-menu_abstract + .frame-layout-3 ul li,
+.frame-type-menu_subpages + .frame-layout-3 ul li {
 	line-height: 1.6rem;
 	list-style-type: none;
 }
-.frame-type-menu_abstract.frame-layout-3 ul li a,
-.frame-type-menu_subpages.frame-layout-3 ul li a {
+.frame-type-menu_abstract + .frame-layout-3 ul li a,
+.frame-type-menu_subpages + .frame-layout-3 ul li a {
 	text-decoration: none;
 	color: #000044;
 	font-style: italic;
