@@ -290,14 +290,20 @@ nav.flex-column a.nav-link {
 }
 .frame-type-shortcut.frame-layout-3 ul,
 .frame-type-menu_subpages.frame-layout-0 ul {
-	background-color: #E00000;
 }
 .frame-type-shortcut.frame-layout-3 ul li,
-frame-type-menu_subpages.frame-layout-0 ul li {
+.frame-type-menu_subpages.frame-layout-0 ul li {
 	list-style-type: none;
 	margin-left: 0.5rem;
-	background-color: #00BB00;
 	margin-top: 0.5rem;
+}
+.frame-type-shortcut.frame-layout-3 ul:nth-child(even),
+.frame-type-menu_subpages.frame-layout-0 ul:nth-child(even) {
+	background-color: #E1E8F1;
+}
+.frame-type-shortcut.frame-layout-3 ul:nth-child(odd),
+.frame-type-menu_subpages.frame-layout-0 ul:nth-child(odd) {
+	background-color: #FFFFC7;
 }
 .frame-type-shortcut.frame-layout-3 .frame-type-menu_subpages.frame-layout-0 ul li a {
 	text-decoration: none;
