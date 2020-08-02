@@ -396,12 +396,37 @@ figure {
 	border: thin solid #C0C0C0;
 	background-color: #E1E8F1;
 }
-.frame-type-shortcut.frame-layout-3 ul li {
-	border-left: 0.5rem solid #000044;
-	list-style: none inside none;
+.frame-type-shortcut.frame-layout-3 .frame-type-menu_subpages.frame-layout-0 ul li {
+	list-style-type: none;
+	margin-left: 1rem;
 }
-.fram-type-shortcut.frame-layout-3 ul li a {
-	margin-left: 1.5rem;
+.frame-type-shortcut.frame-layout-3 .frame-type-menu_subpages.frame-layout-0 ul li a {
+	text-decoration: none;
+}
+.frame-type-menu_abstract.frame-layout-3 ul,
+.frame-type-menu_subpages.frame-layout-3 ul {
+	list-style-type: none;
+	margin-left: 0.5rem;
+	border-left: 1rem solid #000033;
+}
+.frame-type-menu_abstract.frame-layout-3 ul li,
+.frame-type-menu_subpages.frame-layout-3 ul li {
+	list-style-type: none;
+	line-height: 1.6rem;
+}
+.frame-type-menu_abstract.frame-layout-3 ul li a,
+.frame-type-menu_subpages.frame-layout-3 ul li a {
+	text-decoration: none;
+	color: #000000;
+	font-style: italic;
+}
+.frame-type-menu_abstract.frame-layout-3 ul li a span {
+	color: #0000cc;
+	text-decoration: underline;
+}
+.frame-type-menu_abstract.frame-layout-3 ul li p {
+	color: #333333;
+	font-style: italic;
 }
 /*
 p:first-letter {
