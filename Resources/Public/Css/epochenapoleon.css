@@ -480,7 +480,9 @@ hr.clearboth {
 	line-height: 0;
 	clear: both;
 	color: #EEEEEE;
-	margin-bottom: -2rem;
+}
+hr.clearboth p {
+	line-height: 0;
 }
 
 
