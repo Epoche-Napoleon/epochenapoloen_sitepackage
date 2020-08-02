@@ -295,6 +295,7 @@ nav.flex-column a.nav-link {
 .frame-type-shortcut.frame-layout-3 ul li,frame-type-menu_subpages.frame-layout-0 ul li {
 	margin-left: 0.5rem;
 	background-color: #00BB00;
+	margin-top: 0.5rem;
 }
 .frame-type-shortcut.frame-layout-3 .frame-type-menu_subpages.frame-layout-0 ul li a {
 	text-decoration: none;
