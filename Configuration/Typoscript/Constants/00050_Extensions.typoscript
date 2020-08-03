@@ -159,7 +159,7 @@ plugin.tx_glossary2 {
 	settings {
 		pidOfDetailPage = 407
 		pageBrowser {
-			itemsPerPage = 10
+			itemsPerPage = 100
 			insertAbove = 0
 			insertBelow = 1
 			maximumNumberOfLinks = 5
