@@ -431,6 +431,10 @@ ul.browse li,
 ul.f3-widget-paginator li {
 	list-style: none outside;
 }
+.jumbotron a {
+	background: #E00000;
+
+}
 .image {
 	max-width: 18.75rem;
 }
