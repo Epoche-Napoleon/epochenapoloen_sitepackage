@@ -465,8 +465,10 @@ figcaption {
 	border-bottom: thin solid #C0C0C0;
 }
 .lastChange {
-	line-height: 0.8rem;
-	font-size: 0.6rem;
+	margin-top:1rem;
+	margin-bottom: 1rem;
+	line-height: 1.2rem;
+	font-size: 0.9rem;
 	font-style: italic;
 	text-align: right;
 	text-decoration-line: overline;
