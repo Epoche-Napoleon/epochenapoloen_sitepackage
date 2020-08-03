@@ -414,12 +414,14 @@ ul.none li {
 	list-style: none outside;
 	font-size: 0.8em;
 }
-ul.browse {
+ul.browse,
+ul.f3-widget-paginator {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 }
-ul.browse li {
+ul.browse li,
+ul.f3-widget-paginator li {
 	list-style: none outside;
 }
 .image {
