@@ -422,8 +422,8 @@ ul.f3-widget-paginator {
 }
 ul.f3-widget-paginator {
 	margin-top: 1rem;
-	margin-bottom: 1rem
-	border: 0.0625rem solid #000044;
+	margin-bottom: 1rem;
+	border: 0.125rem solid #000044;
 	background-color: #E1E8F1;
 	color: #000044;
 }
