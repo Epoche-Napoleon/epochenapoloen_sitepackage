@@ -337,7 +337,6 @@ nav.flex-column a.nav-link {
 	color: #333333;
 	font-style: italic;
 }
-
 .align-left {
 	text-align: left;
 }
@@ -375,7 +374,7 @@ h4 {
 	font-size: 1rem;
 }
 h1 + h2 {
-	font-size: 0.8rem;
+	font-size: 1rem;
 	font-style: italic;
 	color: #333333;
 	margin-top: -0.5rem;
@@ -398,6 +397,28 @@ p:first-letter {
 	float: left;
 }
  */
+ol li {
+	list-style: decimal outside;
+	margin-left: 1.7rem;
+}
+ul li {
+	list-style: disc outside;
+	margin-left: 1.7rem;
+}
+ul.none {
+	list-style-type: none;
+}
+ul.none li {
+	margin-left: 1.7rem;
+	margin-bottom: 0.5rem;
+	list-style: none outside;
+	font-size: 0.8em;
+}
+ul.browse {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
 .image {
 	max-width: 18.75rem;
 }
