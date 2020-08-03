@@ -420,6 +420,13 @@ ul.f3-widget-paginator {
 	flex-direction: row;
 	justify-content: center;
 }
+ul.f3-widget-paginator {
+	margin-top: 1rem;
+	margin-bottom: 1rem
+	border: 0.0625rem solid #000044;
+	background-color: #E1E8F1;
+	color: #000044;
+}
 ul.browse li,
 ul.f3-widget-paginator li {
 	list-style: none outside;
