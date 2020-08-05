@@ -505,6 +505,23 @@ h4.person {
 	background: #C0C0C0;
 	margin: 0;
 }
+.news-list-author::before {
+	font-family: "Font Awesome 5 Free";
+	display: inline-block;
+	font-weight: 900;
+	color: #000044;
+	content: "\f007";
+	font-style: normal;
+}
+.news-list-author {
+	margin-left: 1rem;
+}
+.news-author-name {
+	display: block;
+	font-size: 1rem;
+	color: #000099;
+}
+
 .glossary-link::before {
 	font-family: "Font Awesome 5 Free";
 	display: inline-block;
