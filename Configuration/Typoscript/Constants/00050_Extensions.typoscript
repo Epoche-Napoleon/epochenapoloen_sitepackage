@@ -1,7 +1,6 @@
 # Fluid Styled Content #
 // DEPENDENCIES
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_styled_content/Configuration/TypoScript/constants.txt">
-
 page {
 	fluidtemplate {
 		10 {
@@ -11,7 +10,6 @@ page {
 		}
 	}
 }
-
 # EXT:epochenapoleon_normdata #
 plugin.tx_epochenapoleoncenormdata {
 	view {
@@ -20,7 +18,6 @@ plugin.tx_epochenapoleoncenormdata {
 		layoutRootPath = EXT:epochenapoleon_sitepackage/Ressources/Private/Layouts/Ce_Normdata/
 	}
 }
-
 # Gridelements #
 plugin.tx_gridelements_pi >
 tt_content.gridelements_pi1 >
@@ -38,7 +35,6 @@ tt_content.gridelements_pi {
 		}
 	}
 }
-
 # EXT: ContentRating #
 plugin.tx_contentratingextbase {
 	view {
@@ -48,7 +44,6 @@ plugin.tx_contentratingextbase {
 	}
 	persistence.storagePid =
 }
-
 # EXT: CS_SEO #
 plugin.tx_csseo {
 	sitetitle = EPOCHE NAPOLEON
@@ -91,7 +86,6 @@ plugin.tx_news {
 		}
 	}
 }
-
 # EXT: Mindshapecookiehint #
 plugin.tx_mindshapecookiehint {
 	settings {
@@ -124,29 +118,11 @@ plugin.tx_ckeditor_fontawesome {
 	loadCSS = 1
 	css = https://use.fontawesome.com/releases/v5.8.1/css/all.css
 }
-# EXT: Glossary2
-plugin.tx_glossary2 {
+plugin.tx_maps2 {
 	persistence {
-		# cat=plugin.tx_glossary2//a; type=string; label=Default storage PID
-		storagePid =
-	}
-	settings {
-		# cat=plugin.tx_glossary2//c; type=int+; label=PID of Detail page: Leave empty to show details on current page.
-		pidOfDetailPage =
-
-		pageBrowser {
-			# cat=plugin.tx_glossary2/basic/dims; type=int+; label=Items per page: How many items should be displayed on one page
-			itemsPerPage = 15
-			# cat=plugin.tx_glossary2/basic/enable; type=boolean; label=insert above: Should pagebrowser be displayed on top of the list
-			insertAbove = 1
-			# cat=plugin.tx_glossary2/basic/enable; type=boolean; label=insert below: Should pagebrowser be displayed at bottom of the list
-			insertBelow = 0
-			# cat=plugin.tx_glossary2/basic/dims; type=int+; label=max number of links: Define maximum amount of pages which should be displayed
-			maximumNumberOfLinks = 5
-		}
+		storagePid = 6824
 	}
 }
-
 plugin.tx_glossary2 {
 	view {
 		templateRootPath = EXT:epochenapoleon_sitepackage/Resources/Private/Templates/glossary2/
