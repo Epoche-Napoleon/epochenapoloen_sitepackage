@@ -573,6 +573,7 @@ h4.person {
 }
 .news-list-view .header {
 	background: #000044;
+	color: #FFFFC7;
 }
 .news-list-view .header h3 {
 	text-align: left;
@@ -601,7 +602,6 @@ h4.person {
 .news-header {
 	color: #000044;
 }
-
 .glossary-link::before {
 	font-family: "Font Awesome 5 Free";
 	display: inline-block;
@@ -654,7 +654,7 @@ h4.person {
 	color: #00bb00;
 }
 .werktitel {
-	font-width: bold;
+	font-weight: bold;
 	font-style: italic;
 }
 .internal-link {
