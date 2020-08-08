@@ -623,6 +623,15 @@ h4.person {
 .news-header {
 	color: #000044;
 }
+.news-single .article ul.pager {
+	list-style-type: none;
+}
+.news-single .article ul.pager li.previous {
+
+}
+.news-single .article ul.pager li.next {
+
+}
 .glossary-link::before {
 	font-family: "Font Awesome 5 Free";
 	display: inline-block;
