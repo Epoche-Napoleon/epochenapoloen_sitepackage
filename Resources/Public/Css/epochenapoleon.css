@@ -407,7 +407,7 @@ blockquote p {
 	color: #000044;
 }
 
-p::first-letter {
+blockquote + p::first-letter {
 	font-size: 2rem;
 	font-weight: bold;
 	display: inline-block;
