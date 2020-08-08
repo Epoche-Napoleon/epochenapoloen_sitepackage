@@ -386,7 +386,7 @@ p, ul, ol {
 	margin-bottom: 1rem;
 	hyphens: auto;
 }
-blockquote p::before {
+blockquote::before {
 	font-family: "Font Awesome 5 Free";
 	display: inline-block;
 	font-weight: 900;
@@ -394,7 +394,7 @@ blockquote p::before {
 	content: "\f101";
 	font-style: normal;
 }
-blockquote p::after {
+blockquote::after {
 	font-family: "Font Awesome 5 Free";
 	display: inline-block;
 	font-weight: 900;
