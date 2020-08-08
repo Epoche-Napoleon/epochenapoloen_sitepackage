@@ -404,7 +404,7 @@ blockquote p:after {
 	margin-left: 0.5rem;
 	font-style: normal;
 }
-blockquote p::first-letter {
+blockquote p:first-letter {
 	font-size: 2rem;
 	color: #E00000;
 }
