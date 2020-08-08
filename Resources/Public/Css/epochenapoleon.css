@@ -519,7 +519,87 @@ h4.person {
 .news-author-name {
 	display: block;
 	font-size: 1rem;
-	color: #000099;
+	color: #000044;
+}
+.news-text-wrap {
+	text-align: left;
+}
+.news-list-date:before {
+	font-font: "Font Awesome 5 free";
+	display: inline-block;
+	font-weight: 900;
+	color: #000044;
+	content: "\f783";
+	font-style: normal;
+	margin-right: 0.5rem;
+}
+.news-list-date {
+	margin-left: 1rem;
+	float: right;
+	display: block;
+	font-size: 0.8rem;
+	font-style: italic;
+}
+.teaser-text {
+	font-style: italic;
+}
+.news-list-category {
+	margin-left: 1rem;
+	font-style: italic;
+}
+.news-text-wrap h4 {
+	text-align: left;
+}
+.news-related h4 {
+	text-align: left;
+}
+.news-backlink-wrap {
+	display: block;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	background-color: #000044;
+	color: #FFFFC7;
+	padding: 0.5rem;
+}
+.news-img-caption {
+	font-size: 0.8rem;
+	background-color: #E1F8F1;
+	color: #000044;
+}
+.news-list-view .article {
+	border: 0.0625rem solid #000044;
+	margin-bottom: 0;
+	background: #E1E8F1;
+}
+.news-list-view .header {
+	background: #000044;
+}
+.news-list-view .header h3 {
+	text-align: left;
+}
+.news-list-view .header h3 a {
+	color: #E1E8F1;
+}
+.news-menu-view {
+	background: #E1E8F1;
+}
+.news-menu-view ul li {
+	background-color: #E1E8F1;
+	color: #000044;
+	text-align: center;
+}
+.news-menu-view ul li ul li.item {
+	background-color: #FFFFC7;
+	color: #000044;
+	font-weight: bold;
+	text-align: left;
+}
+.news-menu-view ul li ul li.item a {
+	display: block;
+	text-align: left;
+}
+.news-header {
+	color: #000044;
 }
 
 .glossary-link::before {
