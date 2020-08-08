@@ -554,7 +554,7 @@ h4.person {
 	text-align: left;
 }
 .news-backlink-wrap {
-	display: block;
+	display: inline-block;
 	margin-top: 0.5rem;
 	margin-bottom: 0.5rem;
 	background-color: #000044;
