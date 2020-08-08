@@ -388,7 +388,7 @@ p, ul, ol {
 }
 blockquote::before {
 	font-family: "Font Awesome 5 Free";
-	display: inline-block;
+	display: inline;
 	font-weight: 900;
 	color: #000044;
 	content: "\f101";
@@ -396,7 +396,7 @@ blockquote::before {
 }
 blockquote::after {
 	font-family: "Font Awesome 5 Free";
-	display: inline-block;
+	display: inline;
 	font-weight: 900;
 	color: #000044;
 	content: "\f100";
@@ -407,7 +407,7 @@ blockquote p {
 	color: #000044;
 }
 
-blockquote + p::first-letter {
+blockquote > p::first-letter {
 	font-size: 2rem;
 	font-weight: bold;
 	display: inline-block;
