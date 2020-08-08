@@ -386,7 +386,7 @@ p, ul, ol {
 	margin-bottom: 1rem;
 	hyphens: auto;
 }
-blockquote:before {
+blockquote p:before {
 	font-family: "Font Awesome 5 Free";
 	display: inline-block;
 	font-weight: 900;
@@ -395,16 +395,20 @@ blockquote:before {
 	margin-right: 0.5rem;
 	font-style: normal;
 }
-blockquote:after {
+blockquote p:after {
 	font-family: "Font Awesome 5 Free";
 	display: inline-block;
 	font-weight: 900;
 	color: #000044;
 	content "\100";
-	margin-right: 0.5rem;
+	margin-left: 0.5rem;
 	font-style: normal;
 }
-blockquote {
+blockquote p:first-letter {
+	font-size: 2rem;
+	color: #E00000;
+}
+blockquote p {
 	background-color: #FFFFC7;
 	color: #000044;
 }
