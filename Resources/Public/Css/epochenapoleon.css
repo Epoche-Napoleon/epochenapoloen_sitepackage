@@ -643,6 +643,7 @@ h4.person {
 }
 .tx-events2 .scroll-container .list-group .list-group-item {
 	list-style-type: none;
+	margin-bottom: 0.5rem;
 }
 .glossary-link::before {
 	font-family: "Font Awesome 5 Free";
