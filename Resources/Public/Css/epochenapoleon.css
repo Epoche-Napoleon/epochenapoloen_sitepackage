@@ -410,8 +410,8 @@ blockquote::before {
 	text-align: left;
 }
 blockquote::after {
-	font-size: 3rem;
 	font-family: "Font Awesome 5 Free";
+	font-size: 3rem;
 	display: block;
 	font-weight: 900;
 	color: #000044;
@@ -419,10 +419,12 @@ blockquote::after {
 	font-style: normal;
 	text-align: right;
 }
-blockquote > p::first-letter {
+blockquote p::first-letter {
 	color: #E00000;
 	font-weight: bold;
 	font-size: 2rem;
+	margin-top: -3rem;
+	margin-bottom: -3rem;
 
 }
 blockquote p {
