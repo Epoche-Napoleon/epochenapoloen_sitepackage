@@ -406,12 +406,10 @@ blockquote p::after {
 	font-style: normal;
 }
 blockquote > p::first-letter {
-	font-size: 2rem;
+	intial-letter: 2 -2;
+	initial-letter-align: alphabetic;
 	font-weight: bold;
 	display: inline-block;
-	margin: 0.2rem 0.2rem 0 0.1rem;
-	padding: 0.2rem 0.1rem;
-	line-height: 1.5rem;
 	float: left;
 }
 blockquote p {
