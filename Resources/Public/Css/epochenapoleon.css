@@ -224,6 +224,9 @@ nav.flex-column a.nav-link {
 .teasermenu * {
 	display: block;
 }
+.teaser-menu a {
+	color: #000044;
+}
 .teasermenu ul {
 	list-style-type: none;
 	width: 100%;
@@ -497,7 +500,7 @@ figcaption {
 h4.person {
 	line-height: 2rem;
 	text-align: center;
-	background: #0000CC;
+	background: #000044;
 	color: #FFFFC7;
 	margin: 1rem 0 0.3rem 0;
 }
@@ -508,7 +511,7 @@ h4.person {
 	display: block;
 }
 .person-cat {
-	background: #0000CC;
+	background: #000044;
 	color: #FFFFC7;
 }
 .person-link, .person-nolink {
