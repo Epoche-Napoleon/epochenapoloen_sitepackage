@@ -395,7 +395,6 @@ blockquote {
 	padding: 1.5rem;
 	margin-left: 1rem;
 	margin-right: 1rem;
-	margin-bottom: 1rem;
 	box-shadow: 0.3rem 0.3rem #C0C0C0;
 	border-radius: 2.5rem;
 	line-height: 1.5rem;
@@ -427,8 +426,7 @@ blockquote p::first-letter {
 }
 blockquote p {
 	display: inline-block;
-	margin-bottom: -3rem;
-	margin-left: 3rem;
+	margin-left: 1.5rem;
 	margin-right: 1.5rem;
 	margin-top: -1.5rem;
 	margin-bottom: -1.5rem;
