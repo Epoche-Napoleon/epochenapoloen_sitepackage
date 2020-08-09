@@ -389,9 +389,9 @@ p, ul, ol {
 	margin-bottom: 1rem;
 	hyphens: auto;
 }
-blockquote p::before {
+blockquote::before {
 	font-family: "Font Awesome 5 Free";
-	display: inline;
+	display: flex;
 	font-weight: 900;
 	color: #000044;
 	content: "\f101";
@@ -406,11 +406,7 @@ blockquote::after {
 	font-style: normal;
 }
 blockquote > p::first-letter {
-	intial-letter: 2 -2;
-	initial-letter-align: alphabetic;
-	font-weight: bold;
-	display: inline-block;
-	float: left;
+	intial-letter: 2;
 }
 blockquote p {
 	background-color: #FFFFC7;
