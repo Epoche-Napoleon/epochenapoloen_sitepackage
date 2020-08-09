@@ -424,6 +424,7 @@ blockquote > p::first-letter {
 }
 blockquote p {
 	display: inline-block;
+	margin-bottom: 0;
 }
 ol li {
 	list-style: decimal outside;
