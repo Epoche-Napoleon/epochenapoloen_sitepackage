@@ -402,7 +402,7 @@ blockquote {
 blockquote::before {
 	font-size: 3rem;
 	font-family: "Font Awesome 5 Free";
-	display: flex;
+	display: inline;
 	font-weight: 900;
 	color: #000044;
 	content: "\f101";
@@ -412,7 +412,7 @@ blockquote::before {
 blockquote::after {
 	font-size: 3rem;
 	font-family: "Font Awesome 5 Free";
-	display: flex;
+	display: inline-block;
 	font-weight: 900;
 	color: #000044;
 	content: "\f100";
@@ -423,13 +423,14 @@ blockquote > p::first-letter {
 	color: #E00000;
 	font-weight: bold;
 	font-size: 2rem;
-	margin-bottom: 2rem;
+
 }
 blockquote p {
 	display: inline-block;
-	margin-bottom: 0;
+	margin-bottom: -3rem;
 	margin-left: 3rem;
 	margin-right: 3rem;
+	margin-top: -3rem;
 }
 blockquote + p {
 	margin-top: 1rem;
