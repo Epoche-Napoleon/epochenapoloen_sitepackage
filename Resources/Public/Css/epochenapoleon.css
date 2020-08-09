@@ -389,7 +389,7 @@ p, ul, ol {
 	margin-bottom: 1rem;
 	hyphens: auto;
 }
-blockquote > p::before {
+blockquote p::before {
 	font-family: "Font Awesome 5 Free";
 	display: inline;
 	font-weight: 900;
@@ -397,7 +397,7 @@ blockquote > p::before {
 	content: "\f101";
 	font-style: normal;
 }
-blockquote > p::after {
+blockquote p::after {
 	font-family: "Font Awesome 5 Free";
 	display: inline;
 	font-weight: 900;
@@ -405,11 +405,6 @@ blockquote > p::after {
 	content: "\f100";
 	font-style: normal;
 }
-blockquote p {
-	background-color: #FFFFC7;
-	color: #000044;
-}
-
 blockquote > p::first-letter {
 	font-size: 2rem;
 	font-weight: bold;
@@ -418,6 +413,10 @@ blockquote > p::first-letter {
 	padding: 0.2rem 0.1rem;
 	line-height: 1.5rem;
 	float: left;
+}
+blockquote p {
+	background-color: #FFFFC7;
+	color: #000044;
 }
 ol li {
 	list-style: decimal outside;
