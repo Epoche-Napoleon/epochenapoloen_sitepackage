@@ -420,7 +420,7 @@ blockquote > p::first-letter {
 	font-size: 2rem;
 	margin-bottom: -2rem;
 }
-blockquote + p {
+blockquote p {
 	margin-bottom: 1rem;
 }
 blockquote p {
