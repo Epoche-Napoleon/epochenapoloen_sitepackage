@@ -405,7 +405,7 @@ blockquote::after {
 	content: "\f100";
 	font-style: normal;
 }
-p::first-letter {
+blockquote > p::first-letter {
 	color: #E00000;
 }
 blockquote p {
