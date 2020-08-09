@@ -398,10 +398,11 @@ blockquote {
 	margin-bottom: 1rem;
 	box-shadow: 0.3rem 0.3rem #C0C0C0;
 	border-radius: 2.5rem;
+	line-height: 1.5rem;
 }
 blockquote::before {
 	font-family: "Font Awesome 5 Free";
-	font-size: 3rem;
+	font-size: 1.5rem;
 	display: block;
 	font-weight: 900;
 	color: #000044;
@@ -411,7 +412,7 @@ blockquote::before {
 }
 blockquote p::after {
 	font-family: "Font Awesome 5 Free";
-	font-size: 3rem;
+	font-size: 1.5rem;
 	display: inline-block;
 	font-weight: 900;
 	color: #000044;
