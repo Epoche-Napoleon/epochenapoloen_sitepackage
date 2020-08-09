@@ -428,6 +428,8 @@ blockquote > p::first-letter {
 blockquote p {
 	display: inline-block;
 	margin-bottom: 0;
+	margin-left: 3rem;
+	margin-right: 3rem;
 }
 blockquote + p {
 	margin-top: 1rem;
