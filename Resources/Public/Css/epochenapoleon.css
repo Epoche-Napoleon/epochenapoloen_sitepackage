@@ -405,7 +405,7 @@ blockquote::after {
 	content: "\f100";
 	font-style: normal;
 }
-blockquote > p::first-letter {
+blockquote p::first-letter {
 	intial-letter: 2;
 }
 blockquote p {
