@@ -400,8 +400,8 @@ blockquote {
 	border-radius: 2.5rem;
 }
 blockquote::before {
-	font-size: 3rem;
 	font-family: "Font Awesome 5 Free";
+	font-size: 3rem;
 	display: block;
 	font-weight: 900;
 	color: #000044;
@@ -423,9 +423,6 @@ blockquote p::first-letter {
 	color: #E00000;
 	font-weight: bold;
 	font-size: 2rem;
-	margin-top: -3rem;
-	margin-bottom: -3rem;
-
 }
 blockquote p {
 	display: inline-block;
@@ -433,6 +430,7 @@ blockquote p {
 	margin-left: 3rem;
 	margin-right: 3rem;
 	margin-top: -3rem;
+	margin-bottom: -3rem;
 }
 blockquote + p {
 	margin-top: 1rem;
