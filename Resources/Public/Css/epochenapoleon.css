@@ -405,6 +405,7 @@ blockquote::before {
 	color: #000044;
 	content: "\f101";
 	font-style: normal;
+	text-align: left;
 }
 blockquote::after {
 	font-family: "Font Awesome 5 Free";
@@ -413,15 +414,13 @@ blockquote::after {
 	color: #000044;
 	content: "\f100";
 	font-style: normal;
+	text-align: right;
 }
 blockquote > p::first-letter {
 	color: #E00000;
 	font-weight: bold;
 	font-size: 2rem;
 	margin-bottom: -2rem;
-}
-blockquote p {
-	margin-bottom: 1rem;
 }
 blockquote p {
 	display: inline-block;
