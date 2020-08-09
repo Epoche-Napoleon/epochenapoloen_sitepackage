@@ -634,6 +634,16 @@ h4.person {
 .news-single .article ul.pager li.next {
 	list-style-type: none;
 }
+.tx-events2 .scroll-container {
+	background-color: #DDDDDD;
+}
+.tx-events2 .scroll-container .list-group {
+	background-color: #E1E8F1;
+	color: #000044;
+}
+.tx-events2 .scroll-container .list-group .list-group-item {
+	list-style-type: none;
+}
 .glossary-link::before {
 	font-family: "Font Awesome 5 Free";
 	display: inline-block;
