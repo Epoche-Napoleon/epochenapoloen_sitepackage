@@ -395,7 +395,6 @@ blockquote {
 	padding: 1.5rem;
 	margin-left: 1rem;
 	margin-right: 1rem;
-	margin-bottom: 1rem;
 	box-shadow: 0.3rem 0.3rem #C0C0C0;
 	border-radius: 2.5rem;
 }
@@ -421,9 +420,7 @@ blockquote > p::first-letter {
 	font-size: 2rem;
 }
 blockquote p {
-	background-color: #FFFFC7;
-	color: #000044;
-	display: inline;
+	display: inline-block;
 }
 ol li {
 	list-style: decimal outside;
