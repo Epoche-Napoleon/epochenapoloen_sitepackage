@@ -423,8 +423,8 @@ blockquote p::first-letter {
 	color: #E00000;
 	font-weight: bold;
 	font-size: 3rem;
-	margin-top: -3rem;
-	margin-left: 3rem;
+	margin-top: 0.6rem;
+	float: left;
 }
 blockquote p {
 	display: inline-block;
