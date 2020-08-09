@@ -423,6 +423,7 @@ blockquote > p::first-letter {
 blockquote p {
 	background-color: #FFFFC7;
 	color: #000044;
+	display: inline;
 }
 ol li {
 	list-style: decimal outside;
