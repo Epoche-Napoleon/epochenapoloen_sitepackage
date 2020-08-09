@@ -389,6 +389,15 @@ p, ul, ol {
 	margin-bottom: 1rem;
 	hyphens: auto;
 }
+blockquote {
+	background-color: #ffffc7;
+	color: #000044;
+	padding: 1.5rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	box-shadow: 0.3rem 0.3rem #C0C0C0;
+	border-radius: 5rem;
+}
 blockquote::before {
 	font-family: "Font Awesome 5 Free";
 	display: flex;
@@ -407,6 +416,8 @@ blockquote::after {
 }
 blockquote > p::first-letter {
 	color: #E00000;
+	font-weight: bold;
+	font-size: 2rem;
 }
 blockquote p {
 	background-color: #FFFFC7;
