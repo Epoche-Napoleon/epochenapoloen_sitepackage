@@ -429,9 +429,9 @@ blockquote p {
 	display: inline-block;
 	margin-bottom: -3rem;
 	margin-left: 3rem;
-	margin-right: 3rem;
-	margin-top: -3rem;
-	margin-bottom: -3rem;
+	margin-right: 1.5rem;
+	margin-top: -1.5rem;
+	margin-bottom: -1.5rem;
 }
 blockquote + p {
 	margin-top: 1rem;
