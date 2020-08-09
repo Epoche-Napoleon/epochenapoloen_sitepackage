@@ -400,6 +400,7 @@ blockquote {
 	border-radius: 2.5rem;
 }
 blockquote::before {
+	font-size: 3rem;
 	font-family: "Font Awesome 5 Free";
 	display: flex;
 	font-weight: 900;
@@ -409,6 +410,7 @@ blockquote::before {
 	text-align: left;
 }
 blockquote::after {
+	font-size: 3rem;
 	font-family: "Font Awesome 5 Free";
 	display: flex;
 	font-weight: 900;
