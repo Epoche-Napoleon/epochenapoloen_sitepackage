@@ -406,7 +406,6 @@ blockquote::after {
 	font-style: normal;
 }
 p::first-letter {
-	intial-letter: 2;
 	color: #E00000;
 }
 blockquote p {
