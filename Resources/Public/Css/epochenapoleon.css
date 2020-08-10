@@ -598,6 +598,7 @@ h4.person {
 	margin-bottom: 0.5rem;
 	background-color: #000044;
 	padding: 0.5rem;
+	border-radius: 2.5rem;
 }
 .news-backlink-wrap a {
 	color: #FFFFC7;
