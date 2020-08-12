@@ -127,7 +127,7 @@ plugin.tx_maps2 {
 		storagePid = 6824
 	}
 	view {
-		googleMapsJavaScriptApiKey = AIzaSyD-6ldMd2JTMewDUKpwZhly0vFdlKCGKRI
+		googleMapsJavaScriptApiKey = AIzaSyAjVhpqWCVI0fBnSWX7qqgp_GlChrO5KK0
 	}
 }
 plugin.tx_glossary2 {
