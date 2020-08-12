@@ -106,7 +106,6 @@ plugin.tx_mindshapecookiehint {
 		hint.message = Diese Website verwendet Cookies, um die Bedienkonfort zu erhöhen.
 	}
 }
-
 # EXT: GoogleMaps #
 plugin.tx_gomapsext {
 	settings {
