@@ -122,6 +122,9 @@ plugin.tx_maps2 {
 	persistence {
 		storagePid = 6824
 	}
+	view {
+		googleMapsJavaScriptApiKey = AIzaSyB3mBHVZ5nUdEV_aPkvgYFaQnfhCXREpfQ
+	}
 }
 plugin.tx_glossary2 {
 	view {
