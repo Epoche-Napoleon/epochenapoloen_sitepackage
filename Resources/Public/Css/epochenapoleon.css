@@ -434,7 +434,7 @@ blockquote p {
 }
 blockquote + p {
 	color: #E00000;
-	margin-bottom: 1.5rem;
+	margin-top: 1.5rem;
 }
 sub {
 	font-size: 0.5rem;
