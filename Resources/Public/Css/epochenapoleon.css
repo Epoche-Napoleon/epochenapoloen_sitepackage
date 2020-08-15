@@ -409,7 +409,7 @@ blockquote::before {
 	font-style: normal;
 	text-align: left;
 }
-blockquote p::after {
+blockquote::after {
 	font-family: "Font Awesome 5 Free";
 	font-size: 1.5rem;
 	display: inline-block;
