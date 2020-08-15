@@ -409,7 +409,7 @@ blockquote::before {
 	font-style: normal;
 	text-align: left;
 }
-blockquote::after {
+blockquote p::after {
 	font-family: "Font Awesome 5 Free";
 	font-size: 1.5rem;
 	display: inline-block;
@@ -431,7 +431,9 @@ blockquote p {
 	margin: -1.5rem 1.5rem;
 }
 blockquote + p {
+/*
 	margin-top: 1rem;
+ */
 }
 ol li {
 	list-style: decimal outside;
