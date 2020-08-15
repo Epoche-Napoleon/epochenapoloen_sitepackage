@@ -393,7 +393,7 @@ blockquote {
 	background-color: #FFFFC7;
 	color: #000044;
 	padding: 1.5rem;
-	box-shadow: 0.3rem 0.3rem #C0C0C0;
+	box-shadow: 0.3rem 0.3rem 1.5rem #C0C0C0;
 	border-radius: 2.5rem;
 	line-height: 1.5rem;
 	margin-top: 1.5rem;
