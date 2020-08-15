@@ -419,10 +419,11 @@ blockquote::after {
 	font-style: normal;
 	text-align: right;
 }
-blockquote > p::first-letter {
+blockquote > p:first-lineline:first-letter {
 	color: #E00000;
 	font-weight: bold;
 	font-size: 3rem;
+
 	margin-top: 0.6rem;
 	float: left;
 }
