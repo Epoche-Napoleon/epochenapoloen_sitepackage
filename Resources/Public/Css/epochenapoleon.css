@@ -390,10 +390,10 @@ p, br, ul, ol {
 	hyphens: auto;
 }
 blockquote {
-	background-color: #ffffc7;
+	background-color: #FFFFC7;
 	color: #000044;
 	padding: 1.5rem;
-	box-shadow: 0.3rem 0.3rem #C0C0C0;
+	box-shaadow: 0.3rem 0.3rem #C0C0C0;
 	border-radius: 2.5rem;
 	line-height: 1.5rem;
 }
@@ -417,19 +417,19 @@ blockquote::after {
 	font-style: normal;
 	text-align: right;
 }
-blockquote p:first-line::first-letter {
-	color: #E00000;
-	font-weight: bold;
-	font-size: 3rem;
-	margin-top: 0.6rem;
-	float: left;
-}
 blockquote p {
 	display: block;
 	margin-left: 1.5rem;
 	margin-right: 1.5rem;
 	margin-top: 0;
 	margin-bottom: 1.5rem;
+}
+blockquote > p:first-child::first-letter {
+	color: #E00000;
+	font-weight: bold;
+	font-size: 3rem;
+	margin-top: 0.6rem;
+	float: left;
 }
 blockquote + p {
 	margin-top: 1.5rem;
