@@ -437,7 +437,9 @@ blockquote p {
 blockquote + p {
 	margin-top: 1rem;
 }
-
+sub {
+	font-size: small;
+}
 ol li {
 	list-style: decimal outside;
 	margin-left: 1.7rem;
@@ -474,7 +476,6 @@ ul.f3-widget-paginator li {
 }
 .jumbotron a {
 	background: #E00000;
-
 }
 .image {
 	max-width: 18.75rem;
