@@ -433,10 +433,9 @@ blockquote p {
 	margin-bottom: 1.5rem;
 }
 blockquote + p {
-	color: #E00000;
 	margin-top: 1.5rem;
 }
-sub {
+sup {
 	font-size: 0.5rem;
 }
 ol li {
