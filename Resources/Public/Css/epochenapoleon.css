@@ -435,9 +435,7 @@ blockquote p {
 	margin-top: 1.5rem;
 	line-height: 1.5rem;
 }
-blockquote + p br {
-	margin-bottom: 1rem;
-}
+
 ol li {
 	list-style: decimal outside;
 	margin-left: 1.7rem;
