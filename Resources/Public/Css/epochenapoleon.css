@@ -421,7 +421,6 @@ blockquote p:first-line:first-letter {
 	color: #E00000;
 	font-weight: bold;
 	font-size: 3rem;
-
 	margin-top: 0.6rem;
 	float: left;
 }
@@ -429,7 +428,7 @@ blockquote p {
 	display: block;
 	margin-left: 1.5rem;
 	margin-right: 1.5rem;
-	margin-top: -1.5rem;
+	margin-top: 0;
 	margin-bottom: 1.5rem;
 }
 blockquote + p {
