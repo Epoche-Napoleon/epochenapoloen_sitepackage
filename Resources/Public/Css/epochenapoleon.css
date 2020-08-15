@@ -514,6 +514,26 @@ figcaption {
 	text-decoration-color: #555555;
 	color: #555555;
 }
+row {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.cols2 {
+	display: inline-flex;
+	width: 100%;
+}
+.cols2 .c101 {
+	order: 1;
+	width: 45%;
+	margin-right: 2%;
+	border-right: 0.0625rem dotted #000044;
+}
+.cols2 .c102 {
+	order: 2;
+	width: 45%;
+	margin-left: 2%;
+}
 h4.person {
 	line-height: 2rem;
 	text-align: center;
