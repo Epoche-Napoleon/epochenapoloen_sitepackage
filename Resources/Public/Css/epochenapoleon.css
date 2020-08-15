@@ -426,9 +426,11 @@ blockquote > p:first-child::first-letter {
 	font-size: 3rem;
 	margin-top: 0.6rem;
 	float: left;
+	line-height: 1.5rem;
+	display: inline-block;
 }
 blockquote p {
-	display: inline-block;
+	display: block;
 	margin-left: -1.5rem;
 	margin-right: -1.5rem;
 	margin-bottom: 1.5rem;
