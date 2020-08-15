@@ -406,8 +406,6 @@ blockquote::before {
 	color: #000044;
 	content: "\f101";
 	font-style: normal;
-	text-align: left;
-	margin-top: -1.5rem;
 }
 blockquote p:last-child::after {
 	font-family: "Font Awesome 5 Free";
@@ -417,7 +415,6 @@ blockquote p:last-child::after {
 	color: #000044;
 	content: "\f100";
 	font-style: normal;
-	text-align: right;
 	}
 blockquote p {
 	display: block;
@@ -432,7 +429,7 @@ blockquote > p:first-child::first-letter {
 	font-size: 3rem;
 	margin-top: 0.6rem;
 	float: left;
-	margin-top: 1.5rem;
+
 }
 blockquote + p {
 	margin-top: 1.5rem;
