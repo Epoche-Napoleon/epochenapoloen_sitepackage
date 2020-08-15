@@ -401,7 +401,7 @@ blockquote {
 blockquote::before {
 	font-family: "Font Awesome 5 Free";
 	font-size: 1.5rem;
-	display: block;
+	display: inline-block;
 	font-weight: 900;
 	color: #000044;
 	content: "\f101";
