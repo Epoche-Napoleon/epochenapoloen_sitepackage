@@ -408,7 +408,7 @@ blockquote::before {
 	text-align: left;
 	margin-top: -1.5rem;
 }
-blockquote::after {
+blockquote p:last-child::after {
 	font-family: "Font Awesome 5 Free";
 	font-size: 1.5rem;
 	display: inline-block;
