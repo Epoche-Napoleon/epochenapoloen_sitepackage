@@ -434,7 +434,7 @@ blockquote p {
 	margin-bottom: 1.5rem;
 }
 blockquote + p {
-	margin-top: 1rem;
+	margin-bottom: 1.5rem;
 }
 sub {
 	font-size: 0.5rem;
