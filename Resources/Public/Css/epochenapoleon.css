@@ -395,7 +395,6 @@ blockquote {
 	padding: 1.5rem;
 	margin-left: 1rem;
 	margin-right: 1rem;
-	margin-bottom: 1rem;
 	box-shadow: 0.3rem 0.3rem #C0C0C0;
 	border-radius: 2.5rem;
 	line-height: 1.5rem;
@@ -410,7 +409,7 @@ blockquote::before {
 	font-style: normal;
 	text-align: left;
 }
-blockquote::after {
+blockquote p::after {
 	font-family: "Font Awesome 5 Free";
 	font-size: 1.5rem;
 	display: inline-block;
@@ -420,22 +419,22 @@ blockquote::after {
 	font-style: normal;
 	text-align: right;
 }
-blockquote > p:first-child::first-letter {
+blockquote > p::first-letter {
 	color: #E00000;
 	font-weight: bold;
 	font-size: 3rem;
 	margin-top: 0.6rem;
 	float: left;
-	line-height: 1.5rem;
-	display: inline-block;
 }
 blockquote p {
-	display: block;
-	margin-left: -1.5rem;
-	margin-right: -1.5rem;
-	margin-bottom: 1.5rem;
-	margin-top: 1.5rem;
-	line-height: 1.5rem;
+	display: inline-block;
+	margin-left: 1.5rem;
+	margin-right: 1.5rem;
+	margin-top: -1.5rem;
+	margin-bottom: -1.5rem;
+}
+blockquote + p {
+	margin-top: 1rem;
 }
 
 ol li {
