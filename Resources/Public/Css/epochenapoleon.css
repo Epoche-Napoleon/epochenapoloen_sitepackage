@@ -418,6 +418,7 @@ blockquote::after {
 	content: "\f100";
 	font-style: normal;
 	text-align: right;
+	text-align: right;
 }
 blockquote > p::first-line::first-letter {
 	color: #E00000;
