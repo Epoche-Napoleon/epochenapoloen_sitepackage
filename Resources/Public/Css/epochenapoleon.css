@@ -679,7 +679,7 @@ h4.person {
 	background-color: #E1E8F1;
 	color: #000044;
 }
-.list-group .list-item {
+.list-group {
 	margin-top: 0.5rem;
 	list-style-type: none;
 	margin-bottom: 0.5rem;
