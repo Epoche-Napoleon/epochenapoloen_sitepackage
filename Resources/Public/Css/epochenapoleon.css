@@ -675,9 +675,6 @@ h4.person {
 .tx-events2 {
 	background-color: #DDDDDD;
 }
-.list-group {
-	background-color: #E1E8F1;
-	color: #000044;
 }
 .list-group {
 	margin-top: 0.5rem;
@@ -685,7 +682,7 @@ h4.person {
 	margin-bottom: 0.5rem;
 }
 .list-group .list-group-item {
-	list-style-type: none;
+	list-style-type: none outline;
 	margin-bottom: 0.5rem;
 	border-top: 0.0625rem solid #000044;
 }
