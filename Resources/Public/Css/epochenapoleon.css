@@ -672,20 +672,18 @@ h4.person {
 .news-single .article ul.pager li.next {
 	list-style-type: none;
 }
-.tx-events2 .scroll-container,
-.tx-events2 .events2DataElement {
+.tx-events2 {
 	background-color: #DDDDDD;
 }
-.tx-events2 .scroll-container .list-group,
-.tx-events2 .events2DataElement .list-group {
+.list-group {
 	background-color: #E1E8F1;
 	color: #000044;
 }
-.tx-events2 .scroll-container .list-group .list-group-item {
+.list-group .list-item {
 	list-style-type: none;
 	margin-bottom: 0.5rem;
 }
-.tx-events2 .events2DataElement .list-group .list-group-item {
+.list-group .list-group-item {
 	list-style-type: none;
 	margin-bottom: 0.5rem;
 }
