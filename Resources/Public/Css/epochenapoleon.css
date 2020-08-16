@@ -687,7 +687,7 @@ h4.person {
 .list-group .list-group-item {
 	list-style-type: none;
 	margin-bottom: 0.5rem;
-	border-radius: 0.625rem;
+	border-top: 0.0625rem solid #000044;
 }
 .glossary-link::before {
 	font-family: "Font Awesome 5 Free";
