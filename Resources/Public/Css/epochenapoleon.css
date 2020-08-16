@@ -683,6 +683,7 @@ h4.person {
 }
 .list-group .list-group-item {
 	list-style-type: none outline;
+	margin-top: 0.5rem;
 	margin-bottom: 0.5rem;
 	border-top: 0.0625rem solid #000044;
 }
