@@ -1,4 +1,4 @@
- {
+   {
   "name": "epochenapoleon/epochenapoleon-sitepackage",
   "type": "typo3-cms-extension",
   "description": "Create the sitepackage for the website EPOCHE NAPOLEON",
@@ -20,10 +20,10 @@
   ],
   "license": "GPL-2.0-or-later",
   "require": {
-    "typo3/cms-core": "^9.5",
-    "typo3/cms-backend": "^9.5",
-    "typo3/cms-fluid": "^9.5",
-    "typo3/cms-extbase": "^9.5"
+    "typo3/cms-core": "^9.5.17",
+    "typo3/cms-backend": "^9.5.17",
+    "typo3/cms-fluid": "^9.5.17",
+    "typo3/cms-extbase": "^9.5.17"
   },
   "replace": {
     "epochenapoleon_sitepackage": "self.version",
