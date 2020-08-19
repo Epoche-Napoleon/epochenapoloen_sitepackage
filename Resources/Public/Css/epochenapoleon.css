@@ -584,11 +584,11 @@ h4.person {
 	text-align: left;
 }
 .news-list-date:before {
-	font-font: "Font Awesome 5 Free";
+	font-family: "Font Awesome 5 Free";
 	display: inline-block;
 	font-weight: 900;
 	color: #000044;
-	content: "\f073";
+	content: "\f783";
 	font-style: normal;
 	margin-right: 0.5rem;
 }
