@@ -170,11 +170,10 @@ ul.mainnav li a:focus {
 }
 #abcmenu {
 	margin-bottom: 1rem;
-	display: flex;
 }
 .cM {
 	list-style: none inside;
-	display: block;
+	display: flex;
 	text-align: center;
 	color: #FFFFFF;
 	background-color: #0000CC;
