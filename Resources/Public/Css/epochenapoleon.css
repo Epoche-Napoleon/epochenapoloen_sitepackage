@@ -187,7 +187,7 @@ ul.mainnav li a:focus {
 	flex-direction: row;
 	flex-wrap: wrap;
 }
-.cM ul li.cM_NO, .cM ul li.cM_ACT, .cM ul li.cM_CUR {
+.cM li.cM_NO, .cM li.cM_ACT, .cM li.cM_CUR {
 	border: 0.0625rem solid #0000CC;
 	background: #0000CC;
 	margin-left: 0;
