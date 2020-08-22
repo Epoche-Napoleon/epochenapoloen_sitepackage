@@ -173,7 +173,6 @@ ul.mainnav li a:focus {
 }
 .cM {
 	list-style: none inside;
-	display: flex;
 	text-align: center;
 	color: #FFFFFF;
 	background-color: #0000CC;
@@ -182,11 +181,14 @@ ul.mainnav li a:focus {
 	margin-bottom: 1rem;
 	margin-left: 1.5rem;
 	margin-right: 1.5rem;
-
 }
-.cM li.cM_NO, .cM li.cM_ACT, .cM li.cM_CUR {
+.cM ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.cM ul li.cM_NO, .cM ul li.cM_ACT, .cM ul li.cM_CUR {
 	border: 0.0625rem solid #0000CC;
-	display: inline;
 	background: #0000CC;
 	margin-left: 0;
 }
