@@ -186,12 +186,12 @@ ul.mainnav li a:focus {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	list-style: none inside;
 }
 .cM li.cM_NO, .cM li.cM_ACT, .cM li.cM_CUR {
 	border: 0.0625rem solid #0000CC;
 	background: #0000CC;
 	margin-left: 0;
+	list-style: none inside;
 }
 .cM_NO a, .cM_NO a:link, .cM_NO a:visited, .cM_NO a:focus {
 	color: #FFFFC7;
