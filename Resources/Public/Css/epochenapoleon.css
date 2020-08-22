@@ -836,15 +836,15 @@ hr.clearboth p {
 		display: inline-block;
 	}
 	.cM_NO a, .cM_NO a:link, .cM_NO a:visited, .cM_NO a:focus {
-		color: #FFFFC7;
+		color: #E1E8F1;
 		text-decoration: none;
 		border: 0.1875rem solid #0000CC;
 	}
 	.cM_CUR a, .cM_CUR a:link, .cM_CUR a:visited, .cM_CUR a:hover, .cM_CUR a:focus, .cM_NO a:active,
 	.cM_NO a:hover {
 		color: #0000CC;
-		background: #FFFFC7;
-		border: 0.1875rem solid #FFFFC7;
+		background: #E1E8F1;
+		border: 0.1875rem solid #E1E8F1;
 	}
 	.teasermenu ul li dl {
 		width: 100%;
