@@ -81,6 +81,7 @@ editor:
       - div
       - find
       - selectall
+      - wordcount
     removePlugins:
       - image
     removeButtons:
