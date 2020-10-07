@@ -2,23 +2,14 @@
 config {
 	entwicklung = 1
 	admPanal = 1
-	/*
-	baseURL = http://p532833.mittwaldserver.info/epochenapoleon/public/
-	absRefPrefix = http://p532833.mittwaldserver.info/epochenapoleon/public/
-	*/
 }
 [global]
-
 
 # Live-System #
 [applicationContext == "Production"]
 config {
 	entwicklung = 0
 	admPanel = 0
-	/*
-	baseURL = http://www.epoche-napoleon.net/
-	absRefPrefix = http://www.epoche-napoleon.net/
-	*/
 }
 [global]
 
