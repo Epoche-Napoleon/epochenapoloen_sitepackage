@@ -19,7 +19,7 @@ plugin.tx_beaconizer_generator {
 				mapping {
 					tableName = pages
 					columns {
-						source_identifier.mapOnProperty = source_identifier
+						source_identifier.mapOnProperty = sourceIdentifier
 					}
 				}
 			}
