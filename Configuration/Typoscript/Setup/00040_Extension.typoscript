@@ -3,9 +3,7 @@ plugin.tx_glossary2.persistence {
 	# Define Storage PID where glossary records are located
 	storagePid = 4
 }
-
 # Beaconizer
-# Beaconizer Generator
 plugin.tx_beaconizer_generator {
 	view {
 		layoutRootPaths.10 = EXT:beaconizer/Resources/Private/BEACON/Layouts/
@@ -27,8 +25,6 @@ plugin.tx_beaconizer_generator {
 		}
 	}
 }
-# Beaconizer
-# Plugin seeAlso
 plugin.tx_beaconizer_seealso {
 	settings {
 		objectMapping {
@@ -197,4 +193,3 @@ plugin.tx_ckeditor_fontawesome {
 	loadCSS = 1
 	css = https://use.fontawesome.com/releases/v5.8.1/css/all.css
 }
-
