@@ -1,6 +1,6 @@
 tx_news {
 	templateLayouts {
-	# Allows to preset further layouts for the Flexform selection in the content element
+		# Allows to preset further layouts for the Flexform selection in the content element
 	}
 	# Preset Archival Date for all messages: 1 month after creation
 	predefine.archive = +1 month
