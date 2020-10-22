@@ -73,6 +73,7 @@ editor:
       - align-center
       - align-right
       - align-justify
+
     extraPlugins:
       - about
       - specialchar
@@ -82,6 +83,7 @@ editor:
       - find
       - selectall
       - wordcount
+
     removePlugins:
       - image
     removeButtons:
