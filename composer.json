@@ -1,5 +1,5 @@
    {
-  "name": "co",
+  "name": "epochenapoleon/epochenapoleon-sitepackage",
   "type": "typo3-cms-extension",
   "description": "Create the sitepackage for the website EPOCHE NAPOLEON",
   "homepage": "http://www.epoche-napoleon.net",
@@ -31,7 +31,7 @@
     },
   "autoload": {
     "psr-4": {
-      "epochenapoleon\\EpochenapoleonSitepackage\\": "classes/"
+      "epochenapoleon\\EpochenapoleonSitepackage\\": "Classes/"
     }
   },
   "extra": {
