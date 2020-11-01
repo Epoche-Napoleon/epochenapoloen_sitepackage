@@ -423,10 +423,7 @@ blockquote p:last-child::after {
 	}
 blockquote p {
 	display: block;
-	margin-left: 1.5rem;
-	margin-right: 1.5rem;
-	margin-top: -1.5rem;
-	margin-bottom: 1.5rem;
+	margin: -1.5rem 1.5rem 1.5rem;
 }
 blockquote > p:first-child::first-letter {
 	color: #E00000;
@@ -519,7 +516,7 @@ figcaption {
 	text-decoration-color: #555555;
 	color: #555555;
 }
-row {
+.row {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
@@ -764,6 +761,11 @@ h4.person {
 	margin-bottom: 1rem;
 	padding: 1rem;
 }
+.important {
+	color: #E00000;
+	border: 1px #000000 solid;
+	padding: 1rem;
+}
 hr {
 	text-align: center;
 	width: 84%;
@@ -790,7 +792,6 @@ hr.clearboth p {
 		flex-flow: column nowrap;
 	}
 	#left {
-		width: 100%;
 		display: flex;
 		flex-wrap: nowrap;
 		flex-direction: row;
