@@ -103,7 +103,7 @@ buttons:
       enabled: true
     properties:
       class:
-        allowedClasses: 'link-internel, link-internal-blank, person-men, person-women, link-download,link-folder,link-external, link-external-blank, link-mail'
+        allowedClasses: 'link-internel, link-internal-blank, person-men, person-women, quelle-online, link-download,link-folder,link-external, link-external-blank, link-mail'
       page:
         properties:
           class:
@@ -162,18 +162,23 @@ classes.:
   link-mail:
     name: 'Email-Verknüpfung'
   Person (Mann):
+    name: 'Person Mann'
     class: 'person-men'
     type: 'page'
   Person (Frau):
+    name: 'Person Frau'
     class: 'person-women'
     type: 'page'
   Quelle:
+    name: 'Quelle intern'
     class: 'quelle-online'
     type: 'page'
   Werktitel:
+    name: 'Titel eines Werkes'
     class: 'werktitel'
     type: 'page'
   Glossar-Eintrag:
+    name: 'Glossar'
     class: 'glossary-link'
     type: 'page'
 
