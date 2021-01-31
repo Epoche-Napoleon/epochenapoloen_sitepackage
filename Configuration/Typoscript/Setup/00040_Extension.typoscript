@@ -30,7 +30,7 @@ plugin.tx_beaconizer_seealso {
 		objectMapping {
 			ADWLM\Beaconizer\Domain\Model\Page {
 				argumentName = id
-				sourceIdentifierProperty = source_identifier
+				source_identifierProperty = sourceIdentifier
 			}
 		}
 	}
