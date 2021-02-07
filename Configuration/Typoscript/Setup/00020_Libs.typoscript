@@ -246,7 +246,16 @@ lib.contentElement {
 		defaultHeaderType = 1
 	}
 }
-
+# Beaconizer
+lib.beaconizer = COA
+lib.beaconizer {
+	10 = RECORDS
+	10 {
+		source = 25297
+		dontCheckPid = 1
+		tables = tt_content
+	}
+}
 # LastChange #
 lib.lastchange = TEXT
 lib.lastchange {
