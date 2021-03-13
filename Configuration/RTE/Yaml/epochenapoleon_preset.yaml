@@ -41,6 +41,7 @@ editor:
       - { name: "Mittig", element: ['h1', 'h2', 'h3', 'h4', 'h5', 'p', 'blockquote', 'td', 'th'], attributes: { class: 'align-center' } }
       - { name: "Rechtsbündig", element: ['h1', 'h2', 'h3', 'h4', 'h5', 'p', 'blockquote', 'td', 'th'], attributes: { class: 'align-right' } }
       - { name: "Blocksatz", element: ['h1', 'h2', 'h3', 'h4', 'h5', 'p', 'blockquote', 'td', 'th'], attributes: { class: 'align-justify' } }
+      - { name: "Marginale", element: ['p', 'div'], attributes: { class: 'randtext'} }
       - { name: "Quellennachweis", element: 'p', attributes: { class: 'source'} }
       - { name: "Telefon", element: 'span', attributes: { class: 'telephone' } }
       - { name: "Sprache: Englisch", element: 'span', attributes: {lang: 'en'} }

@@ -148,7 +148,7 @@ ul.mainnav li a:visited, ul.mainnav li a:focus {
 }
 ul.mainnav li a:focus {
 	background: #FFCC33;
-	border: 0.0625rem solid #FFFFC7
+	border: 0.0625rem solid #FFFFC7;
 }
 #pfad {
 	margin-top: 0.5rem;
@@ -751,6 +751,12 @@ h4.person {
 	font-weight: bold;
 	font-style: italic;
 }
+.randtext {
+	font-weight: bolder;
+	float: top;
+	min-width: 10rem;
+	max-width: 10rem;
+}
 .internal-link {
 	background-color: #E00000;
 	color: #FFFFFF;
@@ -779,7 +785,6 @@ hr.clearboth {
 hr.clearboth p {
 	line-height: 0;
 }
-
 
 @media (max-width: 800px) {
 	#wrapper {
@@ -818,7 +823,7 @@ hr.clearboth p {
 		width: 30px;
 		height: 30px;
 		border: 2px solid #FFFFFF;
-		background: #FFFFFF
+		background: #FFFFFF;
 	}
 	#left:hover {
 		margin-left: 0;

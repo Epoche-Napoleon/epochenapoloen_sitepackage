@@ -150,8 +150,8 @@ lib.teasermenu {
 						file {
 							import {
 								data = file:current:publicUrl
-								listNum = 0
-							}
+			 					listNum = 0
+			 				}
 							width = 75
 							height = 106
 						}
