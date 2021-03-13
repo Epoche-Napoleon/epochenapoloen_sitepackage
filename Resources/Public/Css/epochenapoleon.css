@@ -756,7 +756,8 @@ h4.person {
 	float: right;
 	min-width: 10rem;
 	max-width: 10rem;
-	background: #333333;
+	margin-left: 0.5rem;
+	margin-bottom: 0.5rem;
 }
 .internal-link {
 	background-color: #E00000;
@@ -782,6 +783,7 @@ hr.clearboth {
 	line-height: 0;
 	clear: both;
 	color: #EEEEEE;
+	visibility: hidden;
 }
 hr.clearboth p {
 	line-height: 0;
