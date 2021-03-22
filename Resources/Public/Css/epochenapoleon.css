@@ -283,6 +283,9 @@ nav.flex-column a.nav-link {
 	visibility: hidden;
 	font-size: 0;
 }
+.tx-jfmulticontent-pi1 {
+	background: #0f0;
+}
 .t3ddy-accordion h3 {
 	background: #FFFFC7;
 	color: #000044;
