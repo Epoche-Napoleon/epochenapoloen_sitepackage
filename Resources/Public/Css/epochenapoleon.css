@@ -286,10 +286,10 @@ nav.flex-column a.nav-link {
 .tx-jfmulticontent-pi1 {
 	background: #0f0;
 }
-h3.ui-accordion-header.ui-accordion-header-active {
-	color: #ffffc7;
-
+.ui-state-active, .ui-state-default {
+	background: #ffffc7;
 }
+
 .t3ddy-accordion h3 {
 	background: #FFFFC7;
 	color: #000044;
