@@ -1,6 +1,12 @@
 TCEFORM {
-	tt_content.tx_jfmulticontent_contents.PAGE_TSCONFIG_ID = 1737
-
+	tt_content {
+		tx_jfmulticontent_contents.PAGE_TSCONFIG_ID = 1737
+		header_layout {
+			addItems.10 = H2 (Layout H3)
+			addItems.11 = H2 (Layout H4)
+			addItems.12 = H3 (Layout H4)
+		}
+	}
 	sys_file_reference.crop.config.cropVariants {
 		default {
 			title = default Desktop
