@@ -379,12 +379,12 @@ h2 {
 	line-height: 1.2rem;
 	font-size: 1.4rem;
 }
-h3 {
+h2.h3, h3 {
 	line-height: 1.3rem;
 	font-size: 1.1rem;
 
 }
-h4 {
+h2.h4, h3.h4, h4 {
 	line-height: 1.2rem;
 	font-size: 1rem;
 }
@@ -847,22 +847,22 @@ hr.clearboth p {
 	}
 	.cM li.cM_NO, .cM li.cM_ACT, .cM li.cM_CUR {
 		border: 0.0625rem solid #0000CC;
-		background: #E1E8F1;
+		/* background: #E1E8F1; */
 		margin-left: 0;
 		list-style: none inside;
 		padding: 0.5rem;
 		display: inline-block;
 	}
 	.cM_NO a, .cM_NO a:link, .cM_NO a:visited, .cM_NO a:focus {
-		color: #E1E8F1;
+		/* color: #E1E8F1; */
 		text-decoration: none;
 		border: 0.1875rem solid #0000CC;
 	}
 	.cM_CUR a, .cM_CUR a:link, .cM_CUR a:visited, .cM_CUR a:hover, .cM_CUR a:focus, .cM_NO a:active,
 	.cM_NO a:hover {
 		color: #0000CC;
-		background: #E1E8F1;
-		border: 0.1875rem solid #E1E8F1;
+		/* background: #E1E8F1; */
+		/* border: 0.1875rem solid #E1E8F1;*/
 	}
 	.teasermenu ul li dl {
 		width: 100%;
