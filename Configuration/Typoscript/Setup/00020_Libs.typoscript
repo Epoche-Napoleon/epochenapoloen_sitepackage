@@ -217,7 +217,6 @@ lib.cagpagebrowser {
 		}
 	}
 }
-
 # Footer #
 lib.footer = TEXT
 lib.footer {
@@ -232,13 +231,13 @@ lib.contentrating {
 }
 # ContentElements
 lib.contentElement {
-	templateRootPaths {
+#	templateRootPaths {
 		20 = EXT:epochenapoleon_sitepackage/Resources/Private/Templates/fluid_styled_content
 	}
-	partialRootPaths {
+#	partialRootPaths {
 		20 = EXT:epochenapoleon_sitepackage/Resources/Private/Partials/fluid_styled_content
 	}
-	layoutRootPaths {
+#	layoutRootPaths {
 		20 = EXT:epochenapoleon_sitepackage/Resources/Private/Layouts/fluid_styled_content
 	}
 	setttings {
