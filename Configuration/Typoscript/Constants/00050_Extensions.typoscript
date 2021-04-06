@@ -2,8 +2,8 @@
 // DEPENDENCIES
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_styled_content/Configuration/TypoScript/constants.txt">
 
-contentElement {
-	templateRootPaths  = EXT:epochenapoleon_sitepackage/Resources/Private/Templates/Page/
+lib.contentElement {
+	templateRootPath  = EXT:epochenapoleon_sitepackage/Resources/Private/Templates/Page/
 	layoutRootPath  = EXT:epochenapoleon_sitepackage/Resources/Private/Layouts/Page/
 	partialRootPath = EXT:epochenapoleon_sitepackage/Resources/Private/Partials/Page/
 	}
