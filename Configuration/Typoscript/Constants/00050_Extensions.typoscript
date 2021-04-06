@@ -80,7 +80,6 @@ plugin.tx_mindshapecookiehint {
 		hint.learnmore = More Info
 		hint.dismiss = Got It!
 		hint.message = This website uses cookies to ensure you get the best experience on our website.
-
 	}
 	_LOCAL_LANG.de {
 		hint.learnmore = Weitere Informationen

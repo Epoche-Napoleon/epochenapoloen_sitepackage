@@ -12,17 +12,3 @@ config {
 	admPanel = 0
 }
 [global]
-
-styles {
-	content {
-		defaultHeaderType = 1
-	}
-	links {
-		extTarget = _blank
-	}
-	templates {
-		templateRootPath = EXT:epochenapoleon_sitepacakge/Resources/Private/Templates/fluid_styled_content/
-		layoutRootPath = EXT:epochenapoleon_sitepackage/Resources/Private/Layouts/fluid_styled_content/
-		partialRootPath = EXT:epochenapoleon_sitepackage/Resources/Private/Partials/fluid_styled_content/
-	}
-}
