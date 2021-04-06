@@ -7,7 +7,6 @@ lib.contentElement {
 	layoutRootPaths  = EXT:epochenapoleon_sitepackage/Resources/Private/Layouts/Page/
 	partialRootPaths = EXT:epochenapoleon_sitepackage/Resources/Private/Partials/Page/
 }
-
 # EXT:epochenapoleon_normdata #
 plugin.tx_epochenapoleoncenormdata {
 	view {
