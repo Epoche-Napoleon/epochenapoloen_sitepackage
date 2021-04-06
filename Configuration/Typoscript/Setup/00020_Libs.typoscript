@@ -217,20 +217,7 @@ lib.footer {
 	strftime = &copy;&nbsp;Copyright 2003 - %Y by EPOCHE NAPOLEON
 }
 # ContentElements
-lib.contentElement {
-	templateRootPaths {
-		10 = EXT:epochenapoleon_sitepackage/Resources/Private/Templates/fluid_styled_content/
-	}
-	layoutRootPaths {
-		10 = EXT:epochenapoleon_sitepackage/Resources/Private/Layouts/fluid_styled_content/
-	}
-	partialRootPaths {
-		10 = EXT:epochenapoleon_sitepackage/Resources/Private/Partials/fluid_styled_content/
-	}
-	setttings {
-		defaultHeaderType = 1
-	}
-}
+
 # Beaconizer
 lib.beaconizer = COA
 lib.beaconizer {
