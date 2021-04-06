@@ -230,7 +230,6 @@ lib.contentrating {
 	tables = tt_content
 	source = 6409
 }
-
 # ContentElements
 lib.contentElement {
 	templateRootPaths {
