@@ -3,9 +3,9 @@
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_styled_content/Configuration/TypoScript/constants.txt">
 
 lib.contentElement {
-	templateRootPath  = EXT:epochenapoleon_sitepackage/Resources/Private/Templates/Page/
-	layoutRootPath  = EXT:epochenapoleon_sitepackage/Resources/Private/Layouts/Page/
-	partialRootPath = EXT:epochenapoleon_sitepackage/Resources/Private/Partials/Page/
+	templateRootPaths  = EXT:epochenapoleon_sitepackage/Resources/Private/Templates/Page/
+	layoutRootPaths  = EXT:epochenapoleon_sitepackage/Resources/Private/Layouts/Page/
+	partialRootPaths = EXT:epochenapoleon_sitepackage/Resources/Private/Partials/Page/
 	}
 }
 # EXT:epochenapoleon_normdata #
