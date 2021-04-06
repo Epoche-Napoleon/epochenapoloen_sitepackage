@@ -130,3 +130,16 @@ plugin.tx_glossary2 {
 		}
 	}
 }
+styles {
+	content {
+		defaultHeaderType = 1
+	}
+	links {
+		extTarget = _blank
+	}
+	templates {
+		templateRootPath = EXT:epochenapoleon_sitepacakge/Resources/Private/Templates/Fsc/
+		layoutRootPath = EXT:epochenapoleon_sitepackage/Resources/Private/Layouts/Fsc/
+		partialRootPath = EXT:epochenapoleon_sitepackage/Resources/Private/Partials/Fsc/
+	}
+}
