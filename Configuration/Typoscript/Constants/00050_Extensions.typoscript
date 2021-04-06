@@ -32,15 +32,6 @@ tt_content.gridelements_pi {
 		}
 	}
 }
-# EXT: ContentRating #
-plugin.tx_contentratingextbase {
-	view {
-		templateRootPath.2 = EXT:epochenapoleon_sitepackage/Resources/Private/Templates/Contentrating
-		layoutRootPath.2 = EXT:epochenapoleon_sitepackage/Resources/Private/Layouts/Contentrating
-		partialRootPath.2 = EXT:epochenapoleon_sitepackage/Resources/Private/Partials
-	}
-	persistence.storagePid =
-}
 # EXT: CS_SEO #
 plugin.tx_csseo {
 	sitetitle = EPOCHE NAPOLEON
