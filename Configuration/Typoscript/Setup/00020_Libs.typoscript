@@ -233,13 +233,13 @@ lib.contentrating {
 # ContentElements
 lib.contentElement {
 	templateRootPaths {
-		20 = EXT:epochenapoleon-sitepackage/Resources/Private/Templates/Page
+		20 = EXT:epochenapoleon_sitepackage/Resources/Private/Templates/Page
 	}
 	partialRootPaths {
-		20 = EXT:epochenapoleon-sitepackage/Resources/Private/Partials/Page
+		20 = EXT:epochenapoleon_sitepackage/Resources/Private/Partials/Page
 	}
 	layoutRootPaths {
-		20 = EXT:epochenapoleon-sitepackage/Resources/Private/Layouts/Page
+		20 = EXT:epochenapoleon_sitepackage/Resources/Private/Layouts/Page
 	}
 	setttings {
 		defaultHeaderType = 1
