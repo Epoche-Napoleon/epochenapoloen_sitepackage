@@ -1,12 +1,13 @@
 # Fluid Styled Content #
 // DEPENDENCIES
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_styled_content/Configuration/TypoScript/constants.txt">
-
+/*
 lib.contentElement {
 	templateRootPaths  = EXT:epochenapoleon_sitepackage/Resources/Private/Templates/fluid_styled_content/
 	layoutRootPaths  = EXT:epochenapoleon_sitepackage/Resources/Private/Layouts/fluid_styled_content/
 	partialRootPaths = EXT:epochenapoleon_sitepackage/Resources/Private/Partials/fluid_styled_content/
 }
+*/
 # EXT:epochenapoleon_normdata #
 plugin.tx_epochenapoleoncenormdata {
 	view {
