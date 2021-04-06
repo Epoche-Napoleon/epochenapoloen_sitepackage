@@ -236,3 +236,17 @@ lib.lastchange {
 	strftime = %d. %m. %Y - %H:%m
 	wrap = <div class="lastChange">Letzte Änderung der Seite:&nbsp;|</div>
 }
+# ContentElement
+lib.contentElement {
+	templateRootPaths {
+		1500 = {$styles.templates.templateRootPath}
+	}
+
+
+	partialRootPaths {
+		1500 = {$styles.templates.partialRootPath}
+	}
+	layoutRootPaths {
+		1500 = {$styles.templates.layoutRootPath}
+	}
+}
