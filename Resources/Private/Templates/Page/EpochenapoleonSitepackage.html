@@ -1,10 +1,11 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
 	  data-namespace-typo3-fluid="true">
-{_all -> f:debug()}
+
 	<f:layout name="Standard" />
 
 	<f:layout name="layout" />
 	<f:section name="body">
+		{_all -> f:debug()}
 		<div id="center" class="centerheight">
 			<section class="ccontent">
 				<f:if condition="{abcmenushow} ==1" >
