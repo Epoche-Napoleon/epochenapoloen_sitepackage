@@ -233,7 +233,7 @@ lib.contentrating {
 # ContentElements
 lib.contentElement {
 	templateRootPaths {
-		20 = EXT:epochenapoleon-sitepackage/Resources/Private/Template/Page
+		20 = EXT:epochenapoleon-sitepackage/Resources/Private/Templates/Page
 	}
 	partialRootPaths {
 		20 = EXT:epochenapoleon-sitepackage/Resources/Private/Partials/Page
