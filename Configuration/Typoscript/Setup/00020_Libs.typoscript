@@ -231,15 +231,6 @@ lib.contentrating {
 }
 # ContentElements
 lib.contentElement {
-#	templateRootPaths {
-		20 = EXT:epochenapoleon_sitepackage/Resources/Private/Templates/fluid_styled_content
-	}
-#	partialRootPaths {
-		20 = EXT:epochenapoleon_sitepackage/Resources/Private/Partials/fluid_styled_content
-	}
-#	layoutRootPaths {
-		20 = EXT:epochenapoleon_sitepackage/Resources/Private/Layouts/fluid_styled_content
-	}
 	setttings {
 		defaultHeaderType = 1
 	}
