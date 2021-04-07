@@ -248,3 +248,8 @@ lib.contentElement {
 		1500 = {$styles.templates.layoutRootPath}
 	}
 }
+lib.contentrating = RECORDS
+lib.contentrating {
+	tables = tt_content
+	source = 6409
+}
