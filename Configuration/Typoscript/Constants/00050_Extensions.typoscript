@@ -140,6 +140,6 @@ styles {
 	templates {
 		templateRootPath = EXT:epochenapoleon_sitepacakge/Resources/Private/Templates/Fsc/
 		layoutRootPath = EXT:epochenapoleon_sitepackage/Resources/Private/Layouts/Fsc/
-		partialRootPath = EXT:epochenapoleon_sitepackage/Resources/Private/Partials/Fsc/
+		partialRootPath = EXT:epochenapoleon_sitepackage/Resources/Private/Partials/Fsc/Content/Header/
 	}
 }
