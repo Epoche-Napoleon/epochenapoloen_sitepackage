@@ -5,3 +5,7 @@ temp.favicon.image = EXT:epochenapoleon_sitepackage/Resources/Public/Favicon/
 
 cache = 0
 
+plugin.tx_dp_http2.settings {
+	enabled = true
+	modus = http2push
+}
