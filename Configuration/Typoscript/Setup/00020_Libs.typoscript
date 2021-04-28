@@ -241,14 +241,15 @@ lib.contentrating = RECORDS
 lib.contentrating {
 	tables = tt_content
 	source = 6409
-}module.tx_slug {
-view {
-templateRootPaths.0 = EXT:slug/Resources/Private/Templates/
-templateRootPaths.1 = {$module.tx_slug.view.templateRootPath}
-partialRootPaths.0 = EXT:slug/Resources/Private/Partials/
-partialRootPaths.1 = EXT:epochenapoleon-sitepackage/Resources/Private/Partials/Slug/
-partialRootPaths.10 = {$module.tx_slug.view.partialRootPath}
-layoutRootPaths.0 = EXT:slug/Resources/Private/Layouts/
-layoutRootPaths.1 = {$module.tx_slug.view.layoutRootPath}
 }
+module.tx_slug {
+	view {
+		templateRootPaths.0 = EXT:slug/Resources/Private/Templates/
+		templateRootPaths.1 = {$module.tx_slug.view.templateRootPath}
+		partialRootPaths.0 = EXT:slug/Resources/Private/Partials/
+		partialRootPaths.1 = EXT:epochenapoleon-sitepackage/Resources/Private/Partials/Slug/
+		partialRootPaths.10 = {$module.tx_slug.view.partialRootPath}
+		layoutRootPaths.0 = EXT:slug/Resources/Private/Layouts/
+		layoutRootPaths.1 = {$module.tx_slug.view.layoutRootPath}
+	}
 }
