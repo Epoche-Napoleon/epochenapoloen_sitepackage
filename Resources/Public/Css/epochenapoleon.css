@@ -758,6 +758,9 @@ h4.person {
 	font-weight: bold;
 	font-style: italic;
 }
+div.text {
+	width: 100%
+}
 .randtext {
 	font-weight: bolder;
 	float: right;
