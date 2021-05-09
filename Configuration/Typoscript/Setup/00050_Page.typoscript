@@ -212,7 +212,6 @@ page {
 		}
 	}
 [global]
-
 [globalVar = TSFE:type = 9819]
 	config {
 		disableAllHeaderCode = 1
