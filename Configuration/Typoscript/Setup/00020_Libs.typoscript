@@ -228,6 +228,8 @@ lib.beaconizer {
 		tables = tt_content
 	}
 }
+lib.currentUrl = TEXT
+lib.currentUrl.data = getIndpEnv:TYPO3_REQUEST_URL
 # LastChange #
 lib.lastchange = TEXT
 lib.lastchange {

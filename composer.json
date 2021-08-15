@@ -23,9 +23,8 @@
     "typo3/cms-core": ">=9.5.17"
   },
   "replace": {
-    "epochenapoleon_sitepackage": "self.version",
     "typo3-ter/epochenapoleon_sitepackage": "self.version"
-    },
+  },
   "autoload": {
     "psr-4": {
       "epochenapoleon\\EpochenapoleonSitepackage\\": "Classes/"
