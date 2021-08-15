@@ -10,6 +10,7 @@ config {
 	doctype = html5
 	xmlprologue = none
 	noPageTitle = 0
+	pageTitleSeparator = |
 	disableAllHeaderCode = 0
 	disablePrefixComment = {$entwicklung}
 	inlineStyle2TempFile = 1
