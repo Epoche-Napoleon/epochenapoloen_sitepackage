@@ -25,6 +25,9 @@ page {
 			Das Projekt EPOCHE NAPOLEON ist ein nicht kommerzielles Geschichtsportral.
 		)
 		additionalHeaders {
+			# cookieeyes-Banner
+			10 = TEXT
+			10 = <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/b4d73186021101a08a689e60.js"></script>
 		}
 		shortcutIcon = fileadmin/system/favicon.ico
 		doctype = html5
