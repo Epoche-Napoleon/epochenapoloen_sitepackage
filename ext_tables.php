@@ -1,6 +1,6 @@
 <?php
     defined('TYPO3_MODE') || die();
-
+    /*
     $extensionKey = 'epochenapoleon_sitepackage';
 
     if (\TYPO3\CMS\Core\Utility\GeneralUtility::getApplicationContext() == "Development") {
@@ -9,3 +9,4 @@
     else {
         $GLOBALS['TBE_STYLES']['skins']['backend']['stylesheetDirectories'] = 'EXT:epochenapoleon_sitepackage/Resources/Public/Backend/Live/Css/Skin';
     }
+    */
