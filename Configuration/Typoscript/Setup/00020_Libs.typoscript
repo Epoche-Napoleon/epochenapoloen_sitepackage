@@ -177,6 +177,7 @@ lib.teasermenu {
 		}
 	}
 }
+lib.contentElement.layoutRootPaths.1500 = EXT:epochenapoleon_sitepackage/Resources/Private/Layouts/fluid_styled_content/
 # Blaetternavigation #
 lib.cagpagebrowser = COA
 lib.cagpagebrowser {
@@ -238,12 +239,7 @@ lib.lastchange {
 	strftime = %d. %m. %Y - %H:%m
 	wrap = <div class="lastChange">Letzte Änderung der Seite:&nbsp;|</div>
 }
-# ContentElement
-lib.contentrating = RECORDS
-lib.contentrating {
-	tables = tt_content
-	source = 6409
-}
+
 module.tx_slug {
 	view {
 		templateRootPaths.0 = EXT:slug/Resources/Private/Templates/

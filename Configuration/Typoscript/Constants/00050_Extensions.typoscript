@@ -130,6 +130,19 @@ plugin.tx_glossary2 {
 		}
 	}
 }
+plugin.tx_nsfeedback_feedback {
+	appearanceSettings.appearance.allPage = 0
+	design {
+		fontcolor = #000033
+		buttonbg = #000033
+		btntextcolor = #FFFFFF
+	}
+}
+plugin.tx_nsgallery_album {
+	appearanceSettings.appearance.jQuery = 1
+	storageSettings.storagePid = 6882
+}
+
 styles {
 	content {
 		defaultHeaderType = 1
