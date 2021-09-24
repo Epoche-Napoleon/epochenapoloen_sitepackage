@@ -142,7 +142,6 @@ plugin.tx_nsgallery_album {
 	appearanceSettings.appearance.jQuery = 1
 	storageSettings.storagePid = 6882
 }
-
 styles {
 	content {
 		defaultHeaderType = 1
