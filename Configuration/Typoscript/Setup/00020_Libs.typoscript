@@ -239,7 +239,17 @@ lib.lastchange {
 	strftime = %d. %m. %Y - %H:%m
 	wrap = <div class="lastChange">Letzte Änderung der Seite:&nbsp;|</div>
 }
-
+# lib.contentrating
+lib.contentrating = RECORDS
+lib.contentrating {
+	tables = tt_content
+	source = 6409
+}
+lib.playstore = RECORDS
+lib.playstore {
+	tables = tt_content
+	source =
+}
 module.tx_slug {
 	view {
 		templateRootPaths.0 = EXT:slug/Resources/Private/Templates/
