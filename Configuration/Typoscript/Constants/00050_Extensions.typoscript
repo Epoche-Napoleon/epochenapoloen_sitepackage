@@ -87,22 +87,18 @@ plugin.tx_mindshapecookiehint {
 		hint.message = Diese Website verwendet Cookies, um die Bedienkonfort zu erhöhen.
 	}
 }
-# EXT: GoogleMaps #
-plugin.tx_gomapsext {
-	settings {
-		apiKey = AIzaSyB_WRZCZPHTr78TBoj0Mo_lw-cS7maL48M
-	}
-}
 # EXT: CKEditor Fontawesome
 plugin.tx_ckeditor_fontawesome {
 	loadCSS = 1
 	css = https://use.fontawesome.com/releases/v5.8.1/css/all.css
 }
+# EXT: Events2
 plugin.tx_events2 {
 	settings {
 		includeDeTranslationForCalendar = 1
 	}
 }
+# EXT:Maps2
 plugin.tx_maps2 {
 	persistence {
 		storagePid = 6824
@@ -111,6 +107,7 @@ plugin.tx_maps2 {
 		googleMapsJavaScriptApiKey = AIzaSyAjVhpqWCVI0fBnSWX7qqgp_GlChrO5KK0
 	}
 }
+# EXT: Glossary2
 plugin.tx_glossary2 {
 	view {
 		templateRootPath = EXT:epochenapoleon_sitepackage/Resources/Private/Templates/glossary2/
@@ -130,6 +127,7 @@ plugin.tx_glossary2 {
 		}
 	}
 }
+# EXT:NITSAN Feedbacj
 plugin.tx_nsfeedback_feedback {
 	appearanceSettings.appearance.allPage = 0
 	design {
@@ -138,10 +136,12 @@ plugin.tx_nsfeedback_feedback {
 		btntextcolor = #FFFFFF
 	}
 }
+# EXT:NITSAN NS Gallery_Album
 plugin.tx_nsgallery_album {
 	appearanceSettings.appearance.jQuery = 1
 	storageSettings.storagePid = 6882
 }
+# STYLES
 styles {
 	content {
 		defaultHeaderType = 1
