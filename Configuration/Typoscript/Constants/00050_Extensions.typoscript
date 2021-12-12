@@ -127,7 +127,7 @@ plugin.tx_glossary2 {
 		}
 	}
 }
-# EXT:NITSAN Feedbacj
+# EXT:NITSAN Feedback
 plugin.tx_nsfeedback_feedback {
 	appearanceSettings.appearance.allPage = 0
 	design {
@@ -153,5 +153,15 @@ styles {
 		templateRootPath = EXT:epochenapoleon_sitepacakge/Resources/Private/Templates/Fsc/
 		layoutRootPath = EXT:epochenapoleon_sitepackage/Resources/Private/Layouts/Fsc/
 		partialRootPath = EXT:epochenapoleon_sitepackage/Resources/Private/Partials/Fsc/
+	}
+}
+plugin.tx_nsfeedback_feedback {
+	view {
+		# cat=plugin.tx_nsfeedback_feedback/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:epochenapoleon_sitepackage/Resources/Private/Templates/ns_feedback/
+		# cat=plugin.tx_nsfeedback_feedback/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:epochenapoleon_sitepackage/Resources/Private/Partials/ns_feedback/
+		# cat=plugin.tx_nsfeedback_feedback/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:epochenapoleon_sitepackage/Resources/Private/Layouts/ns_feedback/
 	}
 }
