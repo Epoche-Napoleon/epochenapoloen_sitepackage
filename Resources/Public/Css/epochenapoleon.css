@@ -775,6 +775,9 @@ div.text {
 	color: #FFFFFF;
 	border: 0.0625rem solid #e49f9f;
 }
+.tx-ns-feedback .global-ns-feedback {
+	width: 100%;
+}
 .rxshariff {
 	background-color: #E1E8F1;
 	margin-bottom: 1rem;
