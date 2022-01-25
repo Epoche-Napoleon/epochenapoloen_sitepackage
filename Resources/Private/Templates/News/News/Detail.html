@@ -116,11 +116,6 @@
 					</div>
 				</f:if>
 
-				<f:if condition="{newsItem.contentElements}">
-					<!-- content elements -->
-					<f:cObject typoscriptObjectPath="lib.tx_news.contentElementRendering">{newsItem.contentElementIdList}</f:cObject>
-				</f:if>
-
 				<f:render partial="Detail/MediaContainer" arguments="{media: newsItem.mediaNonPreviews, settings:settings}" />
 
 				<!-- main text -->
@@ -128,7 +123,10 @@
 					<f:format.html>{newsItem.bodytext}</f:format.html>
 				</div>
 			</n:renderMedia>
-
+			<f:if condition="{newsItem.contentElements}">
+				<!-- content elements -->
+				<f:cObject typoscriptObjectPath="lib.tx_news.contentElementRendering">{newsItem.contentElementIdList}</f:cObject>
+			</f:if>
 			<f:if condition="{settings.backPid}">
 				<!-- Link Back -->
 				<div class="news-backlink-wrap">
