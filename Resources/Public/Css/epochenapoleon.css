@@ -602,6 +602,7 @@ h4.person {
 	font-style: italic;
 }
 .news-list-category {
+	margin-top: 1rem;
 	margin-left: 1rem;
 	font-style: italic;
 	color: #000099;
