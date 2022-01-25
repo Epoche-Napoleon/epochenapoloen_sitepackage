@@ -604,6 +604,7 @@ h4.person {
 .news-list-category {
 	margin-left: 1rem;
 	font-style: italic;
+	color: #000099;
 }
 .news-text-wrap h4 {
 	text-align: left;
