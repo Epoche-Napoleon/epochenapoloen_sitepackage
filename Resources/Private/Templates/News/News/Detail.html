@@ -15,6 +15,9 @@
 		<f:then>
 			<n:format.nothing>
 				<n:excludeDisplayedNews newsItem="{newsItem}" />
+				<f:if condition="{settings.detail.showMetaTags}">
+					<f:render partial="Detail/Opengraph" arguments="{newsItem: newsItem, settings:settings}" />
+				</f:if>
 				<f:if condition="{newsItem.alternativeTitle}">
 					<f:then>
 						<n:titleTag>
@@ -26,9 +29,6 @@
 							<f:format.htmlentitiesDecode>{newsItem.title}</f:format.htmlentitiesDecode>
 						</n:titleTag>
 					</f:else>
-				</f:if>
-				<f:if condition="{settings.detail.showMetaTags}">
-					<f:render partial="Detail/Opengraph" arguments="{newsItem: newsItem, settings:settings}" />
 				</f:if>
 			</n:format.nothing>
 			<f:if condition="{settings.detail.showPrevNext}">
@@ -53,32 +53,18 @@
 					</f:if>
 				</n:simplePrevNext>
 			</f:if>
-			<f:if condition="{settings.backPid}">
-				<!-- Link Back -->
-				<div class="news-backlink-wrap">
-					<f:link.page pageUid="{settings.backPid}">
-						<f:translate key="back-link" />
-					</f:link.page>
-				</div>
-			</f:if>
 			<div class="header">
-				<h1 class="news-header" itemprop="headline">{newsItem.title}</h1>
+				<h1 itemprop="headline">{newsItem.title}</h1>
 			</div>
 			<div class="footer">
 				<p>
-					<f:if condition="{newsItem.author}">
-						<!-- author -->
-						<span class="news-list-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">
-							<f:translate key="author_simple" /> <span class="news-author-name" sitemprop="name">{newsItem.author}</span>
-						</span>
-					</f:if>
 					<!-- date -->
 					<span class="news-list-date">
 						<time itemprop="datePublished" datetime="{f:format.date(date:newsItem.datetime, format:'Y-m-d')}">
 							<f:format.date format="{f:translate(key:'dateFormat')}">{newsItem.datetime}</f:format.date>
 						</time>
 					</span>
-				</p>
+
 					<f:if condition="{newsItem.categories}">
 						<f:render partial="Category/Items" arguments="{categories:newsItem.categories, settings:settings}" />
 					</f:if>
@@ -91,6 +77,14 @@
 						</f:for>
 						</span>
 					</f:if>
+
+					<f:if condition="{newsItem.author}">
+						<!-- author -->
+						<span class="news-list-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">
+							<f:translate key="author_simple" /> <span itemprop="name">{newsItem.author}</span>
+						</span>
+					</f:if>
+				</p>
 			</div>
 			<n:renderMedia news="{newsItem}" imgClass="img-responsive" videoClass="video-wrapper" audioClass="audio-wrapper">
 				<f:if condition="{newsItem.teaser}">
@@ -100,6 +94,11 @@
 					</div>
 				</f:if>
 
+				<f:if condition="{newsItem.contentElements}">
+					<!-- content elements -->
+					<f:cObject typoscriptObjectPath="lib.tx_news.contentElementRendering">{newsItem.contentElementIdList}</f:cObject>
+				</f:if>
+
 				<f:render partial="Detail/MediaContainer" arguments="{media: newsItem.mediaNonPreviews, settings:settings}" />
 
 				<!-- main text -->
@@ -107,10 +106,27 @@
 					<f:format.html>{newsItem.bodytext}</f:format.html>
 				</div>
 			</n:renderMedia>
-			<f:if condition="{newsItem.contentElements}">
-				<!-- content elements -->
-				<f:cObject typoscriptObjectPath="lib.tx_news.contentElementRendering">{newsItem.contentElementIdList}</f:cObject>
+
+			<f:if condition="{settings.backPid}">
+				<!-- Link Back -->
+				<div class="news-backlink-wrap">
+					<f:link.page pageUid="{settings.backPid}">
+						<f:translate key="back-link" />
+					</f:link.page>
+				</div>
 			</f:if>
+
+			<f:if condition="{settings.detail.showSocialShareButtons}">
+				<f:comment>
+					Care about the privacy of your readers?
+					Checkout https://typo3.org/extensions/repository/view/rx_shariff
+					and it will be used automatically!
+				</f:comment>
+				<n:extensionLoaded extensionKey="rx_shariff">
+					<f:render partial="Detail/Shariff" />
+				</n:extensionLoaded>
+			</f:if>
+
 			<!-- related things -->
 			<div class="news-related-wrap">
 				<f:comment>
@@ -119,6 +135,7 @@
 					- {newsItem.related}: all related
 					- {newsItem.relatedSorted}: all related, sorted by date
 					- {newsItem.relatedFrom}: all related from
+					- {newsItem.relatedFromSortedByForeign}: all related from sorted by foreign sorting
 					- {newsItem.relatedFromSorted}: all related from, sorted by date
 				</f:comment>
 
@@ -186,14 +203,6 @@
 		<f:else>
 
 		</f:else>
-	</f:if>
-	<f:if condition="{settings.backPid}">
-	<!-- Link Back -->
-	<div class="news-backlink-wrap">
-		<f:link.page pageUid="{settings.backPid}">
-			<f:translate key="back-link" />
-		</f:link.page>
-	</div>
 	</f:if>
 </f:section>
 </html>
