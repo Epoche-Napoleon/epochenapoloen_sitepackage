@@ -283,20 +283,10 @@ nav.flex-column a.nav-link {
 	visibility: hidden;
 	font-size: 0;
 }
-.tx-jfmulticontent-pi1 {
-	background: #0f0;
-}
 .ui-state-active, .ui-state-default {
 	background: #ffffc7;
 }
 
-.t3ddy-accordion h3 {
-	background: #FFFFC7;
-	color: #000044;
-}
-.t3ddy-item {
-	background-color: #EEEEEE;
-}
 .frame-type-menu_abstract.frame-layout-3,
 .frame-type-shortcut.frame-layout-3,
 .frame-type-menu_subpages.frame-layout-0 {
