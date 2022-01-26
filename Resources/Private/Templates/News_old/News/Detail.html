@@ -38,6 +38,12 @@
 			</div>
 			<div class="footer">
 				<p>
+					<f:if condition="{newsItem.author}">
+						<!-- author -->
+						<span class="news-list-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">
+							<f:translate key="author_simple" /> <span itemprop="name">{newsItem.author}</span>
+						</span>
+					</f:if>
 					<!-- date -->
 					<span class="news-list-date">
 						<time itemprop="datePublished" datetime="{f:format.date(date:newsItem.datetime, format:'Y-m-d')}">
@@ -55,13 +61,6 @@
 						<f:for each="{newsItem.tags}" as="tag">
 							{tag.title}
 						</f:for>
-						</span>
-					</f:if>
-
-					<f:if condition="{newsItem.author}">
-						<!-- author -->
-						<span class="news-list-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">
-							<f:translate key="author_simple" /> <span itemprop="name">{newsItem.author}</span>
 						</span>
 					</f:if>
 				</p>
