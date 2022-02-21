@@ -133,7 +133,7 @@ page {
 			socialsharebutton < plugin.shariffBackendUrl
 			lastUpdate < lib.lastchange
 			footer < lib.footer
-			contentrating < lib.contentrating
+			contentrating < lib.newact
 
 			content =< styles.content.get
 			content.select.where = colPos = 0
