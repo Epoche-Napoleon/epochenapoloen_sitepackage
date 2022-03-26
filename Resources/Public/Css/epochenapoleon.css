@@ -680,12 +680,13 @@ h4.person {
 .news-single .article ul.pager li.next {
 	list-style-type: none;
 }
-.news-search-result articletype-0 .header h3 {
-	text-align: left;
+.news-search-form {
+	background: #e1e8f1;
+	color: #000099;
 }
-.news-search-result articletype-0 .news-image-wrap {
-	width: 100px;
-	height: 75px;
+.news-search-form fieldset div.form-group label {
+	display: inline-block;
+	width: 10em;
 }
 .tx-events2 {
 	background-color: #DDDDDD;
