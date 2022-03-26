@@ -563,6 +563,9 @@ h4.person {
 	background: #C0C0C0;
 	margin: 0;
 }
+.ui-accordion-header {
+	text-align: left;
+}
 .news-list-author::before {
 	font-family: "Font Awesome 5 Free";
 	display: inline-block;
@@ -629,7 +632,8 @@ h4.person {
 	background-color: #E1E8F1;
 	color: #000044;
 }
-.news-list-view .article {
+.news-list-view .article,
+..news-search-result .article {
 	border: 0.0625rem solid #000044;
 	margin-bottom: 0;
 	background: #E1E8F1;
@@ -638,10 +642,12 @@ h4.person {
 	background: #000044;
 	color: #FFFFC7;
 }
-.news-list-view .header h3 {
+.news-list-view .header h3,
+.news-search-result .header h3 {
 	text-align: left;
 }
-.news-list-view .header h3 a {
+.news-list-view .header h3 a,
+.news-search-result .header h3 {
 	color: #FFFFC7;
 }
 .news-menu-view {
@@ -672,6 +678,13 @@ h4.person {
 }
 .news-single .article ul.pager li.next {
 	list-style-type: none;
+}
+.news-search-result articletype-0 .header h3 {
+	text-align: left;
+}
+.news-search-result articletype-0 .news-image-wrap {
+	width: 100px;
+	height: 75px;
 }
 .tx-events2 {
 	background-color: #DDDDDD;
