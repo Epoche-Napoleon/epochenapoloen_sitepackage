@@ -633,12 +633,13 @@ h4.person {
 	color: #000044;
 }
 .news-list-view .article,
-..news-search-result .article {
+.news-search-result .article {
 	border: 0.0625rem solid #000044;
 	margin-bottom: 0;
 	background: #E1E8F1;
 }
-.news-list-view .header {
+.news-list-view .header,
+.news-search-result .header {
 	background: #000044;
 	color: #FFFFC7;
 }
@@ -647,7 +648,7 @@ h4.person {
 	text-align: left;
 }
 .news-list-view .header h3 a,
-.news-search-result .header h3 {
+.news-search-result .header h3 a {
 	color: #FFFFC7;
 }
 .news-menu-view {
