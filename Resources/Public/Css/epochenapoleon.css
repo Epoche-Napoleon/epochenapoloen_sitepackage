@@ -688,6 +688,14 @@ h4.person {
 	display: inline-block;
 	width: 10em;
 }
+.news-search-form fieldset input.btn {
+	display: inline-block;
+	float: right;
+	margin-bottom: 0.5em;
+	margin-right: 0.5em;
+
+}
+
 .tx-events2 {
 	background-color: #DDDDDD;
 }
