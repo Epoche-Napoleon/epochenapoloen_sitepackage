@@ -78,11 +78,13 @@ editor:
 
     extraPlugins:
       - about
+      - autogrow
       - specialchar
       - showblocks
       - justify
       - div
       - find
+      - liststyle
       - selectall
       - wordcount
 
