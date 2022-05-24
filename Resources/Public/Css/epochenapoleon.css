@@ -518,19 +518,17 @@ figcaption {
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
-.cols2 {
+.c-columns-1-1 {
 	display: inline-flex;
 	width: 100%;
 }
-.cols2 .c101 {
+.col-1 {
 	order: 1;
-	width: 45%;
 	margin-right: 2%;
 	border-right: 0.0625rem dotted #000044;
 }
-.cols2 .c102 {
+.col-2 {
 	order: 2;
-	width: 45%;
 	margin-left: 2%;
 }
 h4.person {
