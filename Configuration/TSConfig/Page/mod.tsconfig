@@ -53,11 +53,11 @@ mod {
 								columns {
 									1 {
 										name = Spalte 1
-										colPos = 101
+										colPos = 201
 									}
 									2 {
 										name = Spalte 2
-										colPos = 102
+										colPos = 202
 									}
 								}
 							}
@@ -77,15 +77,15 @@ mod {
 								columns {
 									1 {
 										name = Spalte 1
-										colPos = 101
+										colPos = 301
 									}
 									2 {
 										name = Spalte 2
-										colPos = 102
+										colPos = 302
 									}
 									3 {
 										name = Spalte 3
-										colPos = 103
+										colPos = 303
 									}
 								}
 							}
@@ -105,19 +105,19 @@ mod {
 								columns {
 									1 {
 										name = Spalte 1
-										colPos = 101
+										colPos = 401
 									}
 									2 {
 										name = Spalte 2
-										colPos = 102
+										colPos = 402
 									}
 									3 {
 										name = Spalte 3
-										colPos = 103
+										colPos = 403
 									}
 									4 {
 										name = Spalte 4
-										colPos = 104
+										colPos = 404
 									}
 								}
 							}

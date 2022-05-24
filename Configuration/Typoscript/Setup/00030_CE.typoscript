@@ -4,7 +4,7 @@ tt_content {
 			settings {
 				enableBackend = 1
 				data {
-					lang = de, en
+ 					lang = de, en
 					mail-body = Hier können Sie ihre Nachricht schreiben.
 					mail-subject = Teile die Seite EPOCHE NAPOLEON
 					mail-url = mailto:redaktion@epoche-napoleon.net
