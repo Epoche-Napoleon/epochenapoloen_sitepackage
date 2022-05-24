@@ -519,7 +519,7 @@ figcaption {
 	flex-wrap: wrap;
 }
 .c-columns-1-1 {
-	display: inline-flex;
+	display: flex;
 	width: 100%;
 }
 .col-1 {
