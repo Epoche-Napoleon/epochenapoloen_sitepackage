@@ -83,7 +83,7 @@ tt_content {
 	b13-2cols-with-header-container {
 		templateName = 2ColsWithHeader
 		templateRootPaths {
-			10 = EXT:container_example/Resources/Private/Templates
+			10 = EXT:epochenapoleon_sitepackage/Resources/Private/Templates/container_elements/
 		}
 		dataProcessing {
 			200 = B13\Container\DataProcessing\ContainerProcessor
