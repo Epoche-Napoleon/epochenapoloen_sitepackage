@@ -23,8 +23,12 @@ header {
 logo .logo {
 	margin: 0;
 }
-#headertitle hr {
+#headertitle {
+	order: 2;
 	width: 70%;
+}
+#headertitle hr {
+	width: 85%;
 	height: 1rem;
 	color: #FFFFFF;
 	border-top: 0.25rem solid #CC0000;
