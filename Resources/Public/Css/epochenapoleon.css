@@ -519,17 +519,15 @@ figcaption {
 	flex-wrap: wrap;
 }
 .c-columns-1-1 {
-	display: flex;
+	display: inline-flex;
 	width: 100%;
 }
 .col-1 {
 	order: 1;
-	margin-right: 2%;
-	border-right: 0.0625rem dotted #000044;
 }
 .col-2 {
 	order: 2;
-	margin-left: 2%;
+
 }
 h4.person {
 	line-height: 2rem;
