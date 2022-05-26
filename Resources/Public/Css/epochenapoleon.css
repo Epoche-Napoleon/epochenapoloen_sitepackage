@@ -831,7 +831,7 @@ hr.clearboth p {
 	}
 	#left #menu .mainnav:after {
 		font-family: "Font Awesome 5 free";
-		font-weight: 900;
+		font-weight: 400;
 		display: inline-block;
 		content: '\f0c9';
 		color: #FFFFFF;
