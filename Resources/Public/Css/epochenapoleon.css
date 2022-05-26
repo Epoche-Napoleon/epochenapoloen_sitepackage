@@ -1,0 +1,51 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+}
+header {
+	height: 110px;
+	margin-bottom: 1rem;
+}
+#pageheader {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+#logo {
+	width: 110px;
+	height: 110px;
+	margin: 0;
+	order: 1;
+}
+logo .logo {
+	margin: 0;
+}
+#headertitle hr {
+	width: 70%;
+	height: 1rem;
+	color: #FFFFFF;
+	border-top: 0.25rem solid #CC0000;
+	border-bottom: 0.25rem solid #000044;
+	text-align: center;
+	line-height: 1.4rem;
+	bottom: 1rem;
+	font-size: 0.8rem;
+	font-style: italic;
+}
+#headertitle1, #headertitle2 {
+	text-align: center;
+	color: #000000;
+	font-weight: bold;
+	line-height: 100%;
+
+}
+#headertitle1 {
+	font-size: 2rem;
+}
+#headertitle2 {
+	font-size: 1.5rem;
+	font-style: italic;
+}
