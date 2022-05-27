@@ -812,8 +812,9 @@ hr.clearboth p {
 		margin-right: 1rem;
 	}
 	header #header {
+		margin-top: 0.5rem;
 		height: 1rem;
-		margin-bottom: 1rem;
+		margin-bottom: 0.5rem;
 	}
 	#pageheader {
 		display: flex;
