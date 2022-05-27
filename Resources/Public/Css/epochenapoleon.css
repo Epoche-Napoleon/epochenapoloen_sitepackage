@@ -822,7 +822,7 @@ hr.clearboth p {
 		justify-content: space-between;
 		align-items: center;
 		width: 100%;
-		background: #FFFFFF;
+		background: #000000;
 	}
 	#logo {
 		width: 2rem;
@@ -849,7 +849,6 @@ hr.clearboth p {
 		font-size: 0.8rem;
 	}
 	#headertitle1 {
-		background: #000000;
 		color: #FFFFFF;
 		text-align: center;
 		font-size: 1rem;
