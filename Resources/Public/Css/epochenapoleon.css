@@ -840,8 +840,8 @@ hr.clearboth p {
 		right: -34px;
 		width: 30px;
 		height: 30px;
-		border: 2px solid #FFFFFF;
-		background: #FFFFFF;
+		border: 2px solid #000000;
+		background: #666666;
 	}
 	#left:hover {
 		margin-left: 0;
