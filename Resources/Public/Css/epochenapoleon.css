@@ -841,7 +841,7 @@ hr.clearboth p {
 	#headertitle hr {
 		width: 85%;
 		height: 0.8rem;
-		color: #FFFFFF;
+		background: #FFFFFF;
 		border-top: 0.25rem solid #CC0000;
 		border-bottom: 0.25rem solid #000044;
 		text-align: center;
