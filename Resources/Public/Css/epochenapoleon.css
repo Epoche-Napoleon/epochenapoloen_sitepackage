@@ -812,7 +812,7 @@ hr.clearboth p {
 		margin-right: 1rem;
 	}
 	header #header {
-		height: 2rem;
+		height: 1rem;
 		margin-bottom: 1rem;
 	}
 	#pageheader {
@@ -838,8 +838,6 @@ hr.clearboth p {
 		order: 2;
 	}
 	#headertitle hr {
-		display: none;
-		/*
 		width: 85%;
 		height: 1rem;
 		color: #FFFFFF;
@@ -847,10 +845,7 @@ hr.clearboth p {
 		border-bottom: 0.25rem solid #000044;
 		text-align: center;
 		line-height: 1.4rem;
-		bottom: 1rem;
 		font-size: 0.8rem;
-		font-style: italic;
-		 */
 	}
 	#headertitle1 {
 		color: #000000;
