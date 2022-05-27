@@ -834,7 +834,7 @@ hr.clearboth p {
 		border: 0;
 	}
 	#headertitle {
-		width: 70%;
+		width: 85%;
 		order: 2;
 	}
 	#headertitle hr {
@@ -848,7 +848,8 @@ hr.clearboth p {
 		font-size: 0.8rem;
 	}
 	#headertitle1 {
-		color: #000000;
+		background: #000000;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 1rem;
 		font-weight: bold;
