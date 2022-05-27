@@ -883,7 +883,6 @@ hr.clearboth p {
 		line-height: 1.2rem;
 	}
 
-
 	#maincontent {
 		flex-flow: column nowrap;
 	}
@@ -900,7 +899,7 @@ hr.clearboth p {
 		transition: all 400ms ease-in-out;
 	}
 	#lfet #menu {
-		width: calc(100%);
+		width: 100%;
 	}
 	#left #menu .mainnav:after {
 		font-family: "Font Awesome 5 free";
