@@ -824,10 +824,10 @@ hr.clearboth p {
 		background: #FFFFFF;
 	}
 	#logo {
-		width: 2rem;
-		height: 2px;
+		width: 1rem;
+		height: 1rem;
 		margin: 0;
-		align-items: center;
+		align-items: start;
 		order: 1;
 	}
 	#logo .logo {
