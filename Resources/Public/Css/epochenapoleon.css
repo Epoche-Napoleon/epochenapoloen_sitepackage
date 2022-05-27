@@ -839,13 +839,13 @@ hr.clearboth p {
 	}
 	#headertitle hr {
 		width: 85%;
-		height: 0.5rem;
+		height: 0.8rem;
 		color: #FFFFFF;
 		border-top: 0.25rem solid #CC0000;
 		border-bottom: 0.25rem solid #000044;
 		text-align: center;
 		line-height: 0.8rem;
-		font-size: 0.5rem;
+		font-size: 0.8rem;
 	}
 	#headertitle1 {
 		color: #000000;
