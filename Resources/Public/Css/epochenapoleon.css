@@ -820,7 +820,7 @@ hr.clearboth p {
 		flex-direction: row;
 		position: absolute;
 		z-index: 10;
-		right: 0;
+		left: 0;
 		background: #666666;
 		width: 200px;
 		margin-left: -200px;
