@@ -807,7 +807,7 @@ hr.clearboth p {
 @media (max-width: 800px) {
 	#wrapper {
 		min-width: 300px;
-		max-width: 799px;
+		max-width: 769px;
 		margin-left: 1rem;
 		margin-right: 1rem;
 	}
@@ -820,7 +820,7 @@ hr.clearboth p {
 		flex-direction: row;
 		position: absolute;
 		z-index: 10;
-		left: 0;
+		right: px 0;
 		background: #666666;
 		width: 200px;
 		margin-left: -200px;
