@@ -839,6 +839,7 @@ hr.clearboth p {
 		order: 2;
 	}
 	#headertitle hr {
+		margin-top: 0.5rem;
 		width: 85%;
 		height: 0.8rem;
 		background: #FFFFFF;
