@@ -858,6 +858,7 @@ hr.clearboth p {
 		line-height: 100%;
 	}
 	#headertitle2 {
+		display: none;
 		/*
 		color: #666666;
 		text-align: center;
