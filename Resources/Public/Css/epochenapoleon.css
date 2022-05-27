@@ -820,7 +820,7 @@ hr.clearboth p {
 		flex-direction: row;
 		position: absolute;
 		z-index: 10;
-		right: px 0;
+		right: 0;
 		background: #666666;
 		width: 200px;
 		margin-left: -200px;
@@ -841,7 +841,8 @@ hr.clearboth p {
 		width: 30px;
 		height: 30px;
 		border: 2px solid #000000;
-		background: #666666;
+		background: #AAAAAA
+	;
 	}
 	#left:hover {
 		margin-left: 0;
