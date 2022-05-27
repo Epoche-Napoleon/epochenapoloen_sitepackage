@@ -868,13 +868,16 @@ hr.clearboth p {
 		line-height: 100%;
 		*/
 	}
+	/*
 	#stm {
-		display: block;width: 15%;
+		display: block;
+		width: 15%;
 		height: 110px;
 		text-align: right;
 		order: 3;
 		margin: 1rem 1rem 0 1rem;
 	}
+	*/
 	ul.stm-menu li {
 		list-style: none;
 		line-height: 1.2rem;
