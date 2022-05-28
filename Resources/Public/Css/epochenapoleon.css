@@ -876,22 +876,14 @@ hr.clearboth p {
 		height: 1.5rem
 		text-align: center;
 		background: #000000;
-		color: #FFFFFF;
-
-	/*
-		width: 15%;
-		height: 110px;
-		text-align: right;
-		order: 3;
-		margin: 1rem 1rem 0 1rem;
-	*/
 	}
-
-	ul.stm-menu li {
+	ul.stm-menu li  {
 		list-style: none;
 		line-height: 1.2rem;
 	}
-
+	ul.stm-menu li a {
+		color: #FFFFFF;
+	}
 	#maincontent {
 		flex-flow: column nowrap;
 	}
