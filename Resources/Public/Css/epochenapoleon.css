@@ -868,9 +868,16 @@ hr.clearboth p {
 		*/
 	}
 	#stm {
+		display: inline-flex;
 		position: fixed;
 		bottom: 0;
 		rigth: 0;
+		width: 100%;
+		height: 1.5rem
+		text-align: center;
+		background: #000000;
+		color: #FFFFFF;
+
 	/*
 		width: 15%;
 		height: 110px;
