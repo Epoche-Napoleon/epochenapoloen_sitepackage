@@ -868,7 +868,6 @@ hr.clearboth p {
 		*/
 	}
 	#stm {
-		display: inline-flex;
 		position: fixed;
 		bottom: 0;
 		rigth: 0;
@@ -878,6 +877,7 @@ hr.clearboth p {
 		background: #000000;
 	}
 	ul.stm-menu li  {
+		display: inline;
 		list-style: none;
 		line-height: 1.2rem;
 	}
