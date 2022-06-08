@@ -116,7 +116,7 @@ lib.breadcrump {
 # Teasermenu #
 lib.teasermenu = COA
 lib.teasermenu {
-	wrap = <div class="teasermenu">|</div>
+	wrap = <section class="teasermenu">|</section>
 	10 = HMENU
 	10 {
 		special = directory
@@ -127,9 +127,9 @@ lib.teasermenu {
 			// alternativeSortingField = tstamp DESC
 			// Anzahl der maximal dargestellten Menüeinträge
 			maxItems =
-			wrap = <ul>|</ul>
+			wrap = <article>|</article>
 			NO {
-				wrapItemAndSub = <li>|</li>
+				wrapItemAndSub = <header>|</header>
 				before.stdWrap.override.cObject = FILES
 				before.stdWrap.override.cObject {
 					references {
@@ -161,7 +161,7 @@ lib.teasermenu {
 							}
 						}
 					}
-					wrap = <li>|<li>
+					wrap = <p>|<p>
 					append = TEXT
 					append.value = <dl>
 				}
