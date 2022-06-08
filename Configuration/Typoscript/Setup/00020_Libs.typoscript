@@ -127,7 +127,7 @@ lib.teasermenu {
 			// alternativeSortingField = tstamp DESC
 			// Anzahl der maximal dargestellten Menüeinträge
 			maxItems =
-			wrap =
+			wrap = <div>|</div>
 			NO {
 				wrapItemAndSub = <article>|</article>
 				before.stdWrap.override.cObject = FILES
