@@ -161,7 +161,7 @@ lib.teasermenu {
 							}
 						}
 					}
-					wrap = <p>|<p>
+					wrap = <header>|</header>
 					append = TEXT
 					append.value = <dl>
 				}
