@@ -165,7 +165,7 @@ lib.teasermenu {
 					append = TEXT
 					append.value = <dl>
 				}
-				linkWrap = <dl><dt>|</dt>
+				linkWrap = <p>|</p>
 				after {
 					field = abstract
 					crop = 250 | ... | 1
