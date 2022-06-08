@@ -226,6 +226,59 @@ nav.flex-column a.nav-link {
 	line-height: 1.5rem;
 }
 .teasermenu * {
+	box-sizing: border-box;
+}
+.teasermenu a {
+	color: #000044;
+}
+.teasermenu {
+	background-color: #FFFFC7;
+	border-right: 0.1875rem solid #000044;
+	border-left: 0.1875rem solid #000044;
+}
+.teasermenu article {
+	display: grid;
+	grid-gap: 1rem;
+	grid-template-columns: 4.6875rem calc(100% - 4.67875rem - 1rem - 0.3125rem - 0.3125rem);
+	padding: 0.3125rem;
+	border-top: 0.0625rem solid #000044;
+}
+.teasermenu article header {
+	grid-column: 1;
+	grid-row: 1/3;
+}
+.teasermenu article a.bildlink img {
+	width: 4.6875rem;
+}
+/* .teasermenu ul li dl {
+	width: 34.375rem;
+	margin-left: 5.625rem;
+} */
+.teasermenu article p {
+	font-size: 1.2rem;
+	margin: 0;
+	/*	vertical-align: 1rem;*/
+
+	/* .teasermenu ul li dl dd */
+	padding-top: 0.5rem;
+	padding-right: 1rem;
+	font-style: italic;
+	hyphens: auto;
+	/* .teasermenu ul li dl dd */
+}
+.teasermenu article p a {
+	font-weight: bold;
+}
+.teasermenu article p.link {
+	grid-column: 2;
+	grid-row: 1;
+}
+.teasermenu article p.description {
+	grid-column: 2;
+	grid-row: 2;
+}
+/*
+.teasermenu * {
 	display: block;
 }
 .teaser-menu a {
@@ -247,6 +300,7 @@ nav.flex-column a.nav-link {
 	border-top: 0.0625rem solid #000044;
 	/* //height: 0.0625rem;
 	min-heigth: 0.0625rem */
+/*
 	min-height: 100%;
 	height: 7.5rem;
 }
@@ -283,6 +337,7 @@ nav.flex-column a.nav-link {
 	visibility: hidden;
 	font-size: 0;
 }
+*/
 .ui-state-active, .ui-state-default {
 	background: #ffffc7;
 }
