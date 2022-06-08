@@ -129,7 +129,7 @@ lib.teasermenu {
 			maxItems =
 			wrap =
 			NO {
-				wrapItemAndSub =
+				wrapItemAndSub = <article>|</article>
 				before.stdWrap.override.cObject = FILES
 				before.stdWrap.override.cObject {
 					references {
