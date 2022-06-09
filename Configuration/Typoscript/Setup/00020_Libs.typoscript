@@ -130,6 +130,7 @@ lib.teasermenu {
 			wrap =
 			NO {
 				wrapItemAndSub = <article>|</article>
+				b
 				before.stdWrap.override.cObject = FILES
 				before.stdWrap.override.cObject {
 						references {
