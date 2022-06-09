@@ -792,8 +792,8 @@ hr.clearboth p {
 	#wrapper {
 		min-width: 300px;
 		max-width: 769px;
-		margin-left: 1rem;
-		margin-right: 1rem;
+		margin-left: 0;
+		margin-right: 0;
 	}
 	header #header {
 		margin-top: 0.5rem;
