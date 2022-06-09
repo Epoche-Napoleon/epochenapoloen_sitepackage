@@ -250,94 +250,28 @@ nav.flex-column a.nav-link {
 .teasermenu article a.bildlink img {
 	width: 4.6875rem;
 }
-/* .teasermenu ul li dl {
-	width: 34.375rem;
-	margin-left: 5.625rem;
-} */
+
 .teasermenu article p {
 	font-size: 1.2rem;
 	margin: 0;
-	/*	vertical-align: 1rem;*/
-
-	/* .teasermenu ul li dl dd */
 	padding-top: 0.5rem;
 	padding-right: 1rem;
 	font-style: italic;
 	hyphens: auto;
-	/* .teasermenu ul li dl dd */
 }
 .teasermenu article p a {
 	font-weight: bold;
 }
-.teasermenu article p.link {
+.teasermenu article p.teaser-link {
 	grid-column: 2;
 	grid-row: 1;
+
 }
-.teasermenu article p.description {
+.teasermenu article p.teaser-description {
 	grid-column: 2;
 	grid-row: 2;
 }
-/*
-.teasermenu * {
-	display: block;
-}
-.teaser-menu a {
-	color: #000044;
-}
-.teasermenu ul {
-	list-style-type: none;
-	width: 100%;
-	font-size: 0.8rem;
-	background-color: #FFFFC7;
-	border-left: 0.0625rem solid #000044;
-	border-right: 0.1875rem solid #000044;
-	border-left: 0.1875rem solid #000044;
-	border-bottom: none;
-	line-height: 1.3rem;
-}
-.teasermenu ul li {
-	padding: 0.3125rem;
-	border-top: 0.0625rem solid #000044;
-	/* //height: 0.0625rem;
-	min-heigth: 0.0625rem */
-/*
-	min-height: 100%;
-	height: 7.5rem;
-}
-.teasermenu ul li a.bildlink {
-	width: 4.6875rem;
-	float: left;
-}
-.teasermenu ul li a.bildlink img {
-	width: 4.6875rem;
-	height: 7.5rem;
-	vertical-align: top;
-	float: left;
-}
-.teasermenu ul li dl {
-	width: 34.375rem;
-	margin-left: 5.625rem;
-}
-.teasermenu ul li dl dt {
-	font-size: 1.2rem;
-	vertical-align: 1rem;
-}
-.teasermenu ul li dl dt a {
-	display: inline;
-	font-weight: bold;
-}
-.teasermenu ul li dl dd {
-	padding-top: 0.5rem;
-	padding-right: 1rem;
-	font-style: italic;
-	hyphens: auto;
-}
-.teasermenu ul li .clearer {
-	clear: both;
-	visibility: hidden;
-	font-size: 0;
-}
-*/
+
 .ui-state-active, .ui-state-default {
 	background: #ffffc7;
 }
