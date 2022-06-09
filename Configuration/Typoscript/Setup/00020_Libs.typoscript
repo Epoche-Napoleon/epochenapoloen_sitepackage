@@ -120,7 +120,7 @@ lib.teasermenu {
 	10 = HMENU
 	10 {
 		special = directory
-		#    special.data = leveluid:-1,slide
+		special.data = leveluid:-1,slide
 		1 = TMENU
 		1 {
 			// Sortierreihenfolge
@@ -131,14 +131,13 @@ lib.teasermenu {
 			NO {
 				wrapItemAndSub = <article>|</article>
 				before.wrap = <header>|</header>
-				after = </header>
 				before.stdWrap.override.cObject = FILES
 				before.stdWrap.override.cObject {
 						references {
 						table = pages
 						fieldName = media
 						treatIdAsReference = 1
-						#            data = levelmeida:-1, slide
+						data = levelmeida:-1, slide
 					}
 					sorting = sorting_foreign
 					renderObj = IMAGE
