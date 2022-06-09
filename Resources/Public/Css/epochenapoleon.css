@@ -228,13 +228,9 @@ nav.flex-column a.nav-link {
 .teasermenu * {
 	box-sizing: border-box;
 }
-.teasermenu a {
-	color: #000044;
-}
 .teasermenu {
 	background-color: #FFFFC7;
-	border-right: 0.1875rem solid #000044;
-	border-left: 0.1875rem solid #000044;
+	border: 0.1875rem solid #000044;
 }
 .teasermenu article {
 	display: grid;
@@ -261,6 +257,7 @@ nav.flex-column a.nav-link {
 }
 .teasermenu article p a {
 	font-weight: bold;
+	color: #000099
 }
 .teasermenu article p.teaser-link {
 	grid-column: 2;
