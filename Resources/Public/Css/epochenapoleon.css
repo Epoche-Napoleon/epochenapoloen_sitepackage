@@ -246,11 +246,9 @@ nav.flex-column a.nav-link {
 .teasermenu article a.bildlink img {
 	width: 4.6875rem;
 }
-
 .teasermenu article p {
-	font-size: 1.2rem;
+	font-size: 1rem;
 	margin: 0;
-	padding-top: 0.5rem;
 	padding-right: 1rem;
 	font-style: italic;
 	hyphens: auto;
@@ -262,7 +260,7 @@ nav.flex-column a.nav-link {
 .teasermenu article p.teaser-link {
 	grid-column: 2;
 	grid-row: 1;
-
+	padding-top: 0.5rem;
 }
 .teasermenu article p.teaser-description {
 	grid-column: 2;
