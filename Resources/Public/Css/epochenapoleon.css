@@ -877,7 +877,7 @@ hr.clearboth p {
 
 	}
 	#left #menu ul.mainnav li {
-
+		width: 100%;
 	}
 	#left #menu .mainnav:after {
 		font-family: "Font Awesome 5 free";
