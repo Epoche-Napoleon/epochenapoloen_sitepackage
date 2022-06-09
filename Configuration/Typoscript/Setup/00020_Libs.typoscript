@@ -166,11 +166,11 @@ lib.teasermenu {
 					append = TEXT
 					append.value =
 				}
-				linkWrap = <p>|</p>
+				linkWrap = <p class="teaser-link">|</p>
 				after {
 					field = abstract
 					crop = 250 | ... | 1
-					wrap = <p>|</p>
+					wrap = <p class="teaser-description">|</p>
 					append = TEXT
 					append.value =
 				}
