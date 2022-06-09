@@ -129,12 +129,10 @@ lib.teasermenu {
 			maxItems =
 			wrap =
 			NO {
-				wrap = <header 1>|<header 1>
 				wrapItemAndSub = <article>|</article>
 				before.stdWrap.override.cObject = FILES
 				before.stdWrap.override.cObject {
-					wrap = <header>|</header>
-					references {
+						references {
 						table = pages
 						fieldName = media
 						treatIdAsReference = 1
@@ -163,9 +161,9 @@ lib.teasermenu {
 							}
 						}
 					}
-					wrap =
+					wrap = <header>|<header>
 					append = TEXT
-					append.value = <header>
+					append.value =
 				}
 				linkWrap = <p>|</p>
 				after {
