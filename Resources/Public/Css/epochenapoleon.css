@@ -866,8 +866,8 @@ hr.clearboth p {
 		z-index: 10;
 		left: 0;
 		background: #666666;
-		width: 200px;
-		margin-left: -200px;
+		width: 100%;
+		margin-left: -100%;
 		transition: all 400ms ease-in-out;
 	}
 	#lfet #menu {
