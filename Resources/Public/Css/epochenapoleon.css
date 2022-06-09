@@ -806,7 +806,6 @@ hr.clearboth p {
 		justify-content: space-between;
 		align-items: center;
 		width: 100%;
-		background: #000000;
 	}
 	#logo {
 		width: 2rem;
@@ -814,9 +813,6 @@ hr.clearboth p {
 		margin: 0;
 		align-items: start;
 		order: 1;
-	}
-	#logo .logo {
-		border: 0;
 	}
 	#headertitle {
 		width: 85%;
@@ -834,22 +830,13 @@ hr.clearboth p {
 		font-size: 0.8rem;
 	}
 	#headertitle1 {
-		color: #FFFFFF;
-		text-align: center;
 		font-size: 1rem;
 		font-weight: bold;
-		line-height: 100%;
 	}
 	#headertitle2 {
-		display: none;
-		/*
 		color: #666666;
-		text-align: center;
-		margin-top: 1rem;
-		font-size: 1.5rem;
+		font-size: 0.8rem;
 		font-style: italic;
-		line-height: 100%;
-		*/
 	}
 	#stm {
 		position: fixed;
