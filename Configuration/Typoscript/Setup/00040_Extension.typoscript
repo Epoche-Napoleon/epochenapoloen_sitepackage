@@ -90,15 +90,6 @@ plugin.tx_news {
 			}
 		}
 	}
-	view {
-		templateRootPaths {
-			1 = {$templateRootPath}
-		}
-		layoutRootPaths {
-			1 =  {$layoutRootPath}
-		}
-		partialRootPaths.1 = {$partialRootPath}
-	}
 }
 plugin.tx_seo {
 	config {
