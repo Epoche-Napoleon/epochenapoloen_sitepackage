@@ -90,6 +90,11 @@ plugin.tx_news {
 			}
 		}
 	}
+	view {
+		templateRootPaths.1 = {$plugin.tx_news.view.templateRootPath}
+		layoutRootPaths.1 = {$plugin.tx_news.viwe.layoutRootPath}
+		partialRootPaths.1 = {$plugin.tx_news.viwe.partialRootPath
+	}
 }
 plugin.tx_seo {
 	config {
