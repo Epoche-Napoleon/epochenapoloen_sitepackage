@@ -92,12 +92,12 @@ plugin.tx_news {
 	}
 	view {
 		templateRootPaths {
-			1 = EXT:epochenapoleon_sitepackage/Resources/Private/Templates/
+			1 = {$templateRootPath}
 		}
 		layoutRootPaths {
-			1 = EXT:epochenapoleon_sitepackage/Resources/Private/Layouts/
+			1 =  {$layoutRootPath}
 		}
-		partialRootPaths.1 = EXT:epochenapoleon_sitepackage/Resources/Private/Partials/
+		partialRootPaths.1 = {$partialRootPath}
 	}
 }
 plugin.tx_seo {
