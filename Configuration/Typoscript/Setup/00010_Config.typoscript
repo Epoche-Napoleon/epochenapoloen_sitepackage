@@ -2,11 +2,14 @@
 	page.meta.robots = noindex, nofollow
 	page.meta.robots.replace = 1
 [End]
+[applicationContext == "Development"]
+	config.admPanel = 1
+	config.debug = 1
+[End]
 
 config {
-	admPanel = {$entwicklung}
-	debug = {$entwicklung}
-
+	admPanel = 0
+	debug = 0
 	# Message during Page Rendering
 	message_page_is_being_generated = Bitte haben Sie einen Moment Geduld, die Seite ###TITLE### wird gerade neu generiert.
 	message_preview = Vorschau
