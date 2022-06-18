@@ -1,14 +1,10 @@
 [applicationContext == "Development"]
-config {
-	entwicklung = 1
-	admPanal = 1
-}
+entwicklung = 1
+admPanal = 1
 [global]
 
 # Live-System #
 [applicationContext == "Production"]
-config {
-	entwicklung = 0
-	admPanel = 0
-}
+entwicklung = 0
+admPanel = 0
 [global]
