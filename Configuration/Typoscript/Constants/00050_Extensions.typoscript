@@ -60,8 +60,6 @@ plugin.tx_mindshapecookiehint {
 		appendToBottom = 0
 	}
 	_LOCAL_LANG {
-		hint.learnmore = More Info
-		hint.dismiss = Got It!
 		hint.message = This website uses cookies to ensure you get the best experience on our website.
 	}
 	_LOCAL_LANG.de {
