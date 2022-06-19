@@ -749,7 +749,7 @@ p.speakerrole {
 	font-style:	italic;
 	font-weight: bold;
 }
-p.speakerrole > p {
+p.speakertext {
 	font-style: normal;
 	margin-left: 3rem;
 	background: #666666;

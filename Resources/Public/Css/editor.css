@@ -8,11 +8,11 @@ p.speakerrole {
 	background: #000088;
 	color: #FFFFCC;
 }
-p.speakerrole > p {
+p.speakerrole {
 	margin-left: 5rem;
 	background-color: #AAAAAA;
 }
-p.speakerrole p {
+p.speakertext {
 	margin-left: 5rem;
 	background-color: #AAAAAA;
 }
