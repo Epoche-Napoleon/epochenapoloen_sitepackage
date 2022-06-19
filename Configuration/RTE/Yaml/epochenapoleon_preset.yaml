@@ -34,6 +34,7 @@ editor:
       - { name: "Werktitel", element: 'span', attributes: { class: 'werktitel'} }
       - { name: "Glossar", element: 'a', attributes: {class: 'glossary-link'} }
       - { name: "Sprecher", element: 'p', attributes: {class: 'speakerrole'} }
+      - { name: "Sprechertext", element 'p', attributs: {class: 'speaktertext' } }
       - { name: "Rote Schrift", element: 'span', attributes: { class: 'highlighted red'} }
       - { name: "Wichtig", element: ['p', 'div', 'span', 'ol', 'ul', 'blockquote'], attributes: {class: 'important'} }
       - { name: "Button", element: 'a', attributes: { class: 'button' } }
