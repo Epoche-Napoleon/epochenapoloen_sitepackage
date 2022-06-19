@@ -746,11 +746,12 @@ div.text {
 	width: 100%;
 }
 p.speakerrole {
-	font-style: italic;
+	font-style:	italic;
 }
-p.speakerrole p {
+p.speakerrole > p {
 	font-style: normal;
 	margin-left: 5rem;
+	background: #666666;
 }
 .randtext {
 	font-weight: bolder;
