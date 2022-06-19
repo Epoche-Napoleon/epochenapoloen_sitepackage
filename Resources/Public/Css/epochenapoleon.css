@@ -743,7 +743,14 @@ h4.person {
 	font-style: italic;
 }
 div.text {
-	width: 100%
+	width: 100%;
+}
+p.speakerrole {
+	font-style: italic;
+}
+p.speakerrole p {
+	font-style: normal;
+	margin-left: 5rem;
 }
 .randtext {
 	font-weight: bolder;

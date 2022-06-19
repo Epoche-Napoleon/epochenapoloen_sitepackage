@@ -4,6 +4,13 @@ a.person,  {
 	text-decoration: none;
 	border: 2px solid #E00000;
 }
+p.speakerrole {
+	background: #000088;
+	color: #FFFFCC;
+}
+p.speakerrole p {
+	margin-left: 5rem;
+}
 .randtext {
 	background: #AAAAAA;
 	border-left: 1px dotted #C0A16B;
