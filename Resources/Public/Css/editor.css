@@ -12,6 +12,10 @@ p.speakerrole > p {
 	margin-left: 5rem;
 	background-color: #AAAAAA;
 }
+p.speakerrole p {
+	margin-left: 5rem;
+	background-color: #AAAAAA;
+}
 .randtext {
 	background: #AAAAAA;
 	border-left: 1px dotted #C0A16B;
