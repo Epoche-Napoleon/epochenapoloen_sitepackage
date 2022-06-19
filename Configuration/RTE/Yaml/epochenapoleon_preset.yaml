@@ -34,7 +34,7 @@ editor:
       - { name: "Werktitel", element: 'span', attributes: { class: 'werktitel'} }
       - { name: "Glossar", element: 'a', attributes: {class: 'glossary-link'} }
       - { name: "Sprecher", element: 'p', attributes: {class: 'speakerrole'} }
-      - { name: "Sprechertext", element: 'p', attributs: {class: 'speaktertext' } }
+      - { name: "Sprechertext", element: 'p', attributs: {class: 'speaktertext'} }
       - { name: "Rote Schrift", element: 'span', attributes: { class: 'highlighted red'} }
       - { name: "Wichtig", element: ['p', 'div', 'span', 'ol', 'ul', 'blockquote'], attributes: {class: 'important'} }
       - { name: "Button", element: 'a', attributes: { class: 'button' } }
@@ -46,7 +46,7 @@ editor:
       - { name: "Clearboth", element: 'hr', attributes: {class: 'clearboth'} }
       - { name: "Marginale", element: 'p', attributes: { class: 'randtext'} }
       - { name: "Quellennachweis", element: 'p', attributes: { class: 'source'} }
-      - { name: "Telefon", element: 'span', attributes: { class: 'telephone' } }
+      - { name: "Telefon", element: ['span','a'], attributes: { class: 'telephone' } }
       - { name: "Sprache: Englisch", element: 'span', attributes: {lang: 'en'} }
       - { name: "Sprache: Französisch", element: 'span', attributes: {lang: 'fr'} }
       - { name: "Sprache: Italienisch", element: 'span', attributes: {lang: 'it'} }
