@@ -8,7 +8,7 @@ p.speakerrole {
 	background: #000088;
 	color: #FFFFCC;
 }
-p.speakerrole p {
+p.speakerrole > p {
 	margin-left: 5rem;
 }
 .randtext {
