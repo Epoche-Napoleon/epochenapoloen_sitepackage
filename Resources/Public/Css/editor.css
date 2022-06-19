@@ -1,5 +1,5 @@
 a.internal-link,
-a.person,  {
+a.person {
 	color: #000000;
 	text-decoration: none;
 	border: 2px solid #E00000;
@@ -10,6 +10,7 @@ p.speakerrole {
 }
 p.speakerrole > p {
 	margin-left: 5rem;
+	background-color: #AAAAAA;
 }
 .randtext {
 	background: #AAAAAA;
