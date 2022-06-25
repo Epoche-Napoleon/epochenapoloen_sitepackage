@@ -753,6 +753,10 @@ p.speakertext {
 	font-style: normal;
 	margin-left: 3rem;
 }
+.regie {
+	font-style: italic;
+	color: #000099;
+}
 .randtext {
 	font-weight: bolder;
 	float: right;

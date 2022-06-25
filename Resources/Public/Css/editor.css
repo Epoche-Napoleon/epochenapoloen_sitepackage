@@ -9,12 +9,14 @@ p.speakerrole {
 	color: #FFFFCC;
 }
 p.speakerrole {
-	margin-left: 5rem;
-	background-color: #AAAAAA;
+	font-weight: bold;
 }
 p.speakertext {
 	margin-left: 5rem;
-	background-color: #AAAAAA;
+}
+span.regie {
+	color: #000099;
+	font-style: italic;
 }
 .randtext {
 	background: #AAAAAA;
