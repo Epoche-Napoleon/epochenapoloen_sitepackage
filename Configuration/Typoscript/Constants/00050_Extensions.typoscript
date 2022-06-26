@@ -1,6 +1,6 @@
 # Fluid Styled Content #
 // DEPENDENCIES
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_styled_content/Configuration/TypoScript/constants.txt">
+#<INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_styled_content/Configuration/TypoScript/constants.txt">
 # EXT:epochenapoleon_normdata #
 plugin.tx_epochenapoleoncenormdata {
 	view {
