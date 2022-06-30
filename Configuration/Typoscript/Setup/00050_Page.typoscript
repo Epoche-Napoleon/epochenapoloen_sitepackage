@@ -154,7 +154,7 @@ page {
 	page.10.variables.beaconizer < lib.beaconizer
 [global]
 
-[31 in tree.rootLineIds] && [tree.level == 5]
+[31 in tree.rootLineIds && tree.level == 5]
 	page.10.variables.cagmenu < lib.cagpagebrowser
 [global]
 
