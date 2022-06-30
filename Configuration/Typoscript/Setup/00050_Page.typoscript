@@ -158,7 +158,7 @@ page {
 	page.10.variables.cagmenu < lib.cagpagebrowser
 [global]
 
-[6477 in tree.rootLineIds || 6463 in tree.rootLineIds || 6455 in tree.rootLineIds || 6437 in tree.rootLineIds || 6431 in tree.rootLineIds || 6385 in tree.rootLineIds  || 6688 in tree.rootLineIds] && [tree.level == 4]
+[6477 in tree.rootLineIds || 6463 in tree.rootLineIds || 6455 in tree.rootLineIds || 6437 in tree.rootLineIds || 6431 in tree.rootLineIds || 6385 in tree.rootLineIds  || 6688 in tree.rootLineIds && tree.level == 4]
 	page.10.variables.cagmenu < lib.cagpagebrowser
 	lib.cagpagebrowser.10.special.items = first | prev | up | next | last |
 [global]
