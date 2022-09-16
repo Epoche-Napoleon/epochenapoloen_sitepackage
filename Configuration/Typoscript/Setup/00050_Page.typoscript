@@ -154,7 +154,7 @@ page {
 	page.10.variables.beaconizer < lib.beaconizer
 [global]
 
-[31 in tree.rootLineIds && tree.level == 5 || tree.leve == 6]
+[31 in tree.rootLineIds && tree.level == 5 ]
 	page.10.variables.cagmenu < lib.cagpagebrowser
 [global]
 
@@ -163,7 +163,7 @@ page {
 	lib.cagpagebrowser.10.special.items = first | prev | up | next | last |
 [global]
 
-[globalVar = TSFE:type = 1789]
+[getTSFE().type == 1789]
 	config {
 		disableAllHeaderCode = 1
 		additionalHeaders.10 {
@@ -177,7 +177,7 @@ page {
 	10 =< tt_content.list.20.beaconizer_generator
 [global]
 
-[globalVar = TSFE:type = 9818]
+[getTSFE().type ==type = 9818]
 	config {
 		disableAllHeaderCode = 1
 		xhtml_cleaning = none
@@ -213,7 +213,7 @@ page {
 		}
 	}
 [global]
-[globalVar = TSFE:type = 9819]
+[getTSFE().type == 9819]
 	config {
 		disableAllHeaderCode = 1
 		xhtml_cleaning = none
