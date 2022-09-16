@@ -33,7 +33,7 @@ editor:
       - { name: "Quelle", element: 'a', attributes: {class: 'quelle-online'} }
       - { name: "Werktitel", element: 'span', attributes: { class: 'werktitel'} }
       - { name: "Glossar", element: 'a', attributes: {class: 'glossary-link'} }
-      - { name: "Sprecher", element: 'p', attributes: {class: 'speakerrole'} }
+      - { name: "Sprecherrolle", element: 'p', attributes: {class: 'speakerrole'} }
       - { name: "Sprechertext", element: 'p', attributes: {class: 'speakertext'} }
       - { name: "Regieanweisung", element: 'span', attributes: {class: 'regie'} }
       - { name: "Rote Schrift", element: 'span', attributes: { class: 'highlighted red'} }
