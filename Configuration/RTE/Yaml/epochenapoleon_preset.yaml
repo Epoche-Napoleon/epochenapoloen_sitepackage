@@ -36,8 +36,7 @@ editor:
       - { name: "Sprecherrolle", element: 'p', attributes: {class: 'speakerrole'} }
       - { name: "Sprechertext", element: 'p', attributes: {class: 'speakertext'} }
       - { name: "Einfache Einrückung", element: 'span', attributes: {class="einzug1"} }
-      - { name: "Doppelte Einrückung", element: 'span', attributes: {class="einzug2
-      "} }
+      - { name: "Doppelte Einrückung", element: 'span', attributes: {class="einzug2"} }
       - { name: "Regieanweisung", element: 'span', attributes: {class: 'regie'} }
       - { name: "Rote Schrift", element: 'span', attributes: { class: 'highlighted red'} }
       - { name: "Wichtig", element: ['p', 'div', 'span', 'ol', 'ul', 'blockquote'], attributes: {class: 'important'} }
