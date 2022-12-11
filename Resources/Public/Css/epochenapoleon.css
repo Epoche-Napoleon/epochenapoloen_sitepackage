@@ -955,4 +955,11 @@ hr.clearboth p {
 	#stm {
 		display: none;
 	}
+	a[heef]::after {
+		content: " <"attr(href)">";
+		color: #666666;
+		background-color: inherit;
+		font-style: italic;
+		font-size: 80%;
+	}
 }
