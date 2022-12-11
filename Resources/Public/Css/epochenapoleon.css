@@ -945,10 +945,15 @@ hr.clearboth p {
 	}
 }
 @media print {
+	* {
+		font-family: "Times New Roman", times,serif;
+		text-align: justify;
+	}
 	#left {
 		display: none;
 	}
 	#stm {
 		display: none;
 	}
+
 }
