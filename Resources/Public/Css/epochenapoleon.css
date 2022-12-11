@@ -944,3 +944,11 @@ hr.clearboth p {
 		width: 100%;
 	}
 }
+@media print {
+	#left {
+		display: none;
+	}
+	#stm {
+		display: none;
+	}
+}
