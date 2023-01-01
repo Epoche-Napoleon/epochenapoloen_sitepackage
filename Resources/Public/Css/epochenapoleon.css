@@ -946,18 +946,21 @@ hr.clearboth p {
 }
 @media print {
 	* {
-		font-family: "Times New Roman", times,serif;
+		font-family: "Times New Roman", times, serif;
 		text-align: justify;
 	}
+
 	#left {
 		display: none;
 	}
+
 	#stm {
 		display: none;
 	}
+
 	a[heef]::after {
-		content: " <"attr(href)">";
-		color: #666666;
+		content: " <" attr(href) ">";
+		color: #666;
 		background-color: inherit;
 		font-style: italic;
 		font-size: 80%;
