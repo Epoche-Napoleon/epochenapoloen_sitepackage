@@ -757,6 +757,12 @@ p.speakertext {
 	font-style: italic;
 	color: #000099;
 }
+.einzug1 {
+	margin-left: 5em;
+}
+.einzug2 {
+	margin-left: 10em;
+}
 .randtext {
 	font-weight: bolder;
 	float: right;
@@ -832,14 +838,8 @@ hr.clearboth p {
 	}
 	#headertitle hr {
 		margin-top: 0.5rem;
-		width: 85%;
 		height: 0.8rem;
-		background: #FFFFFF;
-		border-top: 0.25rem solid #CC0000;
-		border-bottom: 0.25rem solid #000044;
-		text-align: center;
 		line-height: 0.8rem;
-		font-size: 0.8rem;
 	}
 	#headertitle1 {
 		font-size: 1rem;
