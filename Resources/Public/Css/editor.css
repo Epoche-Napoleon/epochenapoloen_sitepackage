@@ -30,6 +30,12 @@ span.regie {
 	color: #e00000;
 	font-style: italic;
 }
+.einzug1 {
+	margin-left: 5em;
+}
+.einzug2 {
+	margin-left: 10em;
+}
 .person {
 	background: #000000;
 }
@@ -42,7 +48,7 @@ span.regie {
 	background: #2b82d9;
 }
 .quelle-online,
-glossary-link {
+.glossary-link {
 	color: #000000;
 	background: #00bb00;
 }
