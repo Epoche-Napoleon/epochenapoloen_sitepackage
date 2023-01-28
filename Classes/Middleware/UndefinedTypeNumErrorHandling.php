@@ -1,8 +1,8 @@
 <?php
 declare(strict_types=1);
-namespace epochenapoleon\epochenapoleon_sitepackage\Middleware;
+namespace epochenapoleon\EpochenapoleonSitepackage\Middleware;
 
-use epochenapoleon\epochenapoleon_sitepackage\Exception\ConfigurationMissingException;
+use epochenapoleon\EpochenapoleonSitepackage\Exception\ConfigurationMissingException;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\MiddlewareInterface;
