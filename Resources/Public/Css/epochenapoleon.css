@@ -467,6 +467,10 @@ ul.f3-widget-paginator li {
 .image-embed-item {
 	display: inline-block;
 }
+table, th, td {
+	border: thin solid;
+}
+
 figure {
 	padding: 0.1875rem;
 	text-align: center;
