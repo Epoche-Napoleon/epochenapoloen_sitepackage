@@ -467,7 +467,7 @@ ul.f3-widget-paginator li {
 .image-embed-item {
 	display: inline-block;
 }
-table, th, td {
+table, caption, th, td {
 	border: thin solid;
 	border-collapse: collapse;
 }
