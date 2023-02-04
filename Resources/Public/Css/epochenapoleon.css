@@ -479,6 +479,10 @@ caption {
 th {
 	padding-top: 0.5rem;
 }
+td {
+	padding-left: 0.5rem;
+	padding-left: 0.5rem;
+}
 
 figure {
 	padding: 0.1875rem;
