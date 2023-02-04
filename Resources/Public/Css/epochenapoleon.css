@@ -469,6 +469,12 @@ ul.f3-widget-paginator li {
 }
 table, th, td {
 	border: thin solid;
+	border-collapse: collapse;
+}
+caption {
+	padding: .5rem;
+	background: #FFFFC7;
+	color: #000099;
 }
 
 figure {
