@@ -476,6 +476,9 @@ caption {
 	background: #FFFFC7;
 	color: #000099;
 }
+th {
+	padding-top: 0.5rem;
+}
 
 figure {
 	padding: 0.1875rem;
