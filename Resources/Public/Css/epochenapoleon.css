@@ -643,6 +643,7 @@ h4.person {
 }
 .news-menu-view ul,
 .news-menu-view ul li ul {
+	font-style: italic;
 }
 .news-menu-view ul li {
 	background-color: #E1E8F1;
