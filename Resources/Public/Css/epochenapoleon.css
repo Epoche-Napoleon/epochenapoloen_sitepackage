@@ -643,7 +643,7 @@ h4.person {
 }
 .news-menu-view ul,
 .news-menu-view ul li ul {
-
+margin-left: 0;
 }
 .news-menu-view ul li {
 	background-color: #E1E8F1;
@@ -657,8 +657,6 @@ h4.person {
 	color: #000044;
 	font-weight: bold;
 	text-align: left;
-	max-width: 100%;
-	margin-left: 0;
 }
 .news-menu-view ul li ul li.item a {
 	display: block;
