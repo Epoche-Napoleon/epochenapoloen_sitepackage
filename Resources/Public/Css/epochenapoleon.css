@@ -650,6 +650,7 @@ h4.person {
 	color: #000044;
 	text-align: center;
 	list-style-type: none;
+	list-style-position: outside;
 }
 .news-menu-view ul li ul li.item {
 	background-color: #FFFFC7;
