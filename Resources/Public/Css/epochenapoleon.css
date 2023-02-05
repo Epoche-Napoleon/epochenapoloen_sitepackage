@@ -651,7 +651,6 @@ h4.person {
 	text-align: center;
 	list-style-type: none;
 	list-style-position: outside;
-	margin-left: 0;
 }
 .news-menu-view ul li ul li.item {
 	background-color: #FFFFC7;
@@ -659,6 +658,7 @@ h4.person {
 	font-weight: bold;
 	text-align: left;
 	max-width: 100%;
+	margin-left: 0;
 }
 .news-menu-view ul li ul li.item a {
 	display: block;
