@@ -641,6 +641,10 @@ h4.person {
 .news-menu-view {
 	background: #E1E8F1;
 }
+.news-menu-view ul,
+.news-menu-view ul ul {
+	list-style-type: none;
+}
 .news-menu-view ul li {
 	background-color: #E1E8F1;
 	color: #000044;
