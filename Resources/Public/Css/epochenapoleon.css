@@ -642,7 +642,7 @@ h4.person {
 	background: #E1E8F1;
 }
 .news-menu-view ul,
-.news-menu-view ul ul {
+.news-menu-view ul li ul {
 	list-style-type: none;
 }
 .news-menu-view ul li {
