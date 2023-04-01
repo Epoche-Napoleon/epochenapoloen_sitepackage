@@ -3,38 +3,6 @@ plugin.tx_glossary2.persistence {
 	# Define Storage PID where glossary records are located
 	storagePid = 4
 }
-# Beaconizer
-plugin.tx_beaconizer_generator {
-	view {
-		layoutRootPaths.10 = EXT:beaconizer/Resources/Private/BEACON/Layouts/
-		partialRootPaths.10 = EXT:beaconizer/Resources/Private/BEACON/Partials/
-		templateRootPaths.10 = EXT:beaconizer/Resources/Private/BEACON/Templates/Generator/
-	}
-}
-plugin.tx_beaconizer_generator {
-	persistence {
-		classes {
-			ADWLM\Beaconizer\Domain\Model\GeneratedLinks {
-				mapping {
-					tableName = pages
-					columns {
-						source_identifier.mapOnProperty = sourceIdentifier
-					}
-				}
-			}
-		}
-	}
-}
-plugin.tx_beaconizer_seealso {
-	settings {
-		objectMapping {
-			ADWLM\Beaconizer\Domain\Model\Page {
-				argumentName = id
-				source_identifierProperty = sourceIdentifier
-			}
-		}
-	}
-}
 # News
 plugin.tx_news {
 	settings {
@@ -192,4 +160,16 @@ plugin.tx_min {
 plugin.tx_ckeditor_fontawesome {
 	loadCSS = 1
 	css = https://use.fontawesome.com/releases/v5.8.1/css/all.css
+}
+#tgm-copyright
+plugin.tx_tgmcopyright_main {
+	settings {
+		extensiontables {
+			tx_news_domain_model_news {
+				detailPid = 28
+				linkParam = &tx_news_pi1[controller]=News&tx_news_pi[news]=
+			}
+		}
+
+	}
 }
