@@ -101,9 +101,9 @@ editor:
       - Outdent
       - Indent
 
-     externalPlugins:
-       cowriter:
-         resource: "EXT:t3_cowriter/Resources/Public/JavaScript/Plugins/cowriter/"
+    externalPlugins:
+      cowriter:
+        resource: "EXT:t3_cowriter/Resources/Public/JavaScript/Plugins/cowriter/"
 
 processing:
   allowTags:
