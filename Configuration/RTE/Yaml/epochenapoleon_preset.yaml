@@ -101,7 +101,7 @@ editor:
       - Outdent
       - Indent
 
-     externalPlugins:
+     extraPlugins:
       cowriter:
         resource: "EXT:t3_cowriter/Resources/Public/JavaScript/Plugins/cowriter/"
 
