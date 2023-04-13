@@ -27,9 +27,9 @@ editor:
     scayt_sLang: "de_DE" # Spellcheck Language
     wsc_lang: "de_DE"
 
-  externalPlugins:
-    cowriter:
-      resource: "EXT:t3_cowriter/Resources/Public/JavaScript/Plugins/cowriter"
+    externalPlugins:
+      cowriter:
+        resource: "EXT:t3_cowriter/Resources/Public/JavaScript/Plugins/cowriter"
 
     stylesSet:
       - { name: "Person zu bearbeiten", element: 'a', attributes: {class: 'person'} }
