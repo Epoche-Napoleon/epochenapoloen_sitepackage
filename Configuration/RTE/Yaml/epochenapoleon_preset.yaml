@@ -4,7 +4,6 @@ imports:
       - { resource: "EXT:rte_ckeditor/Configuration/RTE/Editor/Base.yaml" }
       - { resource: "EXT:rte_ckeditor/Configuration/RTE/Editor/Plugins.yaml" }
       - { resource: "EXT:rte_ckeditor_fontawesome/Configuration/RTE/PluginFA5.yaml" }
-      - { resource: "EXT:t3_cowriter/Configuration/RTE/Plugin.yaml" }
 
 # Edit configuration for the Editor
 # For complete documentation see http://docs.ckeditor.com/#!/api/CKEDITOR.config
@@ -101,9 +100,9 @@ editor:
       - Outdent
       - Indent
 
-    externalPlugins:
-      cowriter:
-        resource: "EXT:t3_cowriter/Resources/Public/JavaScript/Plugins/cowriter/"
+  externalPlugins:
+    cowriter:
+      resource: "EXT:t3_cowriter/Resources/Public/JavaScript/Plugins/cowriter/"
 
 processing:
   allowTags:
