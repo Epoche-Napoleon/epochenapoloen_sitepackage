@@ -170,6 +170,15 @@ plugin.tx_tgmcopyright_main {
 				linkParam = &tx_news_pi1[controller]=News&tx_news_pi[news]=
 			}
 		}
-
+	}
+	view {
+		templateRootPaths {
+			10 = EXT:tgm_copyright/Resources/Private/
+			20 = EXT:epochenapoleon_sitepackage/Resources/Private/Templates/Copyright/
+		}
+		partialRootPaths {
+			10 = EXT:tgm_copyright/Resources/Private/
+			20 = EXT:epochenapoleon_sitepackage/Resources/Private/Partials/Copyright/
+		}
 	}
 }
