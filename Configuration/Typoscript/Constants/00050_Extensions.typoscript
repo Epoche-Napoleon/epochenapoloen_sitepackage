@@ -9,6 +9,13 @@ plugin.tx_epochenapoleoncenormdata {
 		layoutRootPath = EXT:epochenapoleon_sitepackage/Ressources/Private/Layouts/Ce_Normdata/
 	}
 }
+plugin.tx_tgmcopyright_main {
+	view {
+		templateRootPath = EXT:epochenapoleon_sitepackage/Resources/Private/Templates/Copyright/
+		partialRootPath = EXT:epochenapoleon_sitepackage/Ressources/Private/Partials/Copyright/
+		layoutRootPath = EXT:epochenapoleon_sitepackage/Ressources/Private/Layouts/Copyright/
+	}
+}
 # EXT: CS_SEO #
 plugin.tx_csseo {
 	sitetitle = EPOCHE NAPOLEON
