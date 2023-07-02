@@ -35,8 +35,8 @@ editor:
       - { name: "Glossar", element: 'a', attributes: {class: 'glossary-link'} }
       - { name: "Sprecherrolle", element: 'p', attributes: {class: 'speakerrole'} }
       - { name: "Sprechertext", element: 'p', attributes: {class: 'speakertext'} }
-      - { name: "Einfacher Einzug", element: ['span', 'p'], attribute: {class: '1einzug'} }
-      - { name: "Doppelter Einzug", element: ['span', 'p'], attribute: {class: '2einzug'} }
+      - { name: "Einfacher Einzug", element: ['span', 'p']: attribute: {class: 'einzug1'} }
+      - { name: "Doppelter Einzug", element: ['span', 'p']: attribute: {class: 'einzug2'} }
       - { name: "Regieanweisung", element: 'span', attributes: {class: 'regie'} }
       - { name: "Rote Schrift", element: 'span', attributes: { class: 'highlighted red'} }
       - { name: "Wichtig", element: ['p', 'div', 'span', 'ol', 'ul', 'blockquote'], attributes: {class: 'important'} }
