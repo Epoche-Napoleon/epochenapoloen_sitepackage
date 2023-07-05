@@ -5,7 +5,7 @@ config {
 	message_page_is_being_generated = Bitte haben Sie einen Moment Geduld, die Seite ###TITLE### wird gerade neu generiert.
 	message_preview = Vorschau
 	message_preview_workspace = Vorschau WORKSPACE
-
+	index_enable = 1
 	doctype = html5
 	xmlprologue = none
 	noPageTitle = 0
