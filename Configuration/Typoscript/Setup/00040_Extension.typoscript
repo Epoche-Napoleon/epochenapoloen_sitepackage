@@ -182,11 +182,4 @@ plugin.tx_tgmcopyright_main {
 		}
 	}
 }
-plugin.tx_solr {
-	solr {
-		scheme = https
-		host = solr6535:sarah70#mg041071A@solr6535.solr-hosting.info
-		port = 443
-		path = developer-core
-	}
-}
+
