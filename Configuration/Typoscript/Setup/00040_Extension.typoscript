@@ -306,13 +306,3 @@ plugin.tx_solr {
 		numberOfTopResults = 5
 	}
 }
-[globalVar = GP:L  = 0]
-	plugin.tx_solr {
-		enabled = 1
-		solr.path = /solr/core_de/
-	}
-[globalVar = GP:L  = 1]
-	plugin.tx_solr {
-		enabled = 1
-		solr.path = /solr/core_en/
-	}
