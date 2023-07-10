@@ -13,6 +13,18 @@ body {
 	font-kerning: initial;
 	background: #E00000;
 }
+.person-men {
+	color: #000099;
+	font-weight: bolder;
+	font-kerning: initial;
+	background: #FFFFFF;
+}
+.person-women {
+	color: #993333;
+	font-weight: bolder;
+	font-kerning: initial;
+	background: #FFFFFF;
+}
 .align-left {
 	text-align: left;
 }

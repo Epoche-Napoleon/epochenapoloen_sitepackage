@@ -742,13 +742,13 @@ margin-left: 0;
 	font-family: "Font Awesome 5 free";
 	display: inline-block;
 	font-weight: 900;
-	color: #E49F9F;
+	color: #993333;
 	content: "\f182";
 	margin-right: 0.5rem;
 	font-style: normal;
 }
 .person-women {
-	color: #E49F9F;
+	color: #993333;
 	font-style: italic;
 }
 .quelle-online::before {
@@ -800,7 +800,7 @@ p.speakertext {
 .internal-link {
 	background-color: #E00000;
 	color: #FFFFFF;
-	border: 0.0625rem solid #e49f9f;
+	border: 0.0625rem solid #993333;
 }
 .tx-ns-feedback .global-ns-feedback {
 	width: 100%;

@@ -137,6 +137,7 @@ page {
 
 			content =< styles.content.get
 			content.select.where = colPos = 0
+			content.stdWrap.dataWrap = <!--TYPO3SEARCH_begin--> | <!--TYPO3SEARCH_end-->
 			contentleft =< styles.content.get
 			contentleft.select.where = colPos = 1
 			asidecontent =< styles.content.get
