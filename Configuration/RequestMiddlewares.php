@@ -1,8 +1,11 @@
 <?php
+
+use epochenapoleon\EpochenapoleonSitepackage\Middleware\UndefinedTypeNumErrorHandling;
+
 return [
     'frontend' => [
         'sitepackage-undefinedtypenumerrorhandling' => [
-            'target' => \epochenapoleon\EpochenapoleonSitepackage\Classes\Middleware\UndefinedTypeNumErrorHandling::class,
+            'target' => UndefinedTypeNumErrorHandling::class,
             'before' => [
                 'typo3/cms-redirects/redirecthandler'
             ],
