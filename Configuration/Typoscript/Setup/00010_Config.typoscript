@@ -1,6 +1,10 @@
 config {
 	admPanel = 0
 	debug = 0
+
+	contentObjectExceptionHandler = 1
+	contentObjectExceptionHandler.errorContent = Bitte entschuldigen Sie, aber leider ist hier ein Fehler aufgetreten. Bitte versuchen Sie es später noch einmal.
+
 	# Message during Page Rendering
 	message_page_is_being_generated = Bitte haben Sie einen Moment Geduld, die Seite ###TITLE### wird gerade neu generiert.
 	message_preview = Vorschau

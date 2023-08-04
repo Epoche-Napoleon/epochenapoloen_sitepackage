@@ -2,7 +2,7 @@
 return [
     'frontend' => [
         'sitepackage-undefinedtypenumerrorhandling' => [
-            'target' => \epochenapoleon\EpochenapoleonSitepackage\Middleware\UndefinedTypeNumErrorHandling::class,
+            'target' => \epochenapoleon\EpochenapoleonSitepackage\Classes\Middleware\UndefinedTypeNumErrorHandling::class,
             'before' => [
                 'typo3/cms-redirects/redirecthandler'
             ],
