@@ -35,9 +35,9 @@ plugin.tx_csseo {
 # EXT: tx_news #
 plugin.tx_news {
 	view {
-		templateRootPath = EXT:epochenapoleon_sitepackage/Resources/Templates/News/
-		layoutRootPath = EXT:epochenapoleon_sitepackage/Resources/Layouts/News/
-		partialRootPath = EXT:epochenapoleon_sitepackage/Resources/Partials/News/
+		templateRootPath = EXT:epochenapoleon_sitepackage/Resources/Private/Templates/News/
+		layoutRootPath = EXT:epochenapoleon_sitepackage/Resources/Private/Layouts/News/
+		partialRootPath = EXT:epochenapoleon_sitepackage/Resources/Private/Partials/News/
 	}
 	settings {
 		sitemap {
