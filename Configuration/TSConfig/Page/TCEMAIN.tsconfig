@@ -8,6 +8,10 @@ TCEMAIN {
 			disablePrepandAtCopy = 1
 			disableHideAtCopy = 0
 		}
+		tx_news_domain_model_news {
+			disablePrepandAtCopy = 1
+			disableHideAtCopy = 0
+		}
 	}
 	translateToMessage = Bitte den Artikel in "%s" übersetzen:
 	linkHandler {
