@@ -52,7 +52,7 @@ editor:
       - { name: "Telefon", element: ['span','a'], attributes: { class: 'telephone' } }
       - { name: "Sprache: Englisch", element: 'span', attributes: {lang: 'en'} }
       - { name: "Sprache: Französisch", element: 'span', attributes: {lang: 'fr'} }
-      - [ name: "Sprache: Hebräisch", element: 'span', attributes: {lang: 'he'} }
+      - { name: "Sprache: Hebräisch", element: 'span', attributes: {lang: 'he'} }
       - { name: "Sprache: Italienisch", element: 'span', attributes: {lang: 'it'} }
       - { name: "Sprache: Latein", element: 'span', attributes: {lang: 'la'} }
 
