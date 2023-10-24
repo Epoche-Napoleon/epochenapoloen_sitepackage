@@ -12,7 +12,7 @@ call_user_func(function () {
     /**
      * Default Typoscript
      */
-    \TYPO3\CMS\Core\ExtensionManagementUtility::registerPageTSConfigFile(
+    ExtensionManagementUtility::registerPageTSConfigFile(
         $extensionKey,
         'Configuration/PageTS/page.ts',
         'EPOCHE NAPOLEON Sitepackage'
