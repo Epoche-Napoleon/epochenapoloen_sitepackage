@@ -1,10 +1,23 @@
 <?php
 
-defined('TYPO3_MODE') || die();
+use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig(
-    '<INCLUDE_TYPOSCRIPT:source="FILE:EXT:'
-    . $_EXTKEY .'/Configuration/PageTS/page.tsconfig">'
-);
+defined('TYPO3_MODE') || die();
+call_user_func(function () {
+    /**
+     * EXtension key
+     */
+    $extensionKey = 'epochenapoleon_sitepackage';
+
+    /**
+     * Default Typoscript
+     */
+    \TYPO3\CMS\Core\ExtensionManagementUtility::registerPageTSConfigFile(
+        $extensionKey,
+        'Configuration/PageTS/page.ts',
+        'EPOCHE NAPOLEON Sitepackage'
+    );
+});
+
 # Mit TYPO3 11 zu entfernen oder EXT:studiomitte/recordlist-thumbnail installieren
-#$GLOBALS['TCA']['pages']['ctrl']['thumbnail'] = 'fal_media';
+$GLOBALS['TCA']['pages']['ctrl']['thumbnail'] = 'fal_media';
