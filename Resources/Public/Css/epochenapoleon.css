@@ -272,6 +272,10 @@ nav.flex-column a.nav-link {
 	color: #000033;
 }
 
+.ui-accordion-header a {
+	color: #000033;
+}
+
 .frame-type-menu_abstract.frame-layout-3,
 .frame-type-shortcut.frame-layout-3,
 .frame-type-menu_subpages.frame-layout-0 {

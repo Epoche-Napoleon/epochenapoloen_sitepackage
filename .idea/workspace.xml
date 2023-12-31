@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49c9bd82-5945-4161-8785-b6a338f16f37" name="Default Changelist" comment="" />
+    <list default="true" id="49c9bd82-5945-4161-8785-b6a338f16f37" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/epochenapoleon_sitepackage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/epochenapoleon_sitepackage.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +22,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -39,6 +45,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -64,6 +71,12 @@
       <workItem from="1698184997037" duration="380000" />
       <workItem from="1698185716220" duration="78000" />
       <workItem from="1698186044216" duration="28000" />
+      <workItem from="1699139245011" duration="359000" />
+      <workItem from="1701713278744" duration="27000" />
+      <workItem from="1701713312503" duration="85000" />
+      <workItem from="1701713427865" duration="608000" />
+      <workItem from="1702213415899" duration="346000" />
+      <workItem from="1704062888650" duration="288000" />
     </task>
     <task id="LOCAL-00001" summary="Update Configuration\TCA\Overrides\pages">
       <option name="closed" value="true" />
@@ -81,7 +94,23 @@
       <option name="project" value="LOCAL" />
       <updated>1698186064804</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update Configuration\TCA\Overrides\pages">
+      <option name="closed" value="true" />
+      <created>1699139266167</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699139266167</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update CSS for Expand Navigation">
+      <option name="closed" value="true" />
+      <created>1704063030325</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704063030325</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,7 +122,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Update Configuration\TCA\Overrides\pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Configuration\TCA\Overrides\pages" />
+    <MESSAGE value="Update CSS for Expand Navigation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update CSS for Expand Navigation" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
