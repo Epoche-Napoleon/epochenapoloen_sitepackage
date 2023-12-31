@@ -268,7 +268,8 @@ nav.flex-column a.nav-link {
 }
 
 .ui-state-active, .ui-state-default {
-	background: #ffffc7;
+	background: #FFFFC7;
+	color: #000033;
 }
 
 .frame-type-menu_abstract.frame-layout-3,
