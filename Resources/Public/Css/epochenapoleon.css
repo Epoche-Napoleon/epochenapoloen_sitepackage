@@ -272,7 +272,7 @@ nav.flex-column a.nav-link {
 	color: #000033;
 }
 
-h3 .ui-accordion-header ui-helper-reset ui-state-default ui-accordion-icons ui-accordion-header-active ui-state-active ui-corner-top a {
+h3 .ui-accordion-header a {
 	color: #000033;
 	background: #2b3a1a;
 }
