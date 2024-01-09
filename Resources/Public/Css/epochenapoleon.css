@@ -14,7 +14,7 @@ body {
 #wrapper {
 	margin: 1em auto;
 	min-width: 770px;
-	max-width: 990px;
+	max-width: 1320px; /*modified by Ulrich Diehl, original: 990px */
 	background-color: #FFFFFF;
 }
 /* Header*/
@@ -153,6 +153,7 @@ ul.mainnav li a:focus {
 #pfad {
 	margin-top: 0.5rem;
 	margin-bottom: 0.5rem;
+	padding-left: 1rem; /*added by Ulrich Diehl */
 	width: 100%;
 	height: 1.6rem;
 	line-height: 1.6rem;
@@ -649,7 +650,7 @@ h4.person {
 }
 .news-menu-view ul,
 .news-menu-view ul li ul {
-margin-left: 0;
+	margin-left: 0;
 }
 .news-menu-view ul li {
 	background-color: #E1E8F1;
@@ -996,4 +997,9 @@ hr.clearboth p {
 		font-style: italic;
 		font-size: 80%;
 	}
+}
+
+/* modified by Ulrich Diehl 2024-01-05 */
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
+	color: #000044;
 }
