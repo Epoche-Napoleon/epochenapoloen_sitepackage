@@ -1,5 +1,7 @@
 # Fluid Styled Content #
 // DEPENDENCIES
+#Update für Bootstrap5
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:bootstrap_package/Configuration/TypoScript/constants.typoscript" >
 #<INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_styled_content/Configuration/TypoScript/constants.txt">
 # EXT:epochenapoleon_normdata #
 plugin.tx_epochenapoleoncenormdata {
@@ -61,23 +63,7 @@ plugin.tx_news {
 		}
 	}
 }
-# EXT: Mindshapecookiehint #
-plugin.tx_mindshapecookiehint {
-	settings {
-		style = dark
-		position = bottom
-		readmore =
-		appendToBottom = 0
-	}
-	_LOCAL_LANG {
-		hint.message = This website uses cookies to ensure you get the best experience on our website.
-	}
-	_LOCAL_LANG.de {
-		hint.learnmore = Weitere Informationen
-		hint.dismiss = OK!
-		hint.message = Diese Website verwendet Cookies, um die Bedienkonfort zu erhöhen.
-	}
-}
+
 # EXT: CKEditor Fontawesome
 plugin.tx_ckeditor_fontawesome {
 	loadCSS = 1
