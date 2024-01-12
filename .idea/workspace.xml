@@ -19,6 +19,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Epoche-Napoleon&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="ec3e12ea-f076-4d62-b07b-3a7daa6d523e" />
+        <option name="url" value="https://github.com/Epoche-Napoleon/epochenapoloen_sitepackage" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -80,6 +94,8 @@
       <workItem from="1704067083489" duration="213000" />
       <workItem from="1704070388487" duration="92000" />
       <workItem from="1704833256411" duration="602000" />
+      <workItem from="1704836264929" duration="881000" />
+      <workItem from="1704837813553" duration="23000" />
     </task>
     <task id="LOCAL-00001" summary="Update Configuration\TCA\Overrides\pages">
       <option name="closed" value="true" />
@@ -153,7 +169,23 @@
       <option name="project" value="LOCAL" />
       <updated>1704833594333</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Change from FSC to Bootstrap5">
+      <option name="closed" value="true" />
+      <created>1704836320610</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1704836320610</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Change from FSC to Bootstrap5">
+      <option name="closed" value="true" />
+      <created>1704836490903</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1704836490903</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,7 +200,8 @@
     <MESSAGE value="Update CSS for Expand Navigation" />
     <MESSAGE value="Update Fluid-Styled-Content =&gt; Bootstrap5" />
     <MESSAGE value="Update CSS for Accordion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update CSS for Accordion" />
+    <MESSAGE value="Change from FSC to Bootstrap5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change from FSC to Bootstrap5" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
