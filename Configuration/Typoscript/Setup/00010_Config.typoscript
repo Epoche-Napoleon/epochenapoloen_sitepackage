@@ -1,15 +1,14 @@
 config {
-	admPanel = 0
-	debug = 0
+	admPanel = {$entwicklung}
+	debug = {$entwicklung}
 
 	contentObjectExceptionHandler = 0
 	contentObjectExceptionHandler.errorContent = Bitte entschuldigen Sie, aber leider ist hier ein Fehler aufgetreten. Bitte versuchen Sie es später noch einmal.
 
 	# Message during Page Rendering
-	message_page_is_being_generated = Bitte haben Sie einen Moment Geduld, die Seite ###TITLE### wird gerade neu generiert.
 	message_preview = Vorschau
 	message_preview_workspace = Vorschau WORKSPACE
-	index_enable = 1
+	index_enable = {$entwicklung}
 	doctype = html5
 	xmlprologue = none
 	noPageTitle = 0
@@ -47,8 +46,4 @@ config {
 [applicationContext == "Development"]
 	page.meta.robots = noindex, nofollow
 	page.meta.robots.replace = 1
-[End]
-[applicationContext == "Development"]
-	config.admPanel = 1
-	config.debug = 1
 [End]

@@ -1,10 +1,9 @@
 # Fluid Styled Content #
 // DEPENDENCIES
 #Update für Bootstrap5
-@import 'EXT:bootstrap_package/Configuration/TypoScript/ContentElement/constants.typoscript'
-@import 'EXT:bootstrap_package/Configuration/TypoScript/Extension/constants.typoscript'
-#<INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_styled_content/Configuration/TypoScript/constants.txt">
-# EXT:epochenapoleon_normdata #
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_styled_content/Configuration/TypoScript/constants.txt">
+ EXT:epochenapoleon_normdata #
+
 plugin.tx_epochenapoleoncenormdata {
 	view {
 		templateRootPath = EXT:epochenapoleon_sitepackage/Resources/Private/Templates/Ce_Normdata/
