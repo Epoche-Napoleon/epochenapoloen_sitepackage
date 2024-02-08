@@ -5,7 +5,7 @@
  */
 $EM_CONF[$_EXTKEY] = [
     'title' => 'EPOCHE NAPOLEON Sitepackage',
-    'description' => 'Configuration of EPOCHE NAPOLEON',
+    'description' => 'Sitepackage of the webiste »EPOCHE NAPOLEON« von der Französischen Revolution bis Waterloo (https:,www.epoche-napoleon.net)',
     'category' => 'templates',
     'constraints' => [
         'depends' => [

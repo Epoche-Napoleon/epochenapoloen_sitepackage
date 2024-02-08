@@ -9,13 +9,13 @@ page {
 		headerData.5 {
 			10 = TEXT
 			10 {
-				value = {page.seo_title}
+				value = {$page.seo_title}
 				insertData = 1
 				ifEmpty.value = EPOCHE NAPOLEON
 			}
 			20 = TEXT
 			20 {
-				value = {page.title}
+				value = {$page.title}
 				insertData = 1
 				wrap = &nbsp;&#124;&nbsp; |
 			}
@@ -26,7 +26,7 @@ page {
 		)
 		additionalHeaders {
 		}
-		shortcutIcon = fileadmin/system/favicon.ico
+		shortcutIcon = {$page.favicon}
 		doctype = html5
 		xmlprologue = none
 		htmlTag_langKey = DE
@@ -42,10 +42,10 @@ page {
 		concatenateCss = 1
 		concatenateJs = 1
 
-		cache = {$cache}
+		cache = {$entwicklung}
 	}
 	includeCSS {
-		file01 = EXT:epochenapoleon_sitepackage/Resources/Public/Css/epochenapoleon.css
+		file01 = EXT:sitepackage/Resources/Public/Css/epochenapoleon.css
 		file01 {
 			media = screen
 			forceOnTop = 0
@@ -72,15 +72,15 @@ page {
 	10 {
 		format = html
 		layoutRootPaths {
-			0 = EXT:epochenapoleon_sitepackage/Resources/Private/Layouts/Page/
+			0 = EXT:sitepackage/Resources/Private/Layouts/Page/
 			#    1 = {$page.fluidtemplate.10.layoutRootPath}
 		}
 		partialRootPaths {
-			0 = EXT:epochenapoleon_sitepackage/Resources/Private/Partials/Page/
+			0 = EXT:sitepackage/Resources/Private/Partials/Page/
 			#    1 = {$page.fluidtemplate.10.partialRootPath}
 		}
 		templateRootPaths {
-			0 = EXT:epochenapoleon_sitepackage/Resources/Private/Templates/Page/
+			0 = EXT:sitepackage/Resources/Private/Templates/Page/
 			#    1 = {$page.fluidtemplate.10.templateRootPath}
 		}
 		templateName {

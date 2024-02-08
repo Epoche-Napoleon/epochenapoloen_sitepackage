@@ -6,5 +6,7 @@ TCAdefaults {
 		tx_csseo_tw_description = Hier Seitenbeschreibung eingeben
 		tx_csseo_tw_creator = EPOCHENAPOLEON
 		tx_csseo_tw_site = EPOCHENAPOLEON
+
+		hidetitle = 1
 	}
 }

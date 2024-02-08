@@ -8,21 +8,13 @@ options {
 		}
 		showPageIdWithTitle = 1
 	}
-	vidi.enableMediaFilePicker = 1
 }
 mod.web_list {
 	clickTitleMode = 1
 	alternateBgColors = 1
 }
-TCAdefaults {
-	pages {
-		doktype = 1
-		hidden = 0
-		author = Michael Gnessner
-		author_email = michael@epoche-napoleon.net
-	}
-	tx_news_domain_model_news {
-		author = Michael Gnessner
-		author_email = michael@epoche-napoleon.net
+setup {
+	override {
+		navFrameResizable = 1
 	}
 }
